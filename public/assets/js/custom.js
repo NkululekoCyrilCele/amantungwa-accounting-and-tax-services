@@ -32,17 +32,6 @@ jQuery( document ).ready(function( $ ) {
           }
         });
 
-        /*$('.owl-testimonials').owlCarousel({
-            items: 2, // Number of items to show at a time
-            loop: true, // Enable infinite loop
-            autoplay: true, // Enable automatic sliding
-            smartSpeed: 900,
-            autoplayTimeout: 3000, // Slide duration in milliseconds
-            autoplayHoverPause: true, // Pause on hover
-            nav: false, // Hide navigation buttons
-            dots: true // Show navigation dots
-          });*/
-
 		if ($('.owl-testimonials').length) {
             $('.owl-testimonials').owlCarousel({
                 loop: true,
@@ -284,7 +273,7 @@ jQuery( document ).ready(function( $ ) {
     } else if (workDays.includes(currentDay)) {
         if (currentDay >= 1 && currentDay <= 5) {
             if (
-                !weekHours.includes("08:00-17:00") &&
+                weekHours.includes("08:00-17:00") &&
                 !isWithinOperatingHours("08:00-17:00")
             ) {
                 operatingHoursElement.text("Closed now");
@@ -293,7 +282,7 @@ jQuery( document ).ready(function( $ ) {
             }
         } else if (currentDay === 6) {
             if (
-                !weekendHours.includes("08:00-13:00") &&
+                weekendHours.includes("08:00-13:00") &&
                 !isWithinOperatingHours("08:00-13:00")
             ) {
                 operatingHoursElement.text("Closed now");
@@ -323,4 +312,19 @@ jQuery( document ).ready(function( $ ) {
 
     // Start the carousel auto slide
     startCarouselAutoSlide();
+
+    // Show/hide the floating arrow based on scroll position
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+            $("#top-arrow").fadeIn();
+        } else {
+            $("#top-arrow").fadeOut();
+        }
+    });
+
+    // Smooth scroll to top when arrow is clicked
+    $("#top-arrow").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({scrollTop: 0}, 800);
+    });
 });
