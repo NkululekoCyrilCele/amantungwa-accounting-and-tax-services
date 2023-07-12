@@ -1790,38 +1790,7 @@ footer .contact-form button.filled-button:hover {
 
 /* Mobile */
 
-@media only screen and (max-width: 320px) and (max-height: 480px) {
-	footer .container {
-		text-align: center !important;
-		max-width: 100% !important;
-		overflow-x: hidden !important;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-
-	footer .row {
-		flex-wrap: wrap !important;
-		justify-content: center !important;
-		overflow: hidden !important;
-	}
-
-	footer .footer-item {
-		width: 100% !important;
-		margin-bottom: 20px !important;
-	}
-
-	footer .float {
-		margin-left: 0 !important;
-		text-align: center !important;
-	}
-
-	footer ul.menu-list.float {
-		margin-left: 0 !important;
-		text-align: center !important;
-	}
-}
-
-@media only screen and (max-width: 360px) and (max-height: 640px) {
+@media only screen and (max-width: 480px) and (max-height: 993px) {
 	footer .container {
 		text-align: center !important;
 	}
@@ -1836,40 +1805,9 @@ footer .contact-form button.filled-button:hover {
 		margin-bottom: 40px !important;
 	}
 
-	footer .float {
-		margin-left: 0 !important;
-		text-align: center !important;
-	}
-
-	footer ul.menu-list.float {
-		margin-left: 0 !important;
-		text-align: center !important;
-	}
-}
-
-@media only screen and (max-width: 375px) and (max-height: 667px) {
-	footer .container {
-		text-align: center !important;
-		padding-left: 10px !;
-		padding-right: 10px;
-		max-width: calc(100% - 20px);
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer .row {
-		flex-wrap: wrap !important;
-		justify-content: center !important;
-		margin-left: -10px;
-		margin-right: -10px;
-	}
-
-	footer .footer-item {
-		width: 100% !important;
-		margin-bottom: 20px !important;
+	footer .footer-item h4 {
 		padding-left: 10px;
 		padding-right: 10px;
-		box-sizing: border-box;
 	}
 
 	footer .float {
@@ -1881,74 +1819,20 @@ footer .contact-form button.filled-button:hover {
 		margin-left: 0 !important;
 		text-align: center !important;
 	}
-}
 
-@media only screen and (max-width: 414px) and (max-height: 896px) {
-	footer .container {
-		text-align: center !important;
-		padding-left: 10px !important;
-		padding-right: 10px !important;
-		max-width: calc(100% - 20px) !important;
-		margin: 0 auto !important;
-		box-sizing: border-box !important;
-	}
-
-	footer .row {
-		flex-wrap: wrap !important;
-		justify-content: center !important;
-		margin-left: -10px !important;
-		margin-right: -10px !important;
-	}
-
-	footer .footer-item {
-		width: 100% !important;
-		margin-bottom: 20px !important;
-		padding-left: 10px !important;
-		padding-right: 10px !important;
-		box-sizing: border-box !important;
-	}
-
-	footer .float {
-		margin-left: 0 !important;
-		text-align: center !important;
-	}
-
-	footer ul.menu-list.float {
-		margin-left: 0 !important;
-		text-align: center !important;
+	footer {
+		margin-left: -40px !important;
 	}
 
 	footer p {
-		padding-left: 10px !important;
-		padding-right: 10px !important;
+		padding-left: 60px !important;
+		padding-right: 60px !important;
 		box-sizing: border-box !important;
 	}
-}
 
-
-@media only screen and (max-width: 375px) and (max-height: 812px) {
-	footer .container {
-		text-align: center;
-	}
-
-	footer .row {
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	footer .footer-item {
-		width: 100%;
-		margin-bottom: 40px;
-	}
-
-	footer .float {
-		margin-left: 0;
-		text-align: center;
-	}
-
-	footer ul.menu-list.float {
-		margin-left: 0;
-		text-align: center;
+	footer .contact-info ul {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
 	}
 }
 
@@ -1959,6 +1843,8 @@ footer .contact-form button.filled-button:hover {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	footer .footer-item {
@@ -1968,5 +1854,13 @@ footer .contact-form button.filled-button:hover {
 
 	footer .float {
 		margin-left: 0;
+	}
+
+	footer {
+		padding: 40px 0 0 40px;
+	}
+
+	footer .footer-item p {
+		padding-right: 20px;
 	}
 }
