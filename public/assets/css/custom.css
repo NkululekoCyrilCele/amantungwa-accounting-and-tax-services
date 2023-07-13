@@ -864,6 +864,69 @@ a.border-button:hover {
   }
 } */
 
+/* FAQS  */
+.accordion-item {
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.faqs {
+  margin-top: 140px;
+  padding: 120px 0;
+  background-color: var(--background);
+}
+
+.faqs h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.faqs em {
+  font-style: normal;
+  color: var(--text);
+}
+.faqs span {
+  display: block;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #666666;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+
+.accordion-item .accordion-button {
+  border-radius: calc(0.25rem - 1px);
+}
+
+.accordion-button {
+  font-size: 0.5em;
+  color: var(--background);
+  background-color: var(--text);
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--background);
+  background-color: var(--primary-button);
+}
+
+.accordion-body {
+  border-left: 2px solid var(--primary-button);
+  border-bottom: 2px solid var(--primary-button);
+  border-right: 2px solid var(--primary-button);
+  box-sizing: border-box;
+}
+
+/* .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='var(--background)'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+  transform: rotate(-180deg);
+}
+
+.accordion-button::after {
+  background-image: url();
+} */
+
 /* Banner Style */
 
 /*.img-fill {
