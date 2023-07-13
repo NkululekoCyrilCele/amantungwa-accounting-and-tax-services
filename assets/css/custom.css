@@ -1556,11 +1556,9 @@ footer .contact-form button.filled-button:hover {
 	margin-bottom: 0px;
 }
 
-
-
 /* Contact Information */
 
-.contact-information {
+#contact-information .contact-information {
 	margin-top: 140px;
 }
 
