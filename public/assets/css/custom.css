@@ -32,10 +32,10 @@ body {
 }
 
 p {
-  margin-bottom: 0px;
-  font-size: 14px;
+  margin-bottom: 0;
+  font-size: 0.875rem;
   color: #666;
-  line-height: 30px;
+  line-height: 1.875rem;
 }
 
 a {
@@ -54,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0px;
+  margin: 0;
 }
 
 header {
@@ -62,7 +62,7 @@ header {
   z-index: 99999;
   width: 100%;
   background-color: transparent !important;
-  height: 80px;
+  height: 5rem;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
@@ -91,21 +91,21 @@ header {
   display: block;
   position: absolute;
   margin: auto;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 #preloader .jumper > div {
   background-color: var(--accent);
-  width: 10px;
-  height: 10px;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 100%;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   position: absolute;
   opacity: 0;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   -webkit-animation: jumper 1s 0s linear infinite;
   animation: jumper 1s 0s linear infinite;
 }
@@ -160,8 +160,8 @@ header {
 
 .sub-header {
   background-color: var(--accent);
-  height: 46px;
-  line-height: 46px;
+  height: 2.875rem;
+  line-height: 2.875rem;
 }
 
 .sub-header ul li {
@@ -171,7 +171,7 @@ header {
 
 .sub-header ul.left-info li {
   /*border-left: 1px solid rgba(250,250,250,0.3);*/
-  padding: 0px 20px;
+  padding: 0 1.25rem;
 }
 
 /*.sub-header ul.left-info li:last-child {
@@ -179,22 +179,22 @@ header {
 }*/
 
 .sub-header ul.left-info li i {
-  margin-right: 10px;
-  font-size: 18px;
+  margin-right: 0.625rem;
+  font-size: 1.125rem;
   /* 20px */
   color: #fff;
 }
 
 .sub-header ul.left-info li a {
   color: #fff;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .sub-header ul.left-info .contact:hover {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .sub-header ul.right-icons {
@@ -203,8 +203,8 @@ header {
 }
 
 .sub-header ul.right-icons li {
-  margin-right: -4px;
-  width: 46px;
+  margin-right: -0.25rem;
+  width: 2.875rem;
   display: inline-block;
   text-align: center;
   /*border-right: 1px solid rgba(250,250,250,0.3);*/
@@ -225,12 +225,12 @@ header {
 
 .sub-header ul.right-icons li i.bi {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   transition: font-size 0.3s;
 }
 
 .sub-header ul.right-icons li i.bi:hover {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 /* Styling the navbar */
@@ -240,14 +240,14 @@ header .navbar {
 }
 
 .background-header .navbar {
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 
 .background-header {
   top: 0;
   position: fixed;
   background-color: var(--background) !important;
-  box-shadow: 0px 8px 8px var(--text);
+  box-shadow: 0px 0.5rem 0.5rem var(--text);
 }
 
 .background-header .navbar-brand h2 {
@@ -268,7 +268,7 @@ header .navbar {
 
 .navbar .navbar-brand {
   float: left;
-  margin-top: 12px;
+  margin-top: 0.75rem;
   outline: none;
 }
 
@@ -297,17 +297,17 @@ header .navbar {
 }
 
 .navbar .navbar-nav .nav-item {
-  margin: 0px 5px;
+  margin: 0 0.3125rem;
 }
 
 .navbar .navbar-nav a.nav-link {
   text-transform: capitalize;
-  font-size: 15px;
-  font-weight: 200px;
-  letter-spacing: 0.5px;
+  font-size: 0.9375rem;
+  font-weight: 12.5rem;
+  letter-spacing: 0.03125rem;
   color: var(--text);
   transition: all 0.5s;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -316,7 +316,7 @@ header .navbar {
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show > .nav-link {
   color: var(--accent);
-  border-bottom: 3px solid var(--accent);
+  border-bottom: 0.125rem solid var(--accent);
 }
 
 .navbar .navbar-toggler-icon {
@@ -326,19 +326,19 @@ header .navbar {
 .navbar .navbar-toggler {
   border-color: var(--background);
   background-color: var(--background);
-  height: 36px;
+  height: 2.25rem;
   outline: none;
   border-radius: 0;
   position: absolute;
-  right: 30px;
-  top: 20px;
+  right: 1.875rem;
+  top: 1.25rem;
 }
 
 .navbar .navbar-toggler-icon:after {
   content: "\f0c9";
   color: var(--accent);
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
   font-family: inherit;
 }
 
@@ -346,15 +346,15 @@ header .navbar {
 
 #top-arrow {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 24px;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  font-size: 1.5rem;
   background-color: var(--text);
   color: #fff;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   text-align: center;
-  line-height: 40px;
+  line-height: 2.5rem;
   border-radius: 50%;
   z-index: 999;
   display: none;
@@ -366,11 +366,22 @@ header .navbar {
 
 /* Styling the toggle button */
 
-.navbar .toggle_btn {
+.toggle_btn {
   color: #000;
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
+}
+
+.toggle_btn i {
+  color: var(--accent);
+  font-size: 1.25rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.toggle_btn i:hover {
+  font-size: 1.25rem;
 }
 
 /* Styling buttons */
@@ -378,12 +389,12 @@ header .navbar {
 a.btn {
   background-color: var(--text);
   color: var(--background);
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 12px 30px;
-  border: 2px solid var(--text);
-  border-radius: 30px;
+  padding: 0.75rem 1.875rem;
+  border: 0.125rem solid var(--text);
+  border-radius: 1.875rem;
   display: inline-block;
   transition: all 0.3s;
 }
@@ -397,11 +408,11 @@ a.btn:hover {
 a.filled-button {
   background-color: var(--text);
   color: var(--background);
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 12px 30px;
-  border-radius: 30px;
+  padding: 0.75rem 1.875rem;
+  border-radius: 1.875rem;
   display: inline-block;
   transition: all 0.3s;
 }
@@ -414,11 +425,11 @@ a.filled-button:hover {
 a.border-button {
   background-color: transparent;
   color: var(--background);
-  border: 2px solid var(--background);
+  border: 0.125rem solid var(--background);
   /*font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;*/
-  padding: 10px 28px;
+  padding: 0.625rem 1.75rem;
   /*border-radius: 30px;
 	display: inline-block;*/
   transition: all 0.3s;
@@ -439,27 +450,27 @@ a.border-button:hover {
 
 .carousel-item {
   height: 100vh;
-  min-height: 300px;
+  min-height: 18.75rem;
 }
 
 .carousel-caption {
-  bottom: 220px;
+  bottom: 13.75rem;
   z-index: 2;
   text-align: center;
 }
 
 .carousel-caption h5 {
-  font-size: 45px;
+  font-size: 2.8125rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 25px;
+  letter-spacing: 0.125rem;
+  margin-top: 1.5625rem;
   color: #fff;
 }
 
 .carousel-caption p {
   width: 60%;
   margin: auto;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.9;
   color: #fff;
 }
@@ -485,36 +496,34 @@ a.border-button:hover {
 
 /* Request form section */
 
-/* Request Form */
-
 .request-form {
   background-color: var(--text);
-  padding: 40px 0;
+  padding: 2.5rem 0;
   color: var(--background);
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.3125rem;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
 }
 
 .request-form h4 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 600;
   color: var(--background);
 }
 
 .request-form span {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   color: var(--background);
 }
 
 .request-form a.border-button {
-  margin-top: 12px;
+  margin-top: 0.75rem;
   float: right;
   color: var(--background);
   background-color: transparent;
-  border: 1px solid var(--background);
+  border: 0.0625rem solid var(--background);
   /*border-radius: 3px;
 	padding: 8px 15px;
 	font-size: 14px;
@@ -531,14 +540,14 @@ a.border-button:hover {
 /* More Info section */
 
 .more-info {
-  margin-top: 140px;
+  margin-top: 8.75rem;
 }
 
 .more-info .left-image img {
   width: 100%;
   overflow: hidden;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -548,9 +557,9 @@ a.border-button:hover {
 
 .more-info .more-info-content {
   background-color: var(--secondary-button);
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 1.875rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
 }
 
 .about-info .more-info-content {
@@ -558,27 +567,27 @@ a.border-button:hover {
 }
 
 .about-info .right-content {
-  padding: 0px !important;
-  margin-right: 30px;
+  padding: 0 !important;
+  margin-right: 1.875rem;
 }
 
 .more-info .right-content {
-  padding: 45px 45px 45px 30px;
+  padding: 2.8125rem 2.8125rem 2.8125rem 1.875rem;
 }
 
 .more-info .right-content span {
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #666;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 0.625rem;
   display: block;
 }
 
 .more-info .right-content h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
   color: #1e1e1e;
 }
 
@@ -588,133 +597,133 @@ a.border-button:hover {
 }
 
 .more-info .right-content p {
-  margin-bottom: 30px;
-  font-size: 16px;
+  margin-bottom: 1.875rem;
+  font-size: 1rem;
   color: #666;
 }
 
 /* Services section */
 
 .services {
-  margin-top: 100px;
-  margin-bottom: 10px;
+  margin-top: 6.25rem;
+  margin-bottom: 0.625rem;
 }
 
 .service-item img {
   width: 100%;
   overflow: hidden;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.3125rem;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
 .service-item img:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1),
-    0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1), 0 0 0.625rem rgba(0, 0, 0, 0.1),
+    0 0 0.625rem rgba(0, 0, 0, 0.1);
   opacity: 0.9;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .service-item .down-content {
   background-color: var(--background);
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.5),
-    0 0 10px #ffffff;
+  padding: 1.875rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1), 0 0 0.3125rem rgba(0, 0, 0, 0.5),
+    0 0 0.625rem #fff;
   transition: transform 0.3s ease;
   transform: scale(0.95);
 }
 
 .service-item .down-content:hover {
-  box-shadow: 0 0 5px var(--text), 0 0 5px var(--accent);
-  border-radius: 10px;
+  box-shadow: 0 0 0.3125rem var(--text), 0 0 0.3125rem var(--accent);
+  border-radius: 0.625rem;
 }
 
 .service-item .down-content h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 15px;
+  letter-spacing: 0.015625rem;
+  margin-bottom: 0.9375rem;
   color: #1e1e1e;
 }
 
 .service-item .down-content p {
-  margin-bottom: 20px;
-  font-size: 16px;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
   color: #666;
 }
 
 /* Team section */
 
 #team {
-  margin-bottom: -100px;
-  margin-right: 80px;
-  margin-left: 80px;
+  margin-bottom: -6.25rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
   background-color: var(--secondary-button);
 }
 
 .section-header {
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: -80px;
+  margin-bottom: 1.875rem;
+  margin-top: -5rem;
 }
 
 .section-header h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   color: var(--text);
 }
 
 .section-padding {
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 
 .team {
   background-color: #f9f9f9;
-  padding: 60px 0;
+  padding: 3.75rem 0;
   overflow: hidden;
 }
 
 .card {
   display: inline-block;
   border: none;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 0px 20px rgba(0, 0, 0, 0.1),
-    0px 0px 20px rgba(0, 0, 0, 0.1), 0px 0px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1), 0 0 1.25rem rgba(0, 0, 0, 0.1),
+    0 0 1.25rem rgba(0, 0, 0, 0.1), 0 0 1.25rem rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 9.375rem;
+  margin-right: 9.375rem;
 }
 
 .card:hover {
-  transform: translateY(-60px);
+  transform: translateY(-3.75rem);
 }
 
 .card-title {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #333;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .card-body {
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .card-text {
-  font-size: 16px;
+  font-size: 1rem;
   color: #777;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .socials {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .socials a {
   color: #777;
-  font-size: 20px;
-  margin: 0 5px;
+  font-size: 1.25rem;
+  margin: 0 0.3125rem;
   transition: color 0.3s ease;
 }
 
@@ -723,8 +732,8 @@ a.border-button:hover {
 }
 
 .img-fluid {
-  width: 180px;
-  height: 180px;
+  width: 11.25rem;
+  height: 11.25rem;
   object-fit: cover;
   border-radius: 50%;
   margin: 0 auto;
@@ -734,14 +743,18 @@ a.border-button:hover {
 /* Testimonials section */
 
 .about-testimonials {
-  margin-top: 0px !important;
+  margin-top: 0 !important;
 }
 
 .testimonials {
-  margin-top: 80px;
+  margin-top: 5rem;
   background-color: #fff;
-  padding: 140px 0px;
+  padding: 8.75rem 0;
 }
+
+/* Add rem units
+@everyone, please do not delete this
+*/
 
 .testimonial-item .inner-content {
   text-align: center;
@@ -1767,145 +1780,20 @@ footer .contact-form button.filled-button:hover {
   font-size: 15px;
 }
 
-/* Responsive Style */
-/*@media (max-width: 768px) {
-	.sub-header {
-		display: none;
-	}
-
-	.Modern-Slider .item h6 {
-		margin-bottom: 15px;
-		font-size: 18px;
-	}
-
-	.Modern-Slider .item h4 {
-		margin-bottom: 25px;
-		font-size: 28px;
-		line-height: 36px;
-		letter-spacing: 1px;
-	}
-
-	.Modern-Slider .item p {
-		max-width: 570px;
-		line-height: 25px;
-		margin-bottom: 30px;
-	}
-
-	.Modern-Slider .NextArrow {
-		right: 5px;
-	}
-
-	.Modern-Slider .PrevArrow {
-		left: 5px;
-	}
-
-	.request-form {
-		text-align: center;
-	}
-
-	.request-form a.border-button {
-		float: none;
-		margin-top: 30px;
-	}
-
-	.services .service-item {
-		margin-bottom: 30px;
-	}
-
-	.fun-facts .left-content {
-		margin-right: 0px;
-		margin-bottom: 30px;
-	}
-
-	.more-info .right-content {
-		padding: 30px;
-	}
-
-	footer {
-		padding: 80px 0px 20px 0px;
-	}
-
-	footer .footer-item {
-		border-bottom: 1px solid #343434;
-		margin-bottom: 30px;
-		padding-bottom: 30px;
-	}
-
-	footer .last-item {
-		border-bottom: none;
-	}
-
-	.about-info .right-content {
-		margin-right: 0px;
-		margin-bottom: 30px;
-	}
-
-	.team .team-item {
-		margin-bottom: 30px;
-	}
-
-	.tabs-content {
-		margin-left: 0px;
-		margin-top: 30px;
-	}
-
-	.contact-item {
-		margin-bottom: 30px;
-	}
-}
-
-@media (max-width: 992px) {
-	.navbar .navbar-brand {
-		position: absolute;
-		left: 30px;
-		top: 10px;
-	}
-
-	.navbar .navbar-brand {
-		width: auto;
-	}
-
-	.navbar:after {
-		display: none;
-	}
-
-	#navbarSupportedContent {
-		z-index: 99999;
-		position: absolute;
-		top: 80px;
-		left: 0;
-		width: 100%;
-		text-align: center;
-		background-color: #fff;
-		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-	}
-
-	.navbar .navbar-nav .nav-item {
-		border-bottom: 1px solid #eee;
-	}
-
-	.navbar .navbar-nav .nav-item:last-child {
-		border-bottom: none;
-	}
-
-	.navbar .navbar-nav a.nav-link {
-		padding: 15px 0px;
-		color: #1e1e1e !important;
-	}
-
-	.navbar .navbar-nav .nav-link:hover,
-	.navbar .navbar-nav .active>.nav-link,
-	.navbar .navbar-nav .nav-link.current,
-	.navbar .navbar-nav .nav-link.show,
-	.navbar .navbar-nav .show>.nav-link {
-		color: #a4c639 !important;
-		border-bottom: none !important;
-	}
-}*/
+/* Responsiveness */
 
 /* Mobile */
 
 @media only screen and (max-width: 480px) and (max-height: 993px) {
+  .sub-header,
+  header {
+    display: none;
+  }
+
+  .toggle_btn {
+    display: block;
+  }
+
   footer .container {
     text-align: center !important;
   }
