@@ -752,6 +752,10 @@ a.border-button:hover {
   padding: 8.75rem 0;
 }
 
+/* Add rem units
+@everyone, please do not delete this
+*/
+
 .testimonial-item .inner-content {
   text-align: center;
   background-color: var(--secondary-button);
