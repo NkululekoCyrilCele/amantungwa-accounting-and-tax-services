@@ -1785,6 +1785,17 @@ footer .contact-form button.filled-button:hover {
 
   header {
     display: ;
+    width: 0;
+  }
+
+  header .navbar .container .navbar-brand h2 {
+    display: none;
+  }
+
+  header .navbar .container img {}
+
+  .background-header {
+    display: none;
   }
 
   .sub-header {
