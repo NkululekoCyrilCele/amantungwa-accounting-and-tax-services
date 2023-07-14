@@ -752,63 +752,59 @@ a.border-button:hover {
   padding: 8.75rem 0;
 }
 
-/* Add rem units
-@everyone, please do not delete this
-*/
-
 .testimonial-item .inner-content {
   text-align: center;
   background-color: var(--secondary-button);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
-    0 0 5px rgba(0, 0, 0, 0.1), 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  margin: 10px 10px 0 10px;
-  border-radius: 5px;
+  box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1), 0 0 0.3125rem rgba(0, 0, 0, 0.1),
+    0 0 0.3125rem rgba(0, 0, 0, 0.1), 0 0 1.25rem rgba(0, 0, 0, 0.1);
+  padding: 1.875rem;
+  margin: 0.625rem 0.625rem 0 0.625rem;
+  border-radius: 0.3125rem;
   transition: transform 0.3s ease;
 }
 
 .testimonial-item .inner-content:hover {
   transform: scale(0.95);
-  box-shadow: 0 0 5px var(--text), 0 0 5px var(--accent);
-  border-radius: 10px;
+  box-shadow: 0 0 0.3125rem var(--text), 0 0 0.3125rem var(--accent);
+  border-radius: 0.625rem;
 }
 
 .testimonial-item p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
   color: #4e4d4d;
 }
 
 .testimonial-item h4 {
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-weight: 700;
   color: #1e1e1e;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem;
   margin-bottom: 0;
 }
 
 .testimonial-item span {
   display: inline-block;
-  margin-top: 8px;
+  margin-top: 0.5rem;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--text);
 }
 
 .testimonial-item img {
-  max-width: 80px;
+  max-width: 5rem;
   border-radius: 50%;
-  margin: 25px auto 0 auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 1.5625rem auto 0 auto;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1), 0 0 0.625rem rgba(0, 0, 0, 0.1);
 }
 
 .section-heading {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .section-heading h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   color: #1e1e1e;
 }
@@ -820,35 +816,35 @@ a.border-button:hover {
 
 .section-heading span {
   display: block;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #666;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 
 /* vision mission section */
 
 .vision-mission {
-  margin-top: 140px;
-  margin-bottom: 120px;
+  margin-top: 8.75rem;
+  margin-bottom: 7.5rem;
 }
 
 .heading-text {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
 }
 
 .vision,
 .mission,
 .values {
-  margin-bottom: 36px;
+  margin-bottom: 2.25rem;
   /* animation: slideInRight 1s ease-in; */
 }
 
 .vision-mission .col-md-3 {
   text-align: center;
-  padding: 25px;
+  padding: 1.5625rem;
   background-image: url(../images/bg.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -857,43 +853,43 @@ a.border-button:hover {
 }
 
 .vision-mission img {
-  width: 128px;
-  height: 128px;
+  width: 8rem;
+  height: 8rem;
 }
 
 @media (max-width: 720px) {
   .vision-mission img {
-    width: 73px;
-    height: 73px;
+    width: 4.5625rem;
+    height: 4.5625rem;
   }
 }
 
 /* Fun Facts */
 
 .fun-facts {
-  margin-top: 140px;
+  margin-top: 8.75rem;
   background-image: url(../images/fun-facts-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 140px 0px;
+  padding: 8.75rem 0;
   color: #fff;
 }
 
 .fun-facts span {
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #fff;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 0.625rem;
   display: block;
 }
 
 .fun-facts h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
 }
 
 .fun-facts em {
@@ -903,44 +899,44 @@ a.border-button:hover {
 
 .fun-facts p {
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .fun-facts .left-content {
-  margin-right: 45px;
+  margin-right: 2.8125rem;
 }
 
 .count-area-content {
   text-align: center;
   background-color: rgba(250, 250, 250, 0.1);
-  padding: 25px 30px 35px 30px;
-  margin: 15px 0px;
+  padding: 1.5625rem 1.875rem 2.1875rem 1.875rem;
+  margin: 0.9375rem 0;
 }
 
 .count-digit {
-  margin: 5px 0px;
+  margin: 0.3125rem 0;
   color: #a4c639;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .count-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #fff;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem;
 }
 
 /* Call Back Style */
 
 .callback-services {
-  border-top: 1px solid #eee;
-  padding-top: 140px;
+  border-top: 0.0625rem solid #eee;
+  padding-top: 8.75rem;
 }
 
 .contact-us {
   background-color: #f7f7f7;
-  padding: 140px 0px;
+  padding: 8.75rem 0;
 }
 
 .contact-us .contact-form {
@@ -949,28 +945,28 @@ a.border-button:hover {
 }
 
 .callback-form {
-  margin-top: 140px;
+  margin-top: 8.75rem;
 }
 
 .callback-form .contact-form {
   background-color: #a4c639;
-  padding: 60px;
-  border-radius: 5px;
+  padding: 3.75rem;
+  border-radius: 0.3125rem;
   text-align: center;
 }
 
 .callback-form .contact-form input {
-  border-radius: 20px;
-  height: 40px;
-  line-height: 40px;
+  border-radius: 1.25rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
   display: inline-block;
-  padding: 0px 15px;
+  padding: 0 0.9375rem;
   color: #6a6a6a;
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-transform: none;
   box-shadow: none;
   border: none;
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
 }
 
 .callback-form .contact-form input:focus {
@@ -980,18 +976,18 @@ a.border-button:hover {
 }
 
 .callback-form .contact-form textarea {
-  border-radius: 20px;
-  height: 120px;
-  max-height: 200px;
-  min-height: 120px;
+  border-radius: 1.25rem;
+  height: 7.5rem;
+  max-height: 12.5rem;
+  min-height: 7.5rem;
   display: inline-block;
-  padding: 15px;
+  padding: 0.9375rem;
   color: #6a6a6a;
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-transform: none;
   box-shadow: none;
   border: none;
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
 }
 
 .callback-form .contact-form textarea:focus {
@@ -1017,12 +1013,12 @@ a.border-button:hover {
 .callback-form .contact-form button.border-button {
   background-color: transparent;
   color: #fff;
-  border: 2px solid #fff;
-  font-size: 13px;
+  border: 0.125rem solid #fff;
+  font-size: 0.8125rem;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 10px 28px;
-  border-radius: 30px;
+  padding: 0.625rem 1.75rem;
+  border-radius: 1.875rem;
   display: inline-block;
   transition: all 0.3s;
   outline: none;
@@ -1040,11 +1036,11 @@ a.border-button:hover {
   background-color: #a4c639;
   color: #fff;
   border: none;
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 12px 30px;
-  border-radius: 30px;
+  padding: 0.75rem 1.875rem;
+  border-radius: 1.875rem;
   display: inline-block;
   transition: all 0.3s;
   outline: none;
@@ -1061,13 +1057,13 @@ a.border-button:hover {
 /* Partners Style */
 
 .contact-partners {
-  margin-top: -8px !important;
+  margin-top: -0.5rem !important;
 }
 
 .partners {
-  margin-top: 140px;
+  margin-top: 8.75rem;
   background-color: #f7f7f7;
-  padding: 60px 0px;
+  padding: 3.75rem 0;
 }
 
 .partners .owl-item {
@@ -1076,7 +1072,7 @@ a.border-button:hover {
 }
 
 .partners .partner-item img {
-  max-width: 156px;
+  max-width: 9.75rem;
   margin: auto;
 }
 
@@ -1084,16 +1080,16 @@ a.border-button:hover {
 
 footer {
   background-color: #232323;
-  padding: 80px 0px;
+  padding: 5rem 0;
   color: #fff;
 }
 
 footer h4 {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
-  letter-spacing: 0.25px;
-  margin-bottom: 25px;
+  letter-spacing: 0.015625rem;
+  margin-bottom: 1.5625rem;
 }
 
 footer p {
@@ -1101,14 +1097,14 @@ footer p {
 }
 
 footer ul.social-icons {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   list-style: none;
   padding: 0;
 }
 
 footer ul.social-icons li {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 0.3125rem;
 }
 
 footer ul.social-icons li:last-child {
@@ -1116,10 +1112,10 @@ footer ul.social-icons li:last-child {
 }
 
 footer ul.social-icons li a {
-  width: 34px;
-  height: 34px;
+  width: 2.125rem;
+  height: 2.125rem;
   display: inline-block;
-  line-height: 34px;
+  line-height: 2.125rem;
   text-align: center;
   background-color: #fff;
   color: #232323;
@@ -1133,7 +1129,7 @@ footer ul.social-icons li a:hover {
 }
 
 footer ul.menu-list li {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 footer ul.menu-list li:last-child {
@@ -1141,7 +1137,7 @@ footer ul.menu-list li:last-child {
 }
 
 footer ul.menu-list li a {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #fff;
   transition: all 0.3s;
   text-decoration: none;
@@ -1157,7 +1153,7 @@ footer .footer-item {
 }
 
 footer .float {
-  margin-left: 70px;
+  margin-left: 4.375rem;
 }
 
 footer .contact-info ul {
@@ -1167,11 +1163,11 @@ footer .contact-info ul {
 }
 
 footer .contact-info li {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 footer .contact-info i {
-  margin-right: 3px;
+  margin-right: 0.1875rem;
 }
 
 footer .contact-info a {
@@ -1185,18 +1181,18 @@ footer .contact-info a:hover {
 }
 
 footer .contact-form input {
-  border-radius: 20px;
-  height: 40px;
-  line-height: 40px;
+  border-radius: 1.25rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
   display: inline-block;
-  padding: 0px 15px;
+  padding: 0 0.9375rem;
   color: #aaa !important;
   background-color: #343434;
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-transform: none;
   box-shadow: none;
   border: none;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 footer .contact-form input:focus {
@@ -1207,19 +1203,19 @@ footer .contact-form input:focus {
 }
 
 footer .contact-form textarea {
-  border-radius: 20px;
-  height: 120px;
-  max-height: 200px;
-  min-height: 120px;
+  border-radius: 1.25rem;
+  height: 7.5rem;
+  max-height: 12.5rem;
+  min-height: 7.5rem;
   display: inline-block;
-  padding: 15px;
+  padding: 0.9375rem;
   color: #aaa !important;
   background-color: #343434;
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-transform: none;
   box-shadow: none;
   border: none;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 footer .contact-form textarea:focus {
@@ -1248,11 +1244,11 @@ footer .contact-form button.filled-button {
   color: #fff;
   background-color: #a4c639;
   border: none;
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 12px 30px;
-  border-radius: 30px;
+  padding: 0.75rem 1.875rem;
+  border-radius: 1.875rem;
   display: inline-block;
   transition: all 0.3s;
   outline: none;
@@ -1271,13 +1267,13 @@ footer .contact-form button.filled-button:hover {
 .sub-footer {
   background-color: #343434;
   text-align: center;
-  padding: 25px 0px;
+  padding: 1.5625rem 0;
 }
 
 .sub-footer p {
   color: #fff;
   font-weight: 300;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem;
 }
 
 .sub-footer a {
@@ -1290,22 +1286,22 @@ footer .contact-form button.filled-button:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 230px 0px 150px 0px;
+  padding: 14.375rem 0 9.375rem 0;
   color: #fff;
 }
 
 .page-heading h1 {
   text-transform: capitalize;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
-  letter-spacing: 2px;
-  margin-bottom: 18px;
+  letter-spacing: 0.125rem;
+  margin-bottom: 1.125rem;
 }
 
 .page-heading span {
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   color: #fff;
   display: block;
 }
@@ -1314,9 +1310,9 @@ footer .contact-form button.filled-button:hover {
 
 .team {
   background-color: #f7f7f7;
-  margin-top: 140px;
-  margin-bottom: -140px;
-  padding: 120px 0px;
+  margin-top: 8.75rem;
+  margin-bottom: -8.75rem;
+  padding: 7.5rem 0;
 }
 
 .team-item img {
@@ -1326,32 +1322,32 @@ footer .contact-form button.filled-button:hover {
 
 .team-item .down-content {
   background-color: #fff;
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .team-item .down-content h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 10px;
+  letter-spacing: 0.015625rem;
+  margin-bottom: 0.625rem;
 }
 
 .team-item .down-content span {
   color: #a4c639;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .team-item .down-content p {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 /* Single Service */
 
 .single-services {
-  margin-top: 140px;
+  margin-top: 8.75rem;
 }
 
 #tabs ul {
@@ -1360,37 +1356,37 @@ footer .contact-form button.filled-button:hover {
 }
 
 #tabs ul li {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   display: inline-block;
   width: 100%;
 }
 
 #tabs ul li:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #tabs ul li a {
   text-transform: capitalize;
   width: 100%;
-  padding: 30px 30px;
+  padding: 1.875rem 1.875rem;
   display: inline-block;
   background-color: #a4c639;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #121212;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem;
   font-weight: 700;
   transition: all 0.3s;
 }
 
 #tabs ul li a i {
   float: right;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 
 #tabs ul .ui-tabs-active span {
   background: #faf5b2;
   border: #faf5b2;
-  line-height: 90px;
+  line-height: 5.625rem;
   border-bottom: none;
 }
 
@@ -1403,7 +1399,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .tabs-content {
-  margin-left: 30px;
+  margin-left: 1.875rem;
   text-align: left;
   display: inline-block;
   transition: all 0.3s;
@@ -1415,52 +1411,52 @@ footer .contact-form button.filled-button:hover {
 }
 
 .tabs-content h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 15px;
-  margin-top: 30px;
+  letter-spacing: 0.015625rem;
+  margin-bottom: 0.9375rem;
+  margin-top: 1.875rem;
 }
 
 .tabs-content p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #7a7a7a;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 /* Contact Information */
 
 .contact-information {
-  margin-top: 140px;
+  margin-top: 8.75rem;
 }
 
 .contact-information .contact-item {
-  padding: 60px 30px;
+  padding: 3.75rem 1.875rem;
   background-color: #f7f7f7;
   text-align: center;
 }
 
 .contact-information .contact-item i {
   color: #a4c639;
-  font-size: 48px;
-  margin-bottom: 40px;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 .contact-information .contact-item h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 15px;
+  letter-spacing: 0.015625rem;
+  margin-bottom: 0.9375rem;
 }
 
 .contact-information .contact-item p {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .contact-information .contact-item a {
   font-weight: 600;
   color: #a4c639;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 /* Responsiveness */
@@ -1488,12 +1484,12 @@ footer .contact-form button.filled-button:hover {
 
   footer .footer-item {
     width: 100% !important;
-    margin-bottom: 40px !important;
+    margin-bottom: 2.5rem !important;
   }
 
   footer .footer-item h4 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
   }
 
   footer .float {
@@ -1507,18 +1503,18 @@ footer .contact-form button.filled-button:hover {
   }
 
   footer {
-    margin-left: -40px !important;
+    margin-left: -2.5rem !important;
   }
 
   footer p {
-    padding-left: 60px !important;
-    padding-right: 60px !important;
+    padding-left: 3.75rem !important;
+    padding-right: 3.75rem !important;
     box-sizing: border-box !important;
   }
 
   footer .contact-info ul {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 0.625rem !important;
+    padding-right: 0.625rem !important;
   }
 }
 
@@ -1529,13 +1525,13 @@ footer .contact-form button.filled-button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 10;
-    padding-right: 10;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
   }
 
   footer .footer-item {
     width: 48%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
 
   footer .float {
@@ -1543,11 +1539,11 @@ footer .contact-form button.filled-button:hover {
   }
 
   footer {
-    padding: 40px 0 0 40px;
+    padding: 2.5rem 0 0 2.5rem;
   }
 
   footer .footer-item p {
-    padding-right: 20px;
+    padding-right: 1.25rem;
   }
 }
 
