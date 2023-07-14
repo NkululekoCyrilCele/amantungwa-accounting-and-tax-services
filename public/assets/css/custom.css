@@ -95,7 +95,7 @@ header {
   height: 3.125rem;
 }
 
-#preloader .jumper > div {
+#preloader .jumper>div {
   background-color: var(--accent);
   width: 3.125rem;
   height: 3.125rem;
@@ -110,12 +110,12 @@ header {
   animation: jumper 1s 0s linear infinite;
 }
 
-#preloader .jumper > div:nth-child(2) {
+#preloader .jumper>div:nth-child(2) {
   -webkit-animation-delay: 0.33333s;
   animation-delay: 0.33333s;
 }
 
-#preloader .jumper > div:nth-child(3) {
+#preloader .jumper>div:nth-child(3) {
   -webkit-animation-delay: 0.66666s;
   animation-delay: 0.66666s;
 }
@@ -259,10 +259,10 @@ header .navbar {
 }
 
 .background-header .navbar-nav .nav-link:hover,
-.background-header .navbar-nav .active > .nav-link,
+.background-header .navbar-nav .active>.nav-link,
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
-.background-header .navbar-nav .show > .nav-link {
+.background-header .navbar-nav .show>.nav-link {
   color: var(--accent) !important;
 }
 
@@ -311,10 +311,10 @@ header .navbar {
 }
 
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .active > .nav-link,
+.navbar .navbar-nav .active>.nav-link,
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
-.navbar .navbar-nav .show > .nav-link {
+.navbar .navbar-nav .show>.nav-link {
   color: var(--accent);
   border-bottom: 0.125rem solid var(--accent);
 }
@@ -895,6 +895,7 @@ a.border-button:hover {
   font-style: normal;
   color: var(--text);
 }
+
 .faqs span {
   display: block;
   margin-top: 15px;
@@ -1781,10 +1782,30 @@ footer .contact-form button.filled-button:hover {
 /* Mobile */
 
 @media only screen and (max-width: 480px) and (max-height: 993px) {
-  .sub-header,
+
   header {
+    display: ;
+  }
+
+  .sub-header {
+    width: 100%;
+    display: inline-flex;
+    height: 20vh;
+    padding: 0.625rem 3.75rem 0 5rem;
     display: none;
   }
+
+  .sub-header ul.right-icons li i.bi {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: -120px;
+    transition: font-size 0.3s;
+  }
+
+  .sub-header ul.right-icons li i.bi:hover {
+    font-size: 1.75rem;
+  }
+
 
   .toggle_btn {
     display: block;
