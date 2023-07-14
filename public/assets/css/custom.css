@@ -1784,7 +1784,7 @@ footer .contact-form button.filled-button:hover {
 @media only screen and (max-width: 480px) and (max-height: 993px) {
 
   header {
-    display: ;
+    /*display: none;*/
     width: 0;
   }
 
@@ -1792,7 +1792,9 @@ footer .contact-form button.filled-button:hover {
     display: none;
   }
 
-  header .navbar .container img {}
+  /* To continue working on the below
+
+  header .navbar .container img {}*/
 
   .background-header {
     display: none;
