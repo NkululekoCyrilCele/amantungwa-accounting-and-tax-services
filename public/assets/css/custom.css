@@ -1792,9 +1792,9 @@ footer .contact-form button.filled-button:hover {
     display: none;
   }
 
-  /* To continue working on the below
-
-  header .navbar .container img {}*/
+  header .navbar .container img {
+    margin-left: 150px;
+  }
 
   .background-header {
     display: none;
