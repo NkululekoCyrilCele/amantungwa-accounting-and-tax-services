@@ -1789,15 +1789,19 @@ footer .contact-form button.filled-button:hover {
   }
 
   header .navbar .container .navbar-brand h2 {
-    display: none;
+    display: ;
+    padding: auto;
+    margin: auto;
   }
 
   header .navbar .container img {
     margin-left: 150px;
+    display: ;
   }
 
   .background-header {
-    display: none;
+    display: ;
+    width: 100%;
   }
 
   .sub-header {
