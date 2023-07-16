@@ -1790,17 +1790,21 @@ footer .contact-form button.filled-button:hover {
 
   .sub-header,
   header {
-    display: none;
+    display: ;
   }
 
-  header .navbar .container img {
+  /*header .navbar .container img {
     margin-left: 120px;
     width: 150px;
     height: auto
+  }*/
+
+  header .navbar .container .navbar-brand h2 {
+    font-size: 0.75rem;
   }
 
   .background-header {
-    /*display: ;*/
+    display: ;
     width: 100%;
   }
 
