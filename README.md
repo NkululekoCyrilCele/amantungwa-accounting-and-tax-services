@@ -36,10 +36,10 @@ To use or modify the website, follow these steps:
 
 ## License
 
-This project is licensed under the [Apache License 2.0] - [https://www.apache.org/licenses/LICENSE-2.0]. You are free to modify and use the code as per the license terms.
+This project is licensed under the Apache License 2.0. You are free to modify and use the code as per the license terms.
 
 For more information, please refer to the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Contact
 
-For any inquiries or support regarding the website or our accounting services, please contact us at nkululeko.cele@gmail.com.
+For any inquiries or support regarding the website or our accounting services, please contact us at [mailto:nkululeko.cele@gmail.com](nkululeko.cele@gmail.com).
