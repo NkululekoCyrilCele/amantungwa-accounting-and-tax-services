@@ -38,7 +38,7 @@ To use or modify the website, follow these steps:
 
 This project is licensed under the [Apache License 2.0] - [https://www.apache.org/licenses/LICENSE-2.0]. You are free to modify and use the code as per the license terms.
 
-For more information, please refer to the [https://www.apache.org/licenses/LICENSE-2.0](Apache License 2.0).
+For more information, please refer to the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Contact
 
