@@ -33,9 +33,9 @@ body {
 
 p {
   margin-bottom: 0;
-  font-size: 0.875rem;
+  font-size: 14px;
   color: #666;
-  line-height: 1.875rem;
+  line-height: 30px;
 }
 
 a {
@@ -62,7 +62,7 @@ header {
   z-index: 99999;
   width: 100%;
   background-color: transparent !important;
-  height: 5rem;
+  height: 80px;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
@@ -91,21 +91,21 @@ header {
   display: block;
   position: absolute;
   margin: auto;
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 50px;
+  height: 50px;
 }
 
 #preloader .jumper>div {
   background-color: var(--accent);
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   position: absolute;
   opacity: 0;
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 50px;
+  height: 50px;
   -webkit-animation: jumper 1s 0s linear infinite;
   animation: jumper 1s 0s linear infinite;
 }
@@ -160,8 +160,8 @@ header {
 
 .sub-header {
   background-color: var(--accent);
-  height: 2.875rem;
-  line-height: 2.875rem;
+  height: 46px;
+  line-height: 46px;
 }
 
 .sub-header ul li {
@@ -171,7 +171,7 @@ header {
 
 .sub-header ul.left-info li {
   /*border-left: 1px solid rgba(250,250,250,0.3);*/
-  padding: 0 1.25rem;
+  padding: 0 20px;
 }
 
 /*.sub-header ul.left-info li:last-child {
@@ -179,22 +179,22 @@ header {
 }*/
 
 .sub-header ul.left-info li i {
-  margin-right: 0.625rem;
-  font-size: 1.125rem;
+  margin-right: 10px;
+  font-size: 18px;
   /* 20px */
   color: #fff;
 }
 
 .sub-header ul.left-info li a {
   color: #fff;
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .sub-header ul.left-info .contact:hover {
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .sub-header ul.right-icons {
@@ -203,8 +203,8 @@ header {
 }
 
 .sub-header ul.right-icons li {
-  margin-right: -0.25rem;
-  width: 2.875rem;
+  margin-right: -4px;
+  width: 46px;
   display: inline-block;
   text-align: center;
   /*border-right: 1px solid rgba(250,250,250,0.3);*/
@@ -225,12 +225,12 @@ header {
 
 .sub-header ul.right-icons li i.bi {
   color: #fff;
-  font-size: 1rem;
+  font-size: 16px;
   transition: font-size 0.3s;
 }
 
 .sub-header ul.right-icons li i.bi:hover {
-  font-size: 1.75rem;
+  font-size: 28px;
 }
 
 /* Styling the navbar */
@@ -245,14 +245,14 @@ header .navbar .container img {
 }
 
 .background-header .navbar {
-  padding: 0.625rem 0;
+  padding: 10px 0;
 }
 
 .background-header {
   top: 0;
   position: fixed;
   background-color: var(--background) !important;
-  box-shadow: 0px 0.5rem 0.5rem var(--text);
+  box-shadow: 0px 8px 8px var(--text);
 }
 
 .background-header .navbar-brand h2 {
@@ -273,7 +273,7 @@ header .navbar .container img {
 
 .navbar .navbar-brand {
   float: left;
-  margin-top: 0.75rem;
+  margin-top: 12px;
   outline: none;
 }
 
@@ -302,17 +302,17 @@ header .navbar .container img {
 }
 
 .navbar .navbar-nav .nav-item {
-  margin: 0 0.3125rem;
+  margin: 0 5px;
 }
 
 .navbar .navbar-nav a.nav-link {
   text-transform: capitalize;
-  font-size: 0.9375rem;
-  font-weight: 12.5rem;
-  letter-spacing: 0.03125rem;
+  font-size: 15px;
+  font-weight: 200px;
+  letter-spacing: 0.5px;
   color: var(--text);
   transition: all 0.5s;
-  margin-top: 0.3125rem;
+  margin-top: 5px;
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -321,7 +321,7 @@ header .navbar .container img {
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
   color: var(--accent);
-  border-bottom: 0.125rem solid var(--accent);
+  border-bottom: 2px solid var(--accent);
 }
 
 .navbar .navbar-toggler-icon {
@@ -331,19 +331,19 @@ header .navbar .container img {
 .navbar .navbar-toggler {
   border-color: var(--background);
   background-color: var(--background);
-  height: 2.25rem;
+  height: 36px;
   outline: none;
   border-radius: 0;
   position: absolute;
-  right: 1.875rem;
-  top: 1.25rem;
+  right: 30px;
+  top: 20px;
 }
 
 .navbar .navbar-toggler-icon:after {
   content: "\f0c9";
   color: var(--accent);
-  font-size: 1.125rem;
-  line-height: 1.625rem;
+  font-size: 18px;
+  line-height: 26px;
   font-family: inherit;
 }
 
@@ -351,15 +351,15 @@ header .navbar .container img {
 
 #top-arrow {
   position: fixed;
-  bottom: 1.25rem;
-  right: 1.25rem;
-  font-size: 1.5rem;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
   background-color: var(--text);
   color: #fff;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 40px;
+  height: 40px;
   text-align: center;
-  line-height: 2.5rem;
+  line-height: 40px;
   border-radius: 50%;
   z-index: 999;
   display: none;
@@ -373,20 +373,20 @@ header .navbar .container img {
 
 .toggle_btn {
   color: #000;
-  font-size: 1.5rem;
+  font-size: 24px;
   cursor: pointer;
   display: none;
 }
 
 .toggle_btn i {
   color: var(--accent);
-  font-size: 1.25rem;
+  font-size: 20px;
   transition: all 0.3s;
   cursor: pointer;
 }
 
 .toggle_btn i:hover {
-  font-size: 1.25rem;
+  font-size: 20px;
 }
 
 /* Styling buttons */
@@ -397,9 +397,9 @@ a.btn {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 0.75rem 1.875rem;
-  border: 0.125rem solid var(--text);
-  border-radius: 1.875rem;
+  padding: 12px 30px;
+  border: 2px solid var(--text);
+  border-radius: 30px;
   display: inline-block;
   transition: all 0.3s;
 }
@@ -413,11 +413,11 @@ a.btn:hover {
 a.filled-button {
   background-color: var(--text);
   color: var(--background);
-  font-size: 0.8125rem;
+  font-size: 13px;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 0.75rem 1.875rem;
-  border-radius: 1.875rem;
+  padding: 12px 30px;
+  border-radius: 30px;
   display: inline-block;
   transition: all 0.3s;
 }
@@ -430,11 +430,11 @@ a.filled-button:hover {
 a.border-button {
   background-color: transparent;
   color: var(--background);
-  border: 0.125rem solid var(--background);
+  border: 2px solid var(--background);
   /*font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;*/
-  padding: 0.625rem 1.75rem;
+  padding: 10px 28px;
   /*border-radius: 30px;
 	display: inline-block;*/
   transition: all 0.3s;
@@ -448,34 +448,34 @@ a.border-button:hover {
 
 /* Styling page content */
 
-/* carouselsection */
+/* Carousel section */
 .w-100 {
   height: 100vh;
 }
 
 .carousel-item {
   height: 100vh;
-  min-height: 18.75rem;
+  min-height: 300px;
 }
 
 .carousel-caption {
-  bottom: 13.75rem;
+  bottom: 220px;
   z-index: 2;
   text-align: center;
 }
 
 .carousel-caption h5 {
-  font-size: 2.8125rem;
+  font-size: 45px;
   text-transform: uppercase;
-  letter-spacing: 0.125rem;
-  margin-top: 1.5625rem;
+  letter-spacing: 2px;
+  margin-top: 25px;
   color: #fff;
 }
 
 .carousel-caption p {
   width: 60%;
   margin: auto;
-  font-size: 1.125rem;
+  font-size: 18px;
   line-height: 1.9;
   color: #fff;
 }
@@ -503,32 +503,32 @@ a.border-button:hover {
 
 .request-form {
   background-color: var(--text);
-  padding: 2.5rem 0;
+  padding: 40px 0;
   color: var(--background);
-  border-radius: 0.3125rem;
-  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .request-form h4 {
-  font-size: 1.375rem;
+  font-size: 22px;
   font-weight: 600;
   color: var(--background);
 }
 
 .request-form span {
-  font-size: 0.9375rem;
+  font-size: 15px;
   font-weight: 400;
   display: inline-block;
-  margin-top: 0.625rem;
+  margin-top: 10px;
   color: var(--background);
 }
 
 .request-form a.border-button {
-  margin-top: 0.75rem;
+  margin-top: 12px;
   float: right;
   color: var(--background);
   background-color: transparent;
-  border: 0.0625rem solid var(--background);
+  border: 1px solid var(--background);
   /*border-radius: 3px;
 	padding: 8px 15px;
 	font-size: 14px;
@@ -545,14 +545,14 @@ a.border-button:hover {
 /* More Info section */
 
 .more-info {
-  margin-top: 8.75rem;
+  margin-top: 140px;
 }
 
 .more-info .left-image img {
   width: 100%;
   overflow: hidden;
   border-radius: 5px;
-  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -562,9 +562,9 @@ a.border-button:hover {
 
 .more-info .more-info-content {
   background-color: var(--secondary-button);
-  padding: 1.875rem;
-  border-radius: 0.3125rem;
-  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .about-info .more-info-content {
@@ -573,26 +573,26 @@ a.border-button:hover {
 
 .about-info .right-content {
   padding: 0 !important;
-  margin-right: 1.875rem;
+  margin-right: 30px;
 }
 
 .more-info .right-content {
-  padding: 2.8125rem 2.8125rem 2.8125rem 1.875rem;
+  padding: 45px 45px 45px 30px;
 }
 
 .more-info .right-content span {
   text-transform: uppercase;
-  font-size: 0.9375rem;
+  font-size: 15px;
   color: #666;
-  letter-spacing: 0.0625rem;
-  margin-bottom: 0.625rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
   display: block;
 }
 
 .more-info .right-content h2 {
-  font-size: 2.25rem;
+  font-size: 36px;
   font-weight: 600;
-  margin-bottom: 2.1875rem;
+  margin-bottom: 35px;
   color: #1e1e1e;
 }
 
@@ -602,133 +602,133 @@ a.border-button:hover {
 }
 
 .more-info .right-content p {
-  margin-bottom: 1.875rem;
-  font-size: 1rem;
+  margin-bottom: 30px;
+  font-size: 16px;
   color: #666;
 }
 
 /* Services section */
 
 .services {
-  margin-top: 6.25rem;
-  margin-bottom: 0.625rem;
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
 
 .service-item img {
   width: 100%;
   overflow: hidden;
-  border-radius: 0.3125rem;
-  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
 .service-item img:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1), 0 0 0.625rem rgba(0, 0, 0, 0.1),
-    0 0 0.625rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1),
+    0 0 10px rgba(0, 0, 0, 0.1);
   opacity: 0.9;
-  border-radius: 0.625rem;
+  border-radius: 10px;
 }
 
 .service-item .down-content {
   background-color: var(--background);
-  padding: 1.875rem;
-  border-radius: 0.3125rem;
-  box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1), 0 0 0.3125rem rgba(0, 0, 0, 0.5),
-    0 0 0.625rem #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.5),
+    0 0 10px #fff;
   transition: transform 0.3s ease;
   transform: scale(0.95);
 }
 
 .service-item .down-content:hover {
-  box-shadow: 0 0 0.3125rem var(--text), 0 0 0.3125rem var(--accent);
-  border-radius: 0.625rem;
+  box-shadow: 0 0 5px var(--text), 0 0 5px var(--accent);
+  border-radius: 10px;
 }
 
 .service-item .down-content h4 {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 700;
-  letter-spacing: 0.015625rem;
-  margin-bottom: 0.9375rem;
+  letter-spacing: 0.25px;
+  margin-bottom: 15px;
   color: #1e1e1e;
 }
 
 .service-item .down-content p {
-  margin-bottom: 1.25rem;
-  font-size: 1rem;
+  margin-bottom: 20px;
+  font-size: 16px;
   color: #666;
 }
 
 /* Team section */
 
 #team {
-  margin-bottom: -6.25rem;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  margin-bottom: -100px;
+  margin-right: 80px;
+  margin-left: 80px;
   background-color: var(--secondary-button);
 }
 
 .section-header {
   text-align: center;
-  margin-bottom: 1.875rem;
-  margin-top: -5rem;
+  margin-bottom: 30px;
+  margin-top: -80px;
 }
 
 .section-header h2 {
-  font-size: 2.25rem;
+  font-size: 36px;
   font-weight: 600;
   color: var(--text);
 }
 
 .section-padding {
-  padding: 0.625rem 0;
+  padding: 10px 0;
 }
 
 .team {
   background-color: #f9f9f9;
-  padding: 3.75rem 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 
 .card {
   display: inline-block;
   border: none;
-  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1), 0 0 1.25rem rgba(0, 0, 0, 0.1),
-    0 0 1.25rem rgba(0, 0, 0, 0.1), 0 0 1.25rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1),
+    0 0 20px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out;
-  margin-left: 9.375rem;
-  margin-right: 9.375rem;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .card:hover {
-  transform: translateY(-3.75rem);
+  transform: translateY(-60px);
 }
 
 .card-title {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: bold;
   color: #333;
-  margin-top: 1.25rem;
+  margin-top: 20px;
 }
 
 .card-body {
-  padding: 1.875rem;
+  padding: 30px;
 }
 
 .card-text {
-  font-size: 1rem;
+  font-size: 16px;
   color: #777;
-  margin-bottom: 1.25rem;
+  margin-bottom: 20px;
 }
 
 .socials {
-  margin-top: 1.25rem;
+  margin-top: 20px;
 }
 
 .socials a {
   color: #777;
-  font-size: 1.25rem;
-  margin: 0 0.3125rem;
+  font-size: 20px;
+  margin: 0 5px;
   transition: color 0.3s ease;
 }
 
@@ -737,8 +737,8 @@ a.border-button:hover {
 }
 
 .img-fluid {
-  width: 11.25rem;
-  height: 11.25rem;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 50%;
   margin: 0 auto;
@@ -752,9 +752,9 @@ a.border-button:hover {
 }
 
 .testimonials {
-  margin-top: 5rem;
+  margin-top: 80px;
   background-color: #fff;
-  padding: 8.75rem 0;
+  padding: 140px 0;
 }
 
 /* Add rem units
@@ -765,7 +765,7 @@ a.border-button:hover {
   text-align: center;
   background-color: var(--secondary-button);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
-    0 0 5px rgba(0, 0, 0, 0.1), 0px 0px 20px rgba(0, 0, 0, 0.1);
+    0 0 5px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
   margin: 10px 10px 0 10px;
   border-radius: 5px;
@@ -885,7 +885,7 @@ a.border-button:hover {
 /* FAQS  */
 .accordion-item {
   border: none;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .faqs {
@@ -916,7 +916,7 @@ a.border-button:hover {
 }
 
 .accordion-item .accordion-button {
-  border-radius: calc(0.25rem - 1px);
+  border-radius: calc(4px - 1px);
 }
 
 .accordion-button {
@@ -1200,7 +1200,7 @@ ul.slick-dots {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 140px 0px;
+  padding: 140px 0;
   color: #fff;
 }
 
@@ -1237,11 +1237,11 @@ ul.slick-dots {
   text-align: center;
   background-color: rgba(250, 250, 250, 0.1);
   padding: 25px 30px 35px 30px;
-  margin: 15px 0px;
+  margin: 15px 0;
 }
 
 .count-digit {
-  margin: 5px 0px;
+  margin: 5px 0;
   color: #a4c639;
   font-weight: 700;
   font-size: 36px;
@@ -1263,7 +1263,7 @@ ul.slick-dots {
 
 .contact-us {
   background-color: #f7f7f7;
-  padding: 140px 0px;
+  padding: 140px 0;
 }
 
 .contact-us .contact-form {
@@ -1287,7 +1287,7 @@ ul.slick-dots {
   height: 40px;
   line-height: 40px;
   display: inline-block;
-  padding: 0px 15px;
+  padding: 0 15px;
   color: #6a6a6a;
   font-size: 13px;
   text-transform: none;
@@ -1390,7 +1390,7 @@ ul.slick-dots {
 .partners {
   margin-top: 140px;
   background-color: #f7f7f7;
-  padding: 60px 0px;
+  padding: 60px 0;
 }
 
 .partners .owl-item {
@@ -1407,7 +1407,7 @@ ul.slick-dots {
 
 footer {
   background-color: #232323;
-  padding: 80px 0px;
+  padding: 80px 0;
   color: #fff;
 }
 
@@ -1594,7 +1594,7 @@ footer .contact-form button.filled-button:hover {
 .sub-footer {
   background-color: #343434;
   text-align: center;
-  padding: 25px 0px;
+  padding: 25px 0;
 }
 
 .sub-footer p {
@@ -1613,7 +1613,7 @@ footer .contact-form button.filled-button:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 230px 0px 150px 0px;
+  padding: 230px 0px 150px 0;
   color: #fff;
 }
 
@@ -1639,7 +1639,7 @@ footer .contact-form button.filled-button:hover {
   background-color: #f7f7f7;
   margin-top: 140px;
   margin-bottom: -140px;
-  padding: 120px 0px;
+  padding: 120px 0;
 }
 
 .team-item img {
@@ -1690,7 +1690,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 #tabs ul li:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #tabs ul li a {
@@ -1749,7 +1749,7 @@ footer .contact-form button.filled-button:hover {
 .tabs-content p {
   font-size: 14px;
   color: #7a7a7a;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 /* Contact Information */
@@ -1805,118 +1805,196 @@ footer .contact-form button.filled-button:hover {
     font-size: 6px !important;
   }
 
-  /*main section {
-    padding: 20px 0;
-  }*/
-
   .carousel-inner .carousel-item {
-    height: 250px;
-    /* Adjust the height as needed */
+    height: 500px !important;
   }
 
   .carousel-caption {
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    left: 0;
+    text-align: center !important;
+    top: 50% !important;
+    transform: translateY(-90%) !important;
+    width: 100% !important;
+    left: 0 !important;
   }
-
-  /*.carousel-caption h5,
-  .carousel-caption p {
-    font-size: 14px;
-    margin-bottom: 8px;
-  }*/
 
   .carousel-caption h5 {
-    font-size: medium;
-    margin-bottom: 20px;
-    margin-top: -55px;
+    font-size: medium !important;
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+    margin-top: -60px !important;
   }
 
   .carousel-caption p {
-    font-size: small;
+    font-size: small !important;
   }
 
-  /*.carousel-control-prev,
+  .carousel-control-prev,
   .carousel-control-next {
-    top: calc(50% - 16px);
-    /* Adjust the position as needed */
-  /*width: 32px;
-    height: 32px;
-    font-size: 24px;
-  }*/
+    top: calc(50% - 16px) !important;
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 24px !important;
+  }
+
+  .d-block {
+    top: 10% !important;
+    border-radius: 0 !important;
+    height: 500px !important;
+    width: auto !important;
+  }
 
   .request-form {
-    padding: 20px;
+    border-radius: 0 !important;
+    padding: 20px !important;
+    margin: auto !important;
+    height: 250px !important;
   }
 
   .request-form .col-md-8 {
-    text-align: center;
-    margin-bottom: 10px;
+    text-align: center !important;
+    justify-content: center !important;
+    margin-top: 10px !important;
+    margin-bottom: -10px !important;
   }
 
-  .request-form .col-md-4 {
-    text-align: center;
+  .request-form .col-md-4 .btn {
+    margin: 30px 40px 0 0 !important;
+  }
+
+  .more-info {
+    margin-top: 50px !important;
+    padding: 0 !important;
+    width: 100% !important;
   }
 
   .more-info .row {
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
   .more-info .left-image {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
   }
 
   .more-info .right-content {
-    text-align: center;
+    text-align: center !important;
+  }
+
+  .more-info .right-content h2 {
+    font-size: 12px !important;
+    text-align: center !important;
+  }
+
+  .more-info .right-content p {
+    text-align: center !important;
+    font-size: small !important;
+    margin-top: -10px !important;
+  }
+
+  a.btn {
+    font-size: 12px !important;
+  }
+
+  a.filled-button {
+    font-size: 12px !important;
+    margin: auto -40px -50px -30px !important;
+  }
+
+  .services {
+    margin-top: 50px !important;
   }
 
   .services .section-heading h2 {
-    font-size: 20px;
+    font-size: 20px !important;
+  }
+
+  .services .section-heading span {
+    font-size: 10px !important;
+    margin: 15px 30px -50px 30px !important;
+    text-align: center !important;
   }
 
   .services .service-item {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
   }
 
   .services .down-content h4 {
-    font-size: 16px;
-    margin-bottom: 8px;
+    font-size: 16px !important;
+    margin-bottom: 8px !important;
+    text-align: center !important;
   }
 
   .services .down-content p {
-    font-size: 14px;
-    margin-bottom: 8px;
+    font-size: 14px !important;
+    margin-bottom: 8px !important;
+    text-align: center !important;
+  }
+
+  .services .down-content a.filled-button {
+    margin: auto auto auto 30px !important;
+  }
+
+  #team {
+    margin: auto !important;
   }
 
   .team .section-header h2 {
-    font-size: 20px;
+    font-size: 20px !important;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+  }
+
+  .team .section-header p {
+    text-align: center !important;
+    font-size: 12px !important;
+    line-height: 1.9 !important;
+    margin: auto 6px auto 6px !important;
+  }
+
+  #team .card {
+    margin: -50px auto 60px auto !important;
+  }
+
+  .testimonials {
+    margin-top: -120px !important;
   }
 
   .testimonials .section-heading h2 {
-    font-size: 20px;
+    font-size: 20px !important;
+    margin-top: -100px !important;
+    margin-bottom: 20px !important;
+    text-align: center !important;
+  }
+
+  .testimonials .section-heading span {
+    text-align: center !important;
+    margin-bottom: -50px !important;
   }
 
   .testimonials .testimonial-item {
-    margin-bottom: 20px;
+    margin: 10px auto auto auto !important;
+    padding: 0 !important;
   }
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 
   .testimonials .testimonial-item .inner-content p {
-    font-size: 12px;
-    margin-bottom: 8px;
+    font-size: 12px !important;
+    margin-bottom: 8px !important;
   }
 
   .testimonials .testimonial-item img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50% !important;
+  }
+
+  footer {
+    margin-top: -150px !important;
   }
 
   footer .container {
@@ -1963,6 +2041,10 @@ footer .contact-form button.filled-button:hover {
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
+
+  .sub-footer {
+    margin-top: -100px !important;
+  }
 }
 
 /* Mobile */
@@ -1981,7 +2063,7 @@ footer .contact-form button.filled-button:hover {
   }*/
 
 /*header .navbar .container .navbar-brand h2 {
-    font-size: 0.75rem;
+    font-size: 0.780px;
   }
 
   /*.background-header {
@@ -1993,19 +2075,19 @@ footer .contact-form button.filled-button:hover {
     width: 100%;
     display: inline-flex;
     height: 20vh;
-    padding: 0.625rem 3.75rem 0 5rem;
+    padding: 10px 3.780px 0 80px;
     display: none;
   }
 
   .sub-header ul.right-icons li i.bi {
     color: #fff;
-    font-size: 1rem;
+    font-size: 16px;
     margin-left: -120px;
     transition: font-size 0.3s;
   }
 
   .sub-header ul.right-icons li i.bi:hover {
-    font-size: 1.75rem;
+    font-size: 1.780px;
   }
 
   .toggle_btn {
@@ -2097,13 +2179,13 @@ footer .contact-form button.filled-button:hover {
 
   .sub-header ul.right-icons li i.bi {
     color: #fff;
-    font-size: 1rem;
+    font-size: 16px;
     margin-left: -10px;
     transition: font-size 0.3s;
   }
 
   .sub-header ul.right-icons li i.bi:hover {
-    font-size: 1.75rem;
+    font-size: 1.780px;
   }
 
   .toggle_btn {
