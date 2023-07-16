@@ -73,7 +73,7 @@ header {
 
 #preloader {
   overflow: hidden;
-  background: var(--text);
+  background: var(--background);
   left: 0;
   right: 0;
   top: 0;
@@ -1800,7 +1800,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .background-header {
-    display: ;
+    /*display: ;*/
     width: 100%;
   }
 
