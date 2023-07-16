@@ -42,4 +42,4 @@ For more information, please refer to the [Apache License 2.0](https://www.apach
 
 ## Contact
 
-For any inquiries or support regarding the website or our accounting services, please contact us at [nkululeko.cele@gmail.com](nkululeko.cele@gmail.com).
+For any inquiries or support regarding the website or our accounting services, please contact us at nkululeko.cele@gmail.com.
