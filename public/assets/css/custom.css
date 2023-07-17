@@ -2249,6 +2249,86 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
+@media only screen and (min-width: 360px) {
+
+  header .navbar .container img {
+    width: 80px;
+  }
+
+  header .navbar .container .navbar-brand h2 {
+    font-size: 8px;
+  }
+
+  .carousel-caption {
+    transform: translateY(-100%);
+  }
+
+  .carousel-caption h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+  }
+
+  .request-form .col-md-4 .btn {
+    margin: 30px 80px 0 0;
+  }
+
+  .more-info .right-content h2 {
+    font-size: 20px;
+  }
+
+  .more-info .right-content p {
+    font-size: 15px;
+  }
+
+  .services .section-heading h2 {
+    font-size: 30px;
+  }
+
+  .services .section-heading span {
+    font-size: 12px;
+  }
+
+  .services .down-content h4 {
+    font-size: 20px;
+  }
+
+  .services .down-content p {
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .services .down-content a.filled-button {
+    margin: auto auto auto 70px;
+  }
+
+  .team .section-header h2 {
+    font-size: 30px;
+  }
+
+  .team .section-header p {
+    font-size: 15px;
+  }
+
+  .testimonials .section-heading h2 {
+    font-size: 30px;
+  }
+
+  .testimonials .testimonial-item .inner-content h4,
+  .testimonials .testimonial-item .inner-content span {
+    font-size: 18px;
+  }
+
+  footer .footer-item h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 /*@media only screen and (min-width: 321px) {
 
   header .navbar .container img {
