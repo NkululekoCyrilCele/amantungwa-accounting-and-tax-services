@@ -1789,7 +1789,7 @@ footer .contact-form button.filled-button:hover {
 
 /* Responsive Design */
 
-@media only screen and (min-width: 280px) {
+@media only screen and (min-width: 280px) and (max-width: 319px) {
 
   header .navbar .container img {
     width: 60px;
@@ -2050,7 +2050,7 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 352px) {
 
   header .navbar .container img {
     width: 80px;
@@ -2154,7 +2154,7 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 353px) {
+@media only screen and (min-width: 353px) and (max-width: 359px) {
 
   header .navbar .container img {
     width: 80px;
@@ -2262,7 +2262,7 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 360px) and (max-width: 374px) {
 
   header .navbar .container img {
     width: 80px;
@@ -2352,7 +2352,7 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 410px) {
 
   header .navbar .container img {
     width: 90px;
@@ -2429,7 +2429,7 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 411px) {
+@media only screen and (min-width: 411px) and (max-width: 479px) {
 
   header .navbar .container img {
     width: 100px;
@@ -2532,7 +2532,7 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 539px) {
 
   header .navbar .container img {
     width: 100px;
@@ -2643,7 +2643,7 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 540px) {
+@media only screen and (min-width: 540px) and (max-width: 599px) {
 
   header .navbar .container img {
     width: 110px;
@@ -2765,7 +2765,7 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 639px) {
 
   header .navbar .container img {
     width: 120px;
@@ -2903,7 +2903,7 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 640px) and (max-width: 711px) {
 
   header .navbar .container img {
     width: 110px;
@@ -2932,7 +2932,7 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 712px) {
+@media only screen and (min-width: 712px) and (max-width:993px) {
 
   header .navbar .container img {
     width: 120px;
