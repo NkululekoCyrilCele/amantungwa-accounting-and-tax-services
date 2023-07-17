@@ -2699,6 +2699,134 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
+@media only screen and (min-width: 600px) {
+
+  header .navbar .container img {
+    width: 120px;
+    margin-left: 5px;
+  }
+
+  header .navbar .container .navbar-brand h2 {
+    font-size: 14px;
+  }
+
+  .carousel-inner .carousel-item {
+    height: 800px;
+  }
+
+  .carousel-caption {
+    transform: translateY(-10%);
+  }
+
+  .carousel-caption h5 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .carousel-caption p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .d-block {
+    height: 800px;
+  }
+
+  .request-form {
+    border-radius: 0;
+    padding: 20px;
+    margin: auto;
+    height: 200px;
+  }
+
+  .request-form .col-md-8 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+
+  .request-form .col-md-4 .btn {
+    margin: 30px 180px 0 0;
+  }
+
+  .more-info .right-content span {
+    font-size: 18px;
+  }
+
+  .more-info .right-content h2 {
+    font-size: 40px;
+  }
+
+  .more-info .right-content p {
+    font-size: 18px;
+  }
+
+  a.btn {
+    font-size: 16px;
+  }
+
+  a.filled-button {
+    font-size: 16px;
+  }
+
+  .services .section-heading h2 {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+
+  .services .section-heading span {
+    font-size: 16px;
+  }
+
+  .services .service-item {
+    margin-bottom: 30px;
+  }
+
+  .services .down-content h4 {
+    font-size: 30px;
+  }
+
+  .services .down-content p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .services .down-content a.filled-button {
+    margin: auto auto auto 150px;
+  }
+
+  .team .section-header h2 {
+    font-size: 40px;
+  }
+
+  .team .section-header p {
+    font-size: 18px;
+  }
+
+  .testimonials .section-heading h2 {
+    font-size: 40px;
+    margin-top: -80px;
+  }
+
+  .testimonials .testimonial-item .inner-content h4,
+  .testimonials .testimonial-item .inner-content span {
+    font-size: 14px;
+  }
+
+  .testimonials .testimonial-item .inner-content p {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  footer .footer-item h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 /*@media only screen and (min-width: 321px) {
 
   header .navbar .container img {
