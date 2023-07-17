@@ -1995,6 +1995,7 @@ footer .contact-form button.filled-button:hover {
 
   footer {
     margin-top: -150px;
+    margin-left: -40px;
   }
 
   footer .container {
@@ -2025,10 +2026,6 @@ footer .contact-form button.filled-button:hover {
   footer ul.menu-list.float {
     margin-left: 0;
     text-align: center;
-  }
-
-  footer {
-    margin-left: -40px;
   }
 
   footer p {
@@ -2486,6 +2483,107 @@ footer .contact-form button.filled-button:hover {
   footer ul.menu-list.float {
     margin-left: 0;
     text-align: center;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+
+  header .navbar .container img {
+    width: 100px;
+    margin-left: 20px;
+  }
+
+  header .navbar .container .navbar-brand h2 {
+    font-size: 12px;
+  }
+
+  .carousel-inner .carousel-item {
+    height: 100%;
+  }
+
+  .carousel-caption {
+    transform: translateY(-100%);
+  }
+
+  .carousel-caption h5 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .carousel-caption p {
+    font-size: 18px;
+  }
+
+  .request-form {
+    border-radius: 0;
+    padding: 20px;
+    height: 250px;
+  }
+
+  .request-form .col-md-8 {
+    margin-bottom: 10px;
+  }
+
+  .request-form .col-md-4 .btn {
+    margin: 30px 145px 0 0;
+  }
+
+  .more-info .right-content h2 {
+    font-size: 30px;
+  }
+
+  .more-info .right-content p {
+    font-size: inherit;
+  }
+
+  .services .section-heading h2 {
+    font-size: 40px;
+  }
+
+  .services .section-heading span {
+    font-size: 14px;
+  }
+
+  .services .down-content h4 {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+
+  .services .down-content p {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+
+  .services .down-content a.filled-button {
+    margin: auto auto auto 120px;
+  }
+
+  .team .section-header h2 {
+    font-size: 40px;
+  }
+
+  .team .section-header p {
+    font-size: 16px;
+  }
+
+  .testimonials .section-heading h2 {
+    font-size: 40px;
+  }
+
+  .testimonials .testimonial-item .inner-content h4,
+  .testimonials .testimonial-item .inner-content span {
+    font-size: 16x;
+  }
+
+  .testimonials .testimonial-item .inner-content p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .testimonials .testimonial-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
   }
 }
 
