@@ -2329,6 +2329,73 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
+@media only screen and (min-width: 375px) {
+
+  header .navbar .container img {
+    width: 90px;
+  }
+
+  header .navbar .container .navbar-brand h2 {
+    margin-right: 30px;
+    font-size: 9px;
+  }
+
+  .carousel-caption {
+    transform: translateY(-80%);
+  }
+
+  .request-form .col-md-4 .btn {
+    margin: 30px 90px 0 0;
+  }
+
+  .services .section-heading h2 {
+    font-size: 35px;
+  }
+
+  .services .section-heading span {
+    font-size: 15px;
+  }
+
+  .services .down-content h4 {
+    font-size: 20px;
+  }
+
+  .services .down-content p {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .services .down-content a.filled-button {
+    margin: auto auto auto 80px;
+  }
+
+  .team .section-header h2 {
+    font-size: 40px;
+  }
+
+  .team .section-header p {
+    font-size: 16px;
+  }
+
+  .testimonials .section-heading h2 {
+    font-size: 35px;
+  }
+
+  .testimonials .testimonial-item .inner-content h4,
+  .testimonials .testimonial-item .inner-content span {
+    font-size: 18px;
+  }
+
+  .testimonials .testimonial-item .inner-content p {
+    font-size: 16px;
+  }
+
+  footer .footer-item h4 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 /*@media only screen and (min-width: 321px) {
 
   header .navbar .container img {
