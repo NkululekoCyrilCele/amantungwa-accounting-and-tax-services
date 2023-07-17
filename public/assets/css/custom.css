@@ -2587,6 +2587,118 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
+@media only screen and (min-width: 540px) {
+
+  header .navbar .container img {
+    width: 110px;
+  }
+
+  header .navbar .container .navbar-brand h2 {
+    font-size: 14px;
+  }
+
+  .carousel-inner .carousel-item {
+    height: 100%;
+  }
+
+  .carousel-caption {
+    transform: translateY(-100%);
+  }
+
+  .carousel-caption h5 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .carousel-caption p {
+    font-size: 18px;
+  }
+
+  .request-form .col-md-8 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+
+  .request-form .col-md-8 h4 {
+    font-size: 25px;
+  }
+
+  .request-form .col-md-8 span {
+    font-size: 16px;
+  }
+
+  .request-form .col-md-4 .btn {
+    margin: 50px 155px 0 0;
+  }
+
+  .more-info .right-content h2 {
+    font-size: 35px;
+  }
+
+  .more-info .right-content p {
+    font-size: 18px;
+    margin-top: -10px;
+  }
+
+  a.btn {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  a.filled-button {
+    font-size: 16px;
+    font-size: 600;
+  }
+
+  .services .section-heading h2 {
+    font-size: 45px;
+  }
+
+  .services .section-heading span {
+    font-size: 16px;
+  }
+
+  .services .service-item {
+    margin-bottom: 30px;
+  }
+
+  .services .down-content h4 {
+    font-size: 30px;
+  }
+
+  .services .down-content p {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+
+  .services .down-content a.filled-button {
+    margin: auto auto auto 150px;
+  }
+
+  .team .section-header h2 {
+    font-size: 40px;
+  }
+
+  .team .section-header p {
+    font-size: 18px;
+  }
+
+  .testimonials .section-heading h2 {
+    font-size: 40px;
+  }
+
+  .testimonials .testimonial-item .inner-content h4,
+  .testimonials .testimonial-item .inner-content span {
+    font-size: 18px;
+  }
+
+  .testimonials .testimonial-item .inner-content p {
+    font-size: 14px;
+  }
+}
+
 /*@media only screen and (min-width: 321px) {
 
   header .navbar .container img {
