@@ -1789,7 +1789,7 @@ footer .contact-form button.filled-button:hover {
 
 /* Responsive Design */
 
-@media only screen and (min-width: 280px) and (max-width: 319px) {
+@media only screen and (min-width: 280px) {
 
   header .navbar .container img {
     width: 60px;
@@ -2904,7 +2904,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 711px) {
-
   header .navbar .container img {
     width: 110px;
     margin-left: -25px;
@@ -2916,7 +2915,9 @@ footer .contact-form button.filled-button:hover {
   }
 
   .sub-header {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .sub-header .right-icons {
@@ -2927,12 +2928,123 @@ footer .contact-form button.filled-button:hover {
     text-align: center;
   }
 
-  .services .down-content {
-    margin: auto -10px auto -10px;
+  .carousel-caption {
+    transform: translateY(-100%);
+  }
+
+  .carousel-caption h5 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .carousel-caption p {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: calc(50% - 16px);
+    width: 42px;
+    height: 42px;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .request-form {
+    border-radius: 0;
+    padding: 20px;
+    margin: auto;
+    height: auto;
+  }
+
+  .request-form .col-md-8 {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .request-form .col-md-4 .btn {
+    margin: 30px auto 0;
+  }
+
+  .more-info .right-content span {
+    font-size: 18px;
+  }
+
+  .more-info .right-content h2 {
+    font-size: 40px;
+  }
+
+  .more-info .right-content p {
+    font-size: 18px;
+  }
+
+  a.btn {
+    font-size: 14px;
+  }
+
+  a.filled-button {
+    font-size: 14px;
+  }
+
+  .services .section-heading h2 {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+
+  .services .section-heading span {
+    font-size: 16px;
+  }
+
+  .services .service-item {
+    margin-bottom: 30px;
+  }
+
+  .services .down-content h4 {
+    font-size: 30px;
+  }
+
+  .services .down-content p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .services .down-content a.filled-button {
+    margin: auto auto auto 150px;
+  }
+
+  .team .section-header h2 {
+    font-size: 40px;
+  }
+
+  .team .section-header p {
+    font-size: 18px;
+  }
+
+  .testimonials .section-heading h2 {
+    font-size: 40px;
+    margin-top: -80px;
+  }
+
+  .testimonials .testimonial-item .inner-content h4,
+  .testimonials .testimonial-item .inner-content span {
+    font-size: 14px;
+  }
+
+  .testimonials .testimonial-item .inner-content p {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  footer .footer-item h4 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
-@media only screen and (min-width: 712px) and (max-width:993px) {
+@media only screen and (min-width: 712px) {
 
   header .navbar .container img {
     width: 120px;
@@ -2945,23 +3057,50 @@ footer .contact-form button.filled-button:hover {
     font-size: 16px;
   }
 
+  .sub-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-header .right-icons {
+    display: none;
+  }
+
+  .sub-header .left-info {
+    text-align: center;
+  }
+
+  .d-block {
+    top: 10%;
+    border-radius: 0;
+    height: 900px;
+    width: auto;
+  }
+
+  .carousel-inner .carousel-item {
+    height: 900px;
+  }
+
   .carousel-caption {
-    transform: translateY(-50%);
+    transform: translateY(-30%);
   }
 
   .carousel-caption h5 {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 500;
+    margin-bottom: 30px;
   }
 
   .carousel-caption p {
-    font-size: 24px;
+    font-size: 25px;
+    margin-bottom: 30px;
   }
 
   .carousel-control-prev,
   .carousel-control-next {
     top: calc(50% - 16px);
-    width: 42px;
+    width: 62px;
     height: 42px;
     font-size: 24px;
     margin-left: 40px;
@@ -2976,14 +3115,14 @@ footer .contact-form button.filled-button:hover {
   }
 
   .request-form .col-md-8 {
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     margin-top: 10px;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
   }
 
   .request-form .col-md-4 .btn {
-    margin: 30px 170px 0 0;
+    margin: 30px 0 0 0;
   }
 
   .more-info {
@@ -3036,6 +3175,7 @@ footer .contact-form button.filled-button:hover {
 
   .services .section-heading h2 {
     font-size: 65px;
+    margin-top: 50px;
   }
 
   .services .section-heading span {
