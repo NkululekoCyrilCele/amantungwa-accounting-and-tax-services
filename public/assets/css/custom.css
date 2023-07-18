@@ -95,7 +95,7 @@ header {
   height: 50px;
 }
 
-#preloader .jumper>div {
+#preloader .jumper > div {
   background-color: var(--accent);
   width: 50px;
   height: 50px;
@@ -110,12 +110,12 @@ header {
   animation: jumper 1s 0s linear infinite;
 }
 
-#preloader .jumper>div:nth-child(2) {
+#preloader .jumper > div:nth-child(2) {
   -webkit-animation-delay: 0.33333s;
   animation-delay: 0.33333s;
 }
 
-#preloader .jumper>div:nth-child(3) {
+#preloader .jumper > div:nth-child(3) {
   -webkit-animation-delay: 0.66666s;
   animation-delay: 0.66666s;
 }
@@ -264,10 +264,10 @@ header .navbar .container img {
 }
 
 .background-header .navbar-nav .nav-link:hover,
-.background-header .navbar-nav .active>.nav-link,
+.background-header .navbar-nav .active > .nav-link,
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
-.background-header .navbar-nav .show>.nav-link {
+.background-header .navbar-nav .show > .nav-link {
   color: var(--accent) !important;
 }
 
@@ -316,10 +316,10 @@ header .navbar .container img {
 }
 
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .active > .nav-link,
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
-.navbar .navbar-nav .show>.nav-link {
+.navbar .navbar-nav .show > .nav-link {
   color: var(--accent);
   border-bottom: 2px solid var(--accent);
 }
@@ -609,9 +609,88 @@ a.border-button:hover {
 
 /* Services section */
 
-.services {
-  margin-top: 100px;
+.single-services {
+  margin-top: 140px;
+}
+
+#tabs ul {
+  margin: 0;
+  padding: 0;
+}
+
+#tabs ul li {
   margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+  background-color: var(--text);
+}
+
+#tabs ul li:last-child {
+  margin-bottom: 0px;
+}
+
+#tabs ul li a {
+  text-transform: capitalize;
+  width: 100%;
+  padding: 30px 30px;
+  display: inline-block;
+  background-color: var(--text);
+  font-size: 20px;
+  color: var(--text);
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+#tabs ul li a i {
+  float: right;
+  margin-top: 5px;
+}
+
+#tabs ul .ui-tabs-active span {
+  background: #faf5b2;
+  border: #faf5b2;
+  line-height: 90px;
+  border-bottom: none;
+}
+
+#tabs ul .ui-tabs-active a {
+  color: #fff;
+}
+
+#tabs ul .ui-tabs-active span {
+  color: #1e1e1e;
+}
+
+.tabs-content {
+  margin-left: 30px;
+  text-align: left;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.tabs-content img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.tabs-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.tabs-content p {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin-bottom: 0px;
+}
+
+.services {
+  margin-top: 6.25rem;
+  margin-bottom: 0.625rem;
 }
 
 .service-item img {
@@ -951,7 +1030,6 @@ a.border-button:hover {
   text-decoration: underline;
 }
 
-
 .contact-section .btn-primary:hover {
   background-color: var(--primary-button);
 }
@@ -1072,7 +1150,7 @@ a.border-button:hover {
 
 /* Fun Facts */
 
-.fun-facts {
+/* .fun-facts {
   margin-top: 140px;
   background-image: url(../images/fun-facts-bg.jpg);
   background-position: center center;
@@ -1131,6 +1209,133 @@ a.border-button:hover {
   font-weight: 600;
   color: #fff;
   letter-spacing: 0.5px;
+} */
+
+/* Call Back Style */
+
+.callback-services {
+  border-top: 1px solid #eee;
+  padding-top: 140px;
+}
+
+.contact-us {
+  background-color: #f7f7f7;
+  padding: 140px 0px;
+}
+
+.contact-us .contact-form {
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+.callback-form {
+  margin-top: 140px;
+}
+
+.callback-form .contact-form {
+  background-color: #a4c639;
+  padding: 60px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.callback-form .contact-form input {
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  padding: 0px 15px;
+  color: #6a6a6a;
+  font-size: 13px;
+  text-transform: none;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 35px;
+}
+
+.callback-form .contact-form input:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.callback-form .contact-form textarea {
+  border-radius: 20px;
+  height: 120px;
+  max-height: 200px;
+  min-height: 120px;
+  display: inline-block;
+  padding: 15px;
+  color: #6a6a6a;
+  font-size: 13px;
+  text-transform: none;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 35px;
+}
+
+.callback-form .contact-form textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.callback-form .contact-form ::-webkit-input-placeholder {
+  /* Edge */
+  color: #aaa;
+}
+
+.callback-form .contact-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #aaa;
+}
+
+.callback-form .contact-form ::placeholder {
+  color: #aaa;
+}
+
+.callback-form .contact-form button.border-button {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 28px;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.3s;
+  outline: none;
+  box-shadow: none;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.callback-form .contact-form button.border-button:hover {
+  background-color: #fff;
+  color: #a4c639;
+}
+
+.contact-us .contact-form button.filled-button {
+  background-color: #a4c639;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.3s;
+  outline: none;
+  box-shadow: none;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.contact-us .contact-form button.filled-button:hover {
+  background-color: #fff;
+  color: #a4c639;
 }
 
 /* Partners Style */
@@ -1385,6 +1590,44 @@ footer .contact-form button.filled-button:hover {
   display: block;
 }
 
+/* team */
+
+.team {
+  background-color: #f7f7f7;
+  margin-top: 140px;
+  margin-bottom: -140px;
+  padding: 120px 0px;
+}
+
+.team-item img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.team .down-content {
+  background-color: var(--secondary-button);
+  padding: 30px;
+}
+
+.team .down-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  margin-bottom: 10px;
+}
+
+.team .down-content span {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.team .down-content p {
+  margin-bottom: 20px;
+}
+
 /* Single Service */
 
 .single-services {
@@ -1469,7 +1712,6 @@ footer .contact-form button.filled-button:hover {
 /* Responsive Design */
 
 @media only screen and (min-width: 280px) {
-
   header .navbar .container img {
     width: 60px;
     height: auto;
@@ -1737,7 +1979,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 281px) and (max-width: 352px) {
-
   header .navbar .container img {
     width: 80px;
   }
@@ -1790,7 +2031,6 @@ footer .contact-form button.filled-button:hover {
 
   .services .down-content p {
     font-size: 16px;
-    ;
   }
 
   .services .down-content a.filled-button {
@@ -1841,7 +2081,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 353px) and (max-width: 359px) {
-
   header .navbar .container img {
     width: 80px;
   }
@@ -1949,7 +2188,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 374px) {
-
   header .navbar .container img {
     width: 80px;
   }
@@ -2039,7 +2277,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 410px) {
-
   header .navbar .container img {
     width: 90px;
   }
@@ -2116,7 +2353,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 411px) and (max-width: 479px) {
-
   header .navbar .container img {
     width: 100px;
   }
@@ -2219,7 +2455,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 539px) {
-
   header .navbar .container img {
     width: 100px;
     margin-left: 20px;
@@ -2330,7 +2565,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 540px) and (max-width: 599px) {
-
   header .navbar .container img {
     width: 110px;
   }
@@ -2452,7 +2686,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 639px) {
-
   header .navbar .container img {
     width: 120px;
     margin-left: 5px;
@@ -2590,7 +2823,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 711px) {
-
   header .navbar .container img {
     width: 110px;
     margin-left: -25px;
@@ -2732,7 +2964,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 712px) {
-
   header .navbar .container img {
     width: 120px;
     height: auto;
@@ -2968,8 +3199,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 768px) {
-
-
   html {
     overflow-y: auto;
   }
@@ -3281,7 +3510,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 923px) {
-
   .sub-header {
     display: flex;
     flex-direction: column;
@@ -3574,7 +3802,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 992px) {
-
   .sub-header {
     display: flex;
     flex-direction: column;
@@ -3996,7 +4223,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 1024px) {
-
   .carousel-inner .carousel-item {
     height: 700px;
     margin-bottom: 10px;
