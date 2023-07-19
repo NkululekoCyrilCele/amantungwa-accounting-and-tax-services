@@ -2904,6 +2904,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 711px) {
+
   header .navbar .container img {
     width: 110px;
     margin-left: -25px;
@@ -3280,17 +3281,15 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 923) {
 
-  body,
+
   html {
     overflow-y: auto;
   }
 
-  header .navbar .container img {
-    width: 140px;
-    height: auto;
-    margin-left: 0;
+  body {
+    overflow-y: hidden;
   }
 
   .sub-header {
@@ -3300,6 +3299,12 @@ footer .contact-form button.filled-button:hover {
 
   .sub-header .right-icons {
     display: block;
+  }
+
+  header .navbar .container img {
+    width: 140px;
+    height: auto;
+    margin-left: 0;
   }
 
   header .navbar .container .navbar-brand h2 {
@@ -3377,42 +3382,46 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info .more-info-content {
-    margin-right: -55px;
+    margin-right: -20px;
+    margin-left: 5px;
   }
 
   .more-info .left-image {
     text-align: left;
-    margin-left: 50px;
-    margin-top: 45px;
-    width: 100%;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 600px;
+    height: auto;
   }
 
   .more-info .right-content {
-    text-align: left;
+    text-align: justify;
   }
 
   .more-info .right-content span {
-    font-size: 18px;
-    margin-left: 30px;
+    font-size: 25px;
+    margin-left: -285px;
+    margin-top: 550px;
+    text-align: center;
   }
 
   .more-info .right-content h2 {
-    font-size: 25px;
-    text-align: left;
-    margin-left: 30px;
-    margin-right: -20px;
+    font-size: 45px;
+    text-align: center;
+    margin-left: -320px;
+    margin-right: -50px;
   }
 
   .more-info .right-content p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 25px;
     margin-top: -10px;
-    margin-left: 30px;
-    margin-right: -50px;
+    margin-left: -320px;
+    margin-right: -30px;
   }
 
   .more-info .right-content a.filled-button {
-    margin-left: 30px;
+    margin-left: -105px;
   }
 
   a.btn {
@@ -3430,12 +3439,12 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 45px;
+    font-size: 55px;
   }
 
   .services .section-heading span {
-    font-size: 20px;
-    margin: 15px 30px -50px 30px;
+    font-size: 22px;
+    margin: 15px 80px -50px 80px;
     text-align: center;
   }
 
@@ -3519,11 +3528,11 @@ footer .contact-form button.filled-button:hover {
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .testimonials .testimonial-item .inner-content p {
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 8px;
   }
 
@@ -3581,6 +3590,7 @@ footer .contact-form button.filled-button:hover {
 
   .sub-footer {
     margin-top: -100px;
+    margin-bottom: -1px;
   }
 }
 

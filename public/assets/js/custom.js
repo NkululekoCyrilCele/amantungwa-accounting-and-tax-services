@@ -1,14 +1,10 @@
 jQuery( document ).ready(function( $ ) {
 
-
 	"use strict";
 
-
-    
         $(function() {
             $( "#tabs" ).tabs();
         });
-
 
         // Page loading animation
 
