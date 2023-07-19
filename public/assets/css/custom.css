@@ -1853,7 +1853,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .request-form .col-md-8 {
-    text-align: center;
+    text-align: left;
     justify-content: center;
     margin-top: 10px;
     margin-bottom: -10px;
@@ -1883,15 +1883,22 @@ footer .contact-form button.filled-button:hover {
     text-align: center;
   }
 
-  .more-info .right-content h2 {
+  .more-info .right-content span {
     font-size: 12px;
-    text-align: center;
+    margin: -30px 0 5px -40px;
+    text-align: left;
+  }
+
+  .more-info .right-content h2 {
+    font-size: 28px;
+    text-align: left;
+    margin: 0 -50px 15px -40px;
   }
 
   .more-info .right-content p {
-    text-align: center;
+    text-align: left;
     font-size: small;
-    margin-top: -10px;
+    margin: -10px -50px 10px -40px;
   }
 
   a.btn {
@@ -1912,7 +1919,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading span {
-    font-size: 10px;
+    font-size: 12px;
     margin: 15px 30px -50px 30px;
     text-align: center;
   }
@@ -1934,7 +1941,7 @@ footer .contact-form button.filled-button:hover {
   .services .down-content p {
     font-size: 14px;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
   }
 
   .services .down-content a.filled-button {
@@ -1952,7 +1959,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header p {
-    text-align: center;
+    text-align: left;
     font-size: 12px;
     line-height: 1.9;
     margin: auto 6px auto 6px;
@@ -2078,7 +2085,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info .right-content h2 {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   a.filled-button {
@@ -2198,7 +2205,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info .right-content h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .more-info .right-content p {
@@ -2301,7 +2308,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info .right-content h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .more-info .right-content p {
@@ -2472,7 +2479,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info .right-content h2 {
-    font-size: 25px;
+    font-size: 36px;
   }
 
   .more-info .right-content p {
@@ -2585,7 +2592,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info .right-content h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .more-info .right-content p {
@@ -2700,7 +2707,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info .right-content h2 {
-    font-size: 35px;
+    font-size: 45px;
   }
 
   .more-info .right-content p {
@@ -3775,6 +3782,335 @@ footer .contact-form button.filled-button:hover {
   .services .down-content a.filled-button {
     margin: 10px auto -10px 30px;
     font-size: 16px;
+  }
+
+  #team {
+    margin: auto;
+  }
+
+  .team .section-header h2 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .team .section-header p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.9;
+    margin: auto 6px auto 6px;
+  }
+
+  #team .card {
+    margin: -50px 90px 60px 90px;
+  }
+
+  .testimonials {
+    margin-top: -120px;
+  }
+
+  .testimonials .section-heading h2 {
+    font-size: 45px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .testimonials .section-heading span {
+    text-align: center;
+    margin-bottom: -50px;
+    font-size: 20px;
+  }
+
+  .testimonials .testimonial-item {
+    margin: 10px auto auto auto;
+    padding: 0;
+  }
+
+  .testimonials .testimonial-item .inner-content h4,
+  .testimonials .testimonial-item .inner-content span {
+    font-size: 18px;
+  }
+
+  .testimonials .testimonial-item .inner-content p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .testimonials .testimonial-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  footer {
+    margin-top: -110px;
+    margin-left: -40px;
+  }
+
+  footer .container {
+    text-align: center;
+  }
+
+  footer .row {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  footer .footer-item {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  footer .footer-item h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer .float {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  footer ul.menu-list.float {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  footer p {
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+
+  footer .contact-info ul {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .sub-footer {
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .sub-header {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+  }
+
+  .sub-header .left-info {
+    margin-left: -250px;
+  }
+
+  .sub-header .right-icons {
+    display: block;
+    margin-right: 10px;
+  }
+
+  header .navbar .container img {
+    width: 80px;
+    height: auto;
+    margin-left: 5px;
+  }
+
+  header .navbar {
+    height: 80px;
+  }
+
+  header .navbar .container .navbar-brand h2 {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .carousel-inner .carousel-item {
+    height: 700px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .d-block {
+    top: 10%;
+    border-radius: 0;
+    height: 700px;
+    width: max-content;
+  }
+
+  .carousel-caption {
+    text-align: center;
+    top: 50%;
+    transform: translateY(-20%);
+    width: 100%;
+    left: 0;
+  }
+
+  .carousel-caption h5 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: -60px;
+  }
+
+  .carousel-caption p {
+    font-size: 18px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: calc(50% - 16px);
+    width: 92px;
+    height: 92px;
+    font-size: 94px;
+    margin-left: 65px;
+    margin-right: 65px;
+  }
+
+  .request-form {
+    border-radius: 0;
+    padding: 20px;
+    margin: auto;
+    height: 150px;
+  }
+
+  .request-form .col-md-8 {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+    width: 600px;
+  }
+
+  .request-form .col-md-4 .btn {
+    margin: 30px 10px 0 0;
+  }
+
+  .more-info {
+    margin-top: 100px;
+    padding: 0;
+    width: 100%;
+  }
+
+  .more-info .container .row .col-md-12 {
+    margin: auto;
+    padding: 0;
+  }
+
+  .more-info .row {
+    flex-direction: row;
+  }
+
+  .more-info .left-image {
+    text-align: left;
+    margin-bottom: 10px;
+    height: auto;
+    width: 500px;
+  }
+
+  .more-info .left-image img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .more-info .more-info-content {
+    padding: 0;
+  }
+
+  .more-info .right-content {
+    text-align: justify;
+  }
+
+  .more-info .right-content span {
+    font-size: 16px;
+    margin: -30px 0 0 30px;
+    text-align: left;
+  }
+
+  .more-info .right-content h2 {
+    font-size: 34px;
+    text-align: left;
+    margin: 10px -70px 0 30px;
+  }
+
+  .more-info .right-content p {
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .more-info .right-content a.filled-button {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  a.btn {
+    font-size: 13px;
+    width: 160px;
+  }
+
+  a.filled-button {
+    font-size: 13px;
+    margin: auto -40px -50px -30px;
+  }
+
+  .services {
+    margin-top: 50px;
+  }
+
+  .services .section-heading h2 {
+    font-size: 44px;
+    text-align: center;
+    margin: 50px auto auto -170px;
+  }
+
+  .services .section-heading span {
+    font-size: 13px;
+    margin: 15px 30px -50px -135px;
+    text-align: center;
+  }
+
+  .services .container {
+    margin: auto auto auto 110px;
+  }
+
+  .services .container .row .col-md-4 {
+    margin: auto 0 auto -70px;
+  }
+
+  .services .container .row .col-md-4 .down-content {
+    margin: auto -75px auto 65px;
+  }
+
+  .services .service-item {
+    margin: auto 50px auto 0;
+  }
+
+  .services .service-item img {
+    margin: auto auto auto 70px;
+  }
+
+  .services .down-content {
+    margin: auto -4px auto -5px;
+  }
+
+  .services .down-content h4 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .services .down-content p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .services .down-content a.filled-button {
+    margin: 10px auto -10px 50px;
+    font-size: 13px;
   }
 
   #team {
