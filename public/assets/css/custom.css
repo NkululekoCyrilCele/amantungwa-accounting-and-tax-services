@@ -863,9 +863,7 @@ a.border-button:hover {
 
 .contact-section .form-control:focus {
   outline: none;
-  /* Remove focus outline */
   box-shadow: 0 0 0 2px #425b8d;
-  /* Add a custom focus style */
 }
 
 .contact-section .btn-primary {
@@ -881,7 +879,6 @@ a.border-button:hover {
   transition: background-color 0.3s ease;
 }
 
-/* Add styling for contact information */
 .contact-information {
   margin-top: 40px;
 }
@@ -920,7 +917,6 @@ a.border-button:hover {
 
 .contact-section .btn-primary:hover {
   background-color: var(--primary-button);
-  /* Change the color on hover */
 }
 
 /* vision mission section */
@@ -1099,133 +1095,6 @@ a.border-button:hover {
   color: #fff;
   letter-spacing: 0.5px;
 }
-
-/* Call Back Style */
-
-/*.callback-services {
-  border-top: 1px solid #eee;
-  padding-top: 140px;
-}
-
-.contact-us {
-  background-color: #f7f7f7;
-  padding: 140px 0;
-}
-
-.contact-us .contact-form {
-  background-color: transparent !important;
-  padding: 0 !important;
-}
-
-.callback-form {
-  margin-top: 140px;
-}
-
-.callback-form .contact-form {
-  background-color: #a4c639;
-  padding: 60px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.callback-form .contact-form input {
-  border-radius: 20px;
-  height: 40px;
-  line-height: 40px;
-  display: inline-block;
-  padding: 0 15px;
-  color: #6a6a6a;
-  font-size: 13px;
-  text-transform: none;
-  box-shadow: none;
-  border: none;
-  margin-bottom: 35px;
-}
-
-.callback-form .contact-form input:focus {
-  outline: none;
-  box-shadow: none;
-  border: none;
-}
-
-.callback-form .contact-form textarea {
-  border-radius: 20px;
-  height: 120px;
-  max-height: 200px;
-  min-height: 120px;
-  display: inline-block;
-  padding: 15px;
-  color: #6a6a6a;
-  font-size: 13px;
-  text-transform: none;
-  box-shadow: none;
-  border: none;
-  margin-bottom: 35px;
-}
-
-.callback-form .contact-form textarea:focus {
-  outline: none;
-  box-shadow: none;
-  border: none;
-}
-
-.callback-form .contact-form ::-webkit-input-placeholder {
-  /* Edge */
-/*color: #aaa;
-}
-
-.callback-form .contact-form :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-/*color: #aaa;
-}
-
-.callback-form .contact-form ::placeholder {
-  color: #aaa;
-}
-
-.callback-form .contact-form button.border-button {
-  background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 10px 28px;
-  border-radius: 30px;
-  display: inline-block;
-  transition: all 0.3s;
-  outline: none;
-  box-shadow: none;
-  text-shadow: none;
-  cursor: pointer;
-}
-
-.callback-form .contact-form button.border-button:hover {
-  background-color: #fff;
-  color: #a4c639;
-}
-
-.contact-us .contact-form button.filled-button {
-  background-color: #a4c639;
-  color: #fff;
-  border: none;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 12px 30px;
-  border-radius: 30px;
-  display: inline-block;
-  transition: all 0.3s;
-  outline: none;
-  box-shadow: none;
-  text-shadow: none;
-  cursor: pointer;
-}
-
-.contact-us .contact-form button.filled-button:hover {
-  background-color: #fff;
-  color: #a4c639;
-}*/
 
 /* Partners Style */
 
@@ -1597,41 +1466,6 @@ footer .contact-form button.filled-button:hover {
   color: #7a7a7a;
   margin-bottom: 0;
 }
-
-/* Contact Information */
-
-/*.contact-information {
-  margin-top: 140px;
-}
-
-.contact-information .contact-item {
-  padding: 60px 30px;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.contact-information .contact-item i {
-  color: #a4c639;
-  font-size: 48px;
-  margin-bottom: 40px;
-}
-
-.contact-information .contact-item h4 {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 15px;
-}
-
-.contact-information .contact-item p {
-  margin-bottom: 20px;
-}
-
-.contact-information .contact-item a {
-  font-weight: 600;
-  color: #a4c639;
-  font-size: 15px;
-}*/
 
 /* Responsive Design */
 
