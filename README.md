@@ -4,7 +4,7 @@ This website provides comprehensive accounting services, including bookkeeping, 
 
 ## Description
 
-The website was created using HTML, CSS, and jQuery. It showcases the range of accounting services we offer and provides information about our expertise in various areas of financial management, consulting, and taxation.
+The website was created using HTML, CSS, Bootstrap, and jQuery. It showcases the range of accounting services we offer and provides information about our expertise in various areas of financial management, consulting, and taxation.
 
 ## Features
 
