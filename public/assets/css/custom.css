@@ -1605,11 +1605,15 @@ footer .contact-form button.filled-button:hover {
 .team-item img {
   width: 100%;
   overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .team .down-content {
   background-color: var(--secondary-button);
   padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .team .down-content h4 {
