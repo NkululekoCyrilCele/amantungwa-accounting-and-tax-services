@@ -875,7 +875,6 @@ a.border-button:hover {
 }
 
 .testimonials {
-  margin-top: 80px;
   background-color: #fff;
   padding: 140px 0;
 }
@@ -1055,7 +1054,7 @@ a.border-button:hover {
 
 .vision-mission .col-md-3 {
   text-align: center;
-  padding: 25px;
+  padding: 1em;
   background-image: url(../images/bg.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -1590,7 +1589,7 @@ footer .contact-form button.filled-button:hover {
   display: block;
 }
 
-/* team */
+/* About us team section */
 
 .team {
   background-color: #f7f7f7;
@@ -1598,6 +1597,10 @@ footer .contact-form button.filled-button:hover {
   margin-bottom: -140px;
   padding: 120px 0px;
 }
+
+/* .col-md-6.team-item {
+  padding: 0;
+} */
 
 .team-item img {
   width: 100%;
@@ -1624,8 +1627,16 @@ footer .contact-form button.filled-button:hover {
   margin-bottom: 15px;
 }
 
-.team .down-content p {
-  margin-bottom: 20px;
+.team .down-content ul {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+  list-style: inside;
+}
+
+.team .down-content .socials {
+  margin-top: 0;
 }
 
 /* Single Service */
