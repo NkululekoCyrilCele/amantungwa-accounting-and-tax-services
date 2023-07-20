@@ -684,24 +684,17 @@ a.border-button:hover {
   padding: 10px 0;
 }
 
-.team {
-  background-color: #f9f9f9;
-  padding: 60px 0;
-  overflow: hidden;
-}
-
 #team .card {
   display: inline-block;
   border: none;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1),
-    0 0 20px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.5s ease-in-out;
-  margin-left: 150px;
-  margin-right: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 #team .card:hover {
-  transform: translateY(-60px);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 #team .card-title {
@@ -737,12 +730,63 @@ a.border-button:hover {
 }
 
 #team .img-fluid {
-  width: 120px;
-  height: 120px;
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
   object-fit: cover;
-  border-radius: 50%;
   margin: 0 auto;
   display: block;
+}
+
+.team {
+  background-color: #f7f7f7;
+  padding: 120px 0;
+}
+
+.team-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.team-item img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-item .down-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.team-item .down-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+.team-item .down-content span {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.team-item .down-content p {
+  margin-bottom: 20px;
+  color: #666;
 }
 
 /* Testimonials section */
@@ -794,13 +838,6 @@ a.border-button:hover {
   font-weight: 600;
   font-size: 14px;
   color: var(--text);
-}
-
-.testimonial-item img {
-  max-width: 80px;
-  border-radius: 50%;
-  margin: 25px auto 0 auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .section-heading {
@@ -953,12 +990,12 @@ a.border-button:hover {
   height: 128px;
 }
 
-@media (max-width: 720px) {
+/*@media (max-width: 720px) {
   .vision-mission img {
     width: 73px;
     height: 73px;
   }
-}
+}*/
 
 /* @keyframes slideInRight {
   0% {
@@ -1346,44 +1383,6 @@ footer .contact-form button.filled-button:hover {
   letter-spacing: 1px;
   color: #fff;
   display: block;
-}
-
-/* team */
-
-.team {
-  background-color: #f7f7f7;
-  margin-top: 140px;
-  margin-bottom: -140px;
-  padding: 120px 0;
-}
-
-.team-item img {
-  width: 100%;
-  overflow: hidden;
-}
-
-.team-item .down-content {
-  background-color: #fff;
-  padding: 30px;
-}
-
-.team-item .down-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 10px;
-}
-
-.team-item .down-content span {
-  color: #a4c639;
-  font-weight: 600;
-  font-size: 14px;
-  display: block;
-  margin-bottom: 15px;
-}
-
-.team-item .down-content p {
-  margin-bottom: 20px;
 }
 
 /* Single Service */
@@ -3814,6 +3813,16 @@ footer .contact-form button.filled-button:hover {
     margin: -50px 90px 60px 90px;
   }
 
+  #team .card-body img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 4px 4px rgba(46, 6, 6, 0.1);
+  }
+
+  #team .card-body img:hover {
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
+  }
+
   .testimonials {
     margin-top: -120px;
   }
@@ -3853,53 +3862,136 @@ footer .contact-form button.filled-button:hover {
   }
 
   footer {
-    margin-top: -110px;
-    margin-left: -40px;
-  }
-
-  footer .container {
-    text-align: center;
-  }
-
-  footer .row {
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 30px;
-  }
-
-  footer .footer-item {
-    width: 100%;
-    margin-bottom: 40px;
+    background-color: #232323;
+    padding: 60px 70px 100px 40px;
+    color: #fff;
   }
 
   footer .footer-item h4 {
-    padding-left: 10px;
-    padding-right: 10px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    margin-bottom: 25px;
+  }
+
+  footer .footer-item p {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  footer .footer-item ul.menu-list li a {
+    font-size: 18px;
+  }
+
+  footer .footer-item ul.list-unstyled li {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 1px;
+  }
+
+  footer ul.social-icons {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+  }
+
+  footer ul.social-icons li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  footer ul.social-icons li:last-child {
+    margin-right: 0;
+  }
+
+  footer ul.social-icons li a {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+    background-color: #fff;
+    color: #232323;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+
+  footer ul.social-icons li a:hover {
+    background-color: var(--text);
+    opacity: 0.1;
+  }
+
+  footer ul.menu-list li {
+    margin-bottom: 10px;
+  }
+
+  footer ul.menu-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  footer ul.menu-list li a {
+    font-size: 10px;
+    color: #fff;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+
+  footer ul.menu-list li a:hover {
+    color: var(--text);
+  }
+
+  footer .footer-item {
+    width: 25%;
+    padding: 0;
   }
 
   footer .float {
-    margin-left: 0;
-    text-align: center;
-  }
-
-  footer ul.menu-list.float {
-    margin-left: 0;
-    text-align: center;
-  }
-
-  footer p {
-    padding-left: 60px;
-    padding-right: 60px;
-    box-sizing: border-box;
+    margin-left: 70px;
   }
 
   footer .contact-info ul {
-    padding-left: 10px;
-    padding-right: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
+  footer .contact-info li {
+    margin-bottom: 10px;
+  }
+
+  footer .contact-info i {
+    margin-right: 3px;
+  }
+
+  footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  footer .contact-info a:hover {
+    color: var(--text);
+  }
+
+  /* Sub-footer Style */
+
   .sub-footer {
-    margin-top: -100px;
+    background-color: #343434;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: -15px;
+  }
+
+  .sub-footer p {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+
+  .sub-footer a {
+    color: #fff;
   }
 }
 
