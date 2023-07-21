@@ -1091,6 +1091,7 @@ a.border-button:hover {
 
 .faqs {
   margin-top: 140px;
+  margin-bottom: 120px;
   padding: 120px 0;
   background-color: var(--background);
 }
@@ -1589,7 +1590,7 @@ footer .contact-form button.filled-button:hover {
   display: block;
 }
 
-/* About us team section */
+/* about us team section*/
 
 .team {
   background-color: #f7f7f7;
@@ -1598,49 +1599,47 @@ footer .contact-form button.filled-button:hover {
   padding: 120px 0px;
 }
 
-/* .col-md-6.team-item {
-  padding: 0;
-} */
-
-.team-item img {
+.team img {
   width: 100%;
+  border-radius: 10px;
   overflow: hidden;
-  border-radius: 5px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.team .down-content {
-  background-color: var(--secondary-button);
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.team .down-content h4 {
-  font-size: 20px;
+.team .right-content h4 {
+  font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.25px;
-  margin-bottom: 10px;
 }
 
-.team .down-content span {
-  color: var(--accent);
+.team .right-content span {
+  color: var(--text);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.95rem;
   display: block;
-  margin-bottom: 15px;
 }
 
-.team .down-content ul {
+.team .col-md-6.right-content p:first-of-type {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #666;
-  line-height: 30px;
-  list-style: inside;
 }
 
-.team .down-content .socials {
-  margin-top: 0;
+.team .right-content li {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.team .right-content .socials {
+  font-size: 1.25rem;
+}
+
+.team .right-content .socials i.bi {
+  transition: font-size 0.3s;
+}
+
+.team .right-content .socials i.bi:hover {
+  font-size: 1.75rem;
 }
 
 /* Single Service */
