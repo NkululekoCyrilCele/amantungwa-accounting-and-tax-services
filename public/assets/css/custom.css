@@ -4746,3 +4746,31 @@ footer .contact-form button.filled-button:hover {
     height: 110px;
   }
 }
+
+@media only screen and (min-width: 1920px) {
+
+  .services {
+    margin-left: 290px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+
+  .services {
+    margin-left: 610px;
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+
+  .services {
+    margin-left: 1250px;
+  }
+}
+
+@media only screen and (min-width: 7680px) {
+
+  .services {
+    margin-left: 3160px;
+  }
+}
