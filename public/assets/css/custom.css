@@ -4295,7 +4295,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .sub-header .left-info {
-    margin-left: -50px;
+    margin-left: -45px;
     display: flex;
   }
 
@@ -4313,7 +4313,7 @@ footer .contact-form button.filled-button:hover {
 
   .sub-header .right-icons {
     display: flex;
-    gap: 16px;
+    gap: 10px;
     margin-right: -30px;
   }
 
@@ -4322,7 +4322,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   header .navbar {
-    height: 100px;
+    height: 90px;
   }
 
   header .navbar .container img {
@@ -4415,7 +4415,7 @@ footer .contact-form button.filled-button:hover {
 
   a.btn {
     font-size: 13px;
-    width: 210px;
+    width: 170px;
   }
 
   a.filled-button {
@@ -4511,117 +4511,20 @@ footer .contact-form button.filled-button:hover {
 
   footer {
     background-color: #232323;
-    padding: 50px 10px 90px 10px;
-    margin: -50px 0 0 0;
+    padding: 50px 0 90px 0;
+    margin: -50px 0 0 -100px;
     color: #fff;
   }
 
-  footer .footer-item h4 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 0.25px;
-    margin-bottom: 25px;
-  }
-
-  footer .footer-item p {
-    color: #fff;
-    font-size: 18px;
-  }
-
-  footer .footer-item ul.menu-list li a {
-    font-size: 18px;
+  footer .footer-item h4.text-white {
+    margin-left: 30px;
   }
 
   footer .footer-item ul.list-unstyled li {
     font-size: 18px;
     text-align: center;
     margin-left: 10px;
-    margin-right: 1px;
-  }
-
-  footer ul.social-icons {
-    margin-top: 30px;
-    list-style: none;
-    padding: 0;
-  }
-
-  footer ul.social-icons li {
-    display: inline-block;
-    margin-right: 5px;
-  }
-
-  footer ul.social-icons li:last-child {
-    margin-right: 0;
-  }
-
-  footer ul.social-icons li a {
-    width: 34px;
-    height: 34px;
-    display: inline-block;
-    line-height: 34px;
-    text-align: center;
-    background-color: #fff;
-    color: #232323;
-    border-radius: 50%;
-    transition: all 0.3s;
-  }
-
-  footer ul.social-icons li a:hover {
-    background-color: var(--text);
-    opacity: 0.1;
-  }
-
-  footer ul.menu-list li {
-    margin-bottom: 10px;
-  }
-
-  footer ul.menu-list li:last-child {
-    margin-bottom: 0;
-  }
-
-  footer ul.menu-list li a {
-    font-size: 10px;
-    color: #fff;
-    transition: all 0.3s;
-    text-decoration: none;
-  }
-
-  footer ul.menu-list li a:hover {
-    color: var(--text);
-  }
-
-  footer .footer-item {
-    width: 25%;
-    padding: 0;
-  }
-
-  footer .float {
-    margin-left: 100px;
-  }
-
-  footer .contact-info ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  footer .contact-info li {
-    margin-bottom: 10px;
-  }
-
-  footer .contact-info i {
-    margin-right: 3px;
-  }
-
-  footer .contact-info a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-
-  footer .contact-info a:hover {
-    color: var(--text);
+    margin-right: -60px;
   }
 
   .sub-footer {
@@ -4629,17 +4532,6 @@ footer .contact-form button.filled-button:hover {
     text-align: center;
     padding: 25px 0;
     margin: -80px 0 0 0;
-    height: 150px;
-  }
-
-  .sub-footer p {
-    color: #fff;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    margin-top: 25px;
-  }
-
-  .sub-footer a {
-    color: #fff;
+    height: 110px;
   }
 }
