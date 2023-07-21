@@ -277,11 +277,6 @@ header .navbar .container img {
   transition: all 0.3s ease 0s;
 }
 
-/*.navbar .navbar-brand h2 em {
-	font-style: normal;
-	font-size: 16px;
-}*/
-
 #navbarSupportedContent {
   z-index: 999;
 }
@@ -313,8 +308,9 @@ header .navbar .container img {
   border-bottom: 2px solid var(--accent);
 }
 
-.navbar .navbar-toggler-icon {
-  background-image: none;
+.navbar .navbar-toggler .bi-list {
+  color: var(--accent);
+  font-size: 18px;
 }
 
 .navbar .navbar-toggler {
@@ -326,14 +322,6 @@ header .navbar .container img {
   position: absolute;
   right: 30px;
   top: 20px;
-}
-
-.navbar .navbar-toggler-icon:after {
-  content: "\f0c9";
-  color: var(--accent);
-  font-size: 18px;
-  line-height: 26px;
-  font-family: inherit;
 }
 
 /* Styling floating arrow */
