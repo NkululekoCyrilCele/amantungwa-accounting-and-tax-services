@@ -4295,7 +4295,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .sub-header .left-info {
-    margin-left: -45px;
+    margin-left: 5px;
     display: flex;
   }
 
@@ -4314,7 +4314,7 @@ footer .contact-form button.filled-button:hover {
   .sub-header .right-icons {
     display: flex;
     gap: 10px;
-    margin-right: -30px;
+    margin-right: 5px;
   }
 
   .sub-header .right-icons li a i.bi {
@@ -4322,22 +4322,22 @@ footer .contact-form button.filled-button:hover {
   }
 
   header .navbar {
-    height: 90px;
+    height: 80px;
   }
 
   header .navbar .container img {
     width: 80px;
     height: auto;
-    margin-left: -45px;
+    margin-left: 0;
   }
 
   header .navbar .container .navbar-brand h2 {
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 16px;
   }
 
   header .navbar .container .navbar-collapse ul.navbar-nav {
-    margin-right: -30px;
+    margin-right: 5px;
   }
 
   header .navbar .container .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
@@ -4345,7 +4345,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .carousel-inner .carousel-item {
-    height: 800px;
+    height: 700px;
     margin-bottom: 20px;
     margin-top: 10px;
   }
@@ -4353,7 +4353,7 @@ footer .contact-form button.filled-button:hover {
   .d-block {
     top: 10%;
     border-radius: 0;
-    height: 800px;
+    height: 100%;
     width: max-content;
   }
 
@@ -4511,17 +4511,33 @@ footer .contact-form button.filled-button:hover {
 
   footer {
     background-color: #232323;
-    padding: 50px 0 90px 0;
+    padding: 50px 0 0 0;
     margin: -50px 0 0 -100px;
     color: #fff;
+  }
+
+  footer .footer-item h4 {
+    font-size: 20px;
+  }
+
+  footer .footer-item p {
+    font-size: 16px;
   }
 
   footer .footer-item h4.text-white {
     margin-left: 30px;
   }
 
+  footer .footer-item ul.menu-list {
+    font-size: 16px;
+  }
+
+  footer .footer-item ul.menu-list li a {
+    font-size: 16px;
+  }
+
   footer .footer-item ul.list-unstyled li {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     margin-left: 10px;
     margin-right: -60px;
@@ -4530,8 +4546,8 @@ footer .contact-form button.filled-button:hover {
   .sub-footer {
     background-color: #343434;
     text-align: center;
-    padding: 25px 0;
-    margin: -80px 0 0 0;
+    padding: 0;
+    margin: auto auto -30px auto;
     height: 110px;
   }
 }
