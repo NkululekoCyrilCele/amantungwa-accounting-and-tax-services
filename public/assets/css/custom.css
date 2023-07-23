@@ -1700,6 +1700,59 @@ footer .contact-form button.filled-button:hover {
   margin-bottom: 0;
 }
 
+/* Terms of Service section */
+
+#terms .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#terms .card {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#terms .card-header {
+  background-color: #f5f5f5;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+#terms .card-body {
+  padding: 15px;
+}
+
+#terms .card-header.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#terms .card-header.active:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#terms .btn-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#terms .btn-link:hover {
+  color: #0056b3;
+}
+
+#terms .btn-link.collapsed::before {
+  content: "+";
+  padding-right: 5px;
+}
+
+#terms .btn-link:not(.collapsed)::before {
+  content: "-";
+  padding-right: 5px;
+}
+
 /* Responsive Design */
 
 @media only screen and (min-width: 280px) {
@@ -2677,6 +2730,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 639px) {
+
   header .navbar .container img {
     width: 120px;
     margin-left: 5px;
@@ -4401,7 +4455,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info .right-content h2 {
-    font-size: 36px;
+    font-size: 32px;
     text-align: left;
     margin: 10px -50px 0 -10px;
   }
@@ -4463,7 +4517,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 45px;
+    font-size: 36px;
     text-align: center;
     margin-bottom: 10px;
   }
@@ -4477,10 +4531,12 @@ footer .contact-form button.filled-button:hover {
 
   #team .card-body h3.card-title {
     font-size: 24px;
+    text-align: left;
   }
 
   #team .card-body p.card-text {
     font-size: 16px;
+    text-align: justify;
   }
 
   #team .card-body p.socials a {
