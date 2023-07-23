@@ -33,7 +33,7 @@ body {
 
 p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #666;
   line-height: 30px;
 }
@@ -1597,6 +1597,10 @@ footer .contact-form button.filled-button:hover {
   margin-top: 140px;
   margin-bottom: -140px;
   padding: 120px 0px;
+}
+
+.team .card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .team img {
