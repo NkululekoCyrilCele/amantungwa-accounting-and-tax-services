@@ -96,7 +96,7 @@ header {
   height: 50px;
 }
 
-#preloader .jumper>div {
+#preloader .jumper > div {
   background-color: var(--accent);
   width: 50px;
   height: 50px;
@@ -111,12 +111,12 @@ header {
   animation: jumper 1s 0s linear infinite;
 }
 
-#preloader .jumper>div:nth-child(2) {
+#preloader .jumper > div:nth-child(2) {
   -webkit-animation-delay: 0.33333s;
   animation-delay: 0.33333s;
 }
 
-#preloader .jumper>div:nth-child(3) {
+#preloader .jumper > div:nth-child(3) {
   -webkit-animation-delay: 0.66666s;
   animation-delay: 0.66666s;
 }
@@ -242,7 +242,8 @@ header .navbar .container img {
   top: 0;
   position: fixed;
   background-color: var(--background) !important;
-  box-shadow: 0 3px 3px var(--text), 0 1px 1px var(--text), 0 0.5px 0.5px var(--text);
+  box-shadow: 0 3px 3px var(--text), 0 1px 1px var(--text),
+    0 0.5px 0.5px var(--text);
 }
 
 .background-header .navbar-brand h2 {
@@ -254,10 +255,10 @@ header .navbar .container img {
 }
 
 .background-header .navbar-nav .nav-link:hover,
-.background-header .navbar-nav .active>.nav-link,
+.background-header .navbar-nav .active > .nav-link,
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
-.background-header .navbar-nav .show>.nav-link {
+.background-header .navbar-nav .show > .nav-link {
   color: var(--accent) !important;
 }
 
@@ -301,10 +302,10 @@ header .navbar .container img {
 }
 
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .active > .nav-link,
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
-.navbar .navbar-nav .show>.nav-link {
+.navbar .navbar-nav .show > .nav-link {
   color: var(--accent);
   border-bottom: 2px solid var(--accent);
 }
@@ -1038,6 +1039,7 @@ a.border-button:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  height: fit-content;
   border-radius: 15px;
 }
 
@@ -1048,19 +1050,65 @@ a.border-button:hover {
 
 /*@media (max-width: 720px) {
   .vision-mission img {
-    width: 73px;
-    height: 73px;
+    width: 80px;
+    height: 80px;
   }
 }*/
 
-/* @keyframes slideInRight {
-  0% {
-    transform: translateX(300px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-} */
+/* More Info section in about us */
+
+.about-more-info {
+  margin-top: 140px;
+}
+
+.about-more-info .left-image img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-more-info .left-image:hover {
+  transform: scale(1.05);
+}
+
+.about-more-info .more-info-content {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-more-info .right-content {
+  padding: 45px 45px 45px 30px;
+}
+
+.about-more-info .right-content span {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #666;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.about-more-info .right-content h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  color: #1e1e1e;
+}
+
+.about-more-info .right-content em {
+  font-style: normal;
+  color: var(--text);
+}
+
+.about-more-info .right-content p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #666;
+}
 
 /* FAQS  */
 .accordion-item {
@@ -1126,69 +1174,6 @@ a.border-button:hover {
 .accordion-button::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fef8e0'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
-
-/* Fun Facts */
-
-/* .fun-facts {
-  margin-top: 140px;
-  background-image: url(../images/fun-facts-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 140px 0;
-  color: #fff;
-}
-
-.fun-facts span {
-  text-transform: uppercase;
-  font-size: 15px;
-  color: #fff;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-  display: block;
-}
-
-.fun-facts h2 {
-  font-size: 36px;
-  font-weight: 600;
-  margin-bottom: 35px;
-}
-
-.fun-facts em {
-  font-style: normal;
-  color: #a4c639;
-}
-
-.fun-facts p {
-  color: #fff;
-  margin-bottom: 40px;
-}
-
-.fun-facts .left-content {
-  margin-right: 45px;
-}
-
-.count-area-content {
-  text-align: center;
-  background-color: rgba(250, 250, 250, 0.1);
-  padding: 25px 30px 35px 30px;
-  margin: 15px 0;
-}
-
-.count-digit {
-  margin: 5px 0;
-  color: #a4c639;
-  font-weight: 700;
-  font-size: 36px;
-}
-
-.count-title {
-  font-size: 20px;
-  font-weight: 600;
-  color: #fff;
-  letter-spacing: 0.5px;
-} */
 
 /* Call Back Style */
 
@@ -1345,7 +1330,7 @@ footer {
   background-color: #232323;
   padding: 80px 0;
   color: #fff;
-  margin: 100px;
+  /* margin: 100px; */
 }
 
 footer h4 {
@@ -1574,9 +1559,12 @@ footer .contact-form button.filled-button:hover {
 
 .team {
   background-color: #f7f7f7;
-  margin-top: 140px;
   margin-bottom: -140px;
   padding: 120px 0px;
+}
+
+.team .card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .team img {
@@ -2174,6 +2162,11 @@ footer .contact-form button.filled-button:hover {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .vision-mission img {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 @media only screen and (min-width: 353px) and (max-width: 359px) {
@@ -2281,6 +2274,11 @@ footer .contact-form button.filled-button:hover {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .vision-mission img {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 374px) {
@@ -2370,6 +2368,11 @@ footer .contact-form button.filled-button:hover {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .vision-mission img {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 410px) {
@@ -2445,6 +2448,11 @@ footer .contact-form button.filled-button:hover {
   footer .footer-item h4 {
     padding-left: 25px;
     padding-right: 25px;
+  }
+
+  .vision-mission img {
+    width: 80px;
+    height: 80px;
   }
 }
 
@@ -2547,6 +2555,11 @@ footer .contact-form button.filled-button:hover {
   footer ul.menu-list.float {
     margin-left: 0;
     text-align: center;
+  }
+
+  .vision-mission img {
+    width: 80px;
+    height: 80px;
   }
 }
 
@@ -2657,6 +2670,10 @@ footer .contact-form button.filled-button:hover {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+  }
+  .vision-mission img {
+    width: 80px;
+    height: 80px;
   }
 }
 
@@ -2779,10 +2796,14 @@ footer .contact-form button.filled-button:hover {
   .testimonials .testimonial-item .inner-content p {
     font-size: 14px;
   }
+
+  .vision-mission img {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 639px) {
-
   header .navbar .container img {
     width: 120px;
     margin-left: 5px;
@@ -2916,6 +2937,11 @@ footer .contact-form button.filled-button:hover {
   footer .footer-item h4 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .vision-mission img {
+    width: 80px;
+    height: 80px;
   }
 }
 
@@ -3057,6 +3083,11 @@ footer .contact-form button.filled-button:hover {
   footer .footer-item h4 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .vision-mission img {
+    width: 80px;
+    height: 80px;
   }
 }
 
@@ -3899,7 +3930,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 992px) {
-
   .sub-header {
     display: flex;
     flex-direction: column;
@@ -4321,7 +4351,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 1024px) {
-
   .carousel-inner .carousel-item {
     height: 700px;
     margin-bottom: 10px;
@@ -4376,7 +4405,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 1280px) {
-
   .sub-header {
     display: flex;
     flex-direction: column;
@@ -4431,7 +4459,13 @@ footer .contact-form button.filled-button:hover {
     margin-right: 5px;
   }
 
-  header .navbar .container .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+  header
+    .navbar
+    .container
+    .navbar-collapse
+    ul.navbar-nav
+    li.nav-item
+    a.nav-link {
     font-size: 14px;
   }
 
@@ -4674,7 +4708,6 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 1440px) {
-
   .request-form {
     height: 120px;
   }
@@ -4858,28 +4891,24 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 1920px) {
-
   .services {
     margin-left: 290px;
   }
 }
 
 @media only screen and (min-width: 2560px) {
-
   .services {
     margin-left: 610px;
   }
 }
 
 @media only screen and (min-width: 3840px) {
-
   .services {
     margin-left: 1250px;
   }
 }
 
 @media only screen and (min-width: 7680px) {
-
   .services {
     margin-left: 3160px;
   }
