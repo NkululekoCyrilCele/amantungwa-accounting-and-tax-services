@@ -231,6 +231,7 @@ header .navbar {
 header .navbar .container img {
   width: 80px;
   height: auto;
+  object-fit: cover;
 }
 
 .background-header .navbar {
@@ -427,7 +428,8 @@ a.border-button:hover {
 
 /* Carousel section */
 .w-100 {
-  height: 100vh;
+  height: auto;
+  object-fit: cover;
 }
 
 .carousel-item {
@@ -1805,6 +1807,7 @@ footer .contact-form button.filled-button:hover {
 /* Responsive Design */
 
 @media only screen and (min-width: 280px) {
+
   header .navbar .container img {
     width: 60px;
     height: auto;
