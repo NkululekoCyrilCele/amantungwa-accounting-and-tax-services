@@ -587,7 +587,7 @@ a.border-button:hover {
 /* Services section */
 
 .single-services {
-  margin-top: 140px;
+  margin-top: 100px;
 }
 
 #tabs ul {
@@ -1343,6 +1343,7 @@ footer {
   background-color: #232323;
   padding: 80px 0;
   color: #fff;
+  margin: 100px;
 }
 
 footer h4 {
