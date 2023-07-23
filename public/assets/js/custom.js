@@ -216,13 +216,12 @@ jQuery( document ).ready(function( $ ) {
 
     // Function to start the carousel auto slide
     function startCarouselAutoSlide() {
-        const intervalTime = 5000;
+        const intervalTime = 10000;
         setInterval(() => {
             $('#carouselExampleIndicators').carousel('next');
         }, intervalTime);
     }
 
-    // Start the carousel auto slide
     startCarouselAutoSlide();
 
     // Show/hide the floating arrow based on scroll position
