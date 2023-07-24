@@ -2427,6 +2427,7 @@ footer .contact-form button.filled-button:hover {
   .team .section-header p {
     font-size: 13px;
     text-align: justify;
+    margin: auto 20px;
   }
 
   .testimonials .section-heading h2 {
@@ -2495,13 +2496,13 @@ footer .contact-form button.filled-button:hover {
 
   .more-info .right-content h2 {
     font-size: 24px;
-    margin-top: -430px;
+    margin-top: -450px;
     margin-right: -60px;
   }
 
   .more-info .right-content p {
     font-size: 15px;
-    margin-top: 330px;
+    margin-top: 350px;
   }
 
   .services .section-heading h2 {
@@ -2525,6 +2526,10 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 80px;
   }
 
+  #team {
+    margin-top: 50px;
+  }
+
   .team .section-header h2 {
     font-size: 24px;
   }
@@ -2532,10 +2537,12 @@ footer .contact-form button.filled-button:hover {
   .team .section-header p {
     font-size: 13px;
     text-align: justify;
+    margin: auto 20px;
   }
 
   .testimonials .section-heading h2 {
     font-size: 24px;
+    margin-top: -50px;
   }
 
   .testimonials .section-heading span {
@@ -2567,16 +2574,27 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 411px) and (max-width: 479px) {
+
   header .navbar .container img {
-    width: 100px;
+    width: 60px;
   }
 
   header .navbar .container .navbar-brand h2 {
     font-size: 10px;
+    margin-right: 50px;
+  }
+
+  header .navbar .container button {
+    margin-top: -5px;
+    margin-right: -20px;
+  }
+
+  header .navbar .container button i.bi-list {
+    font-size: 28px;
   }
 
   .carousel-caption {
-    transform: translateY(-90%);
+    transform: translateY(-150%);
   }
 
   .carousel-caption h5 {
@@ -2589,16 +2607,6 @@ footer .contact-form button.filled-button:hover {
     margin-top: 20px;
   }
 
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: calc(50% - 16px);
-    width: 32px;
-    height: 32px;
-    font-size: 24px;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
   .request-form .col-md-8 {
     margin-bottom: 10px;
   }
@@ -2607,12 +2615,18 @@ footer .contact-form button.filled-button:hover {
     margin: 30px 100px 0 0;
   }
 
+  .more-info {
+    margin-top: 10px;
+  }
+
   .more-info .right-content h2 {
-    font-size: 36px;
+    font-size: 24px;
+    margin-top: -470px;
   }
 
   .more-info .right-content p {
     font-size: inherit;
+    margin-top: 380px;
   }
 
   a.btn {
@@ -2624,7 +2638,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 40px;
+    font-size: 24px;
   }
 
   .services .down-content h4 {
@@ -2641,20 +2655,31 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 40px;
+    font-size: 24px;
   }
 
   .team .section-header p {
-    font-size: 18px;
+    font-size: 15px;
+    text-align: justify;
+    margin: auto 20px;
   }
 
   .testimonials .section-heading h2 {
-    font-size: 40px;
+    font-size: 24px;
+    margin-top: -50px;
+  }
+
+  .testimonials .section-heading span {
+    font-size: 13px;
+  }
+
+  .testimonials .owl-testimonials {
+    margin-top: -50px;
   }
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   footer .float {
@@ -2674,13 +2699,24 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 539px) {
+
   header .navbar .container img {
-    width: 100px;
+    width: 60px;
     margin-left: 20px;
   }
 
   header .navbar .container .navbar-brand h2 {
     font-size: 12px;
+    margin-right: 50px;
+  }
+
+  header .navbar .container button {
+    margin-top: -7px;
+    margin-right: -20px;
+  }
+
+  header .navbar .container button i.bi-list {
+    font-size: 28px;
   }
 
   .carousel-inner .carousel-item {
@@ -2688,7 +2724,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .carousel-caption {
-    transform: translateY(-100%);
+    transform: translateY(-200%);
   }
 
   .carousel-caption h5 {
@@ -2700,20 +2736,10 @@ footer .contact-form button.filled-button:hover {
     font-size: 18px;
   }
 
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: calc(50% - 16px);
-    width: 32px;
-    height: 32px;
-    font-size: 24px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
   .request-form {
     border-radius: 0;
     padding: 20px;
-    height: 250px;
+    height: 200px;
   }
 
   .request-form .col-md-8 {
@@ -2721,19 +2747,25 @@ footer .contact-form button.filled-button:hover {
   }
 
   .request-form .col-md-4 .btn {
-    margin: 30px 145px 0 0;
+    margin: 20px 145px 0 0;
+  }
+
+  .more-info {
+    margin-top: 180px;
   }
 
   .more-info .right-content h2 {
-    font-size: 40px;
+    font-size: 38px;
+    margin-top: -630px;
   }
 
   .more-info .right-content p {
-    font-size: inherit;
+    font-size: 22px;
+    margin-top: 470px;
   }
 
   .services .section-heading h2 {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .services .section-heading span {
@@ -2741,12 +2773,12 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content h4 {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 18px;
   }
 
   .services .down-content p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 18px;
   }
 
@@ -2754,25 +2786,41 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 120px;
   }
 
+  #team {
+    margin-top: 80px;
+  }
+
   .team .section-header h2 {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .team .section-header p {
+    font-size: 18px;
+    text-align: justify;
+    margin: auto 30px;
+  }
+
+  #team h3.card-title {
+    margin-left: 20px;
+  }
+
+  #team p.card-text {
     font-size: 16px;
+    margin: auto 20px;
   }
 
   .testimonials .section-heading h2 {
-    font-size: 40px;
+    font-size: 38px;
+    margin-top: -30px;
   }
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 16x;
+    font-size: 18px;
   }
 
   .testimonials .testimonial-item .inner-content p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 8px;
   }
 
@@ -2789,12 +2837,24 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 540px) and (max-width: 599px) {
+
   header .navbar .container img {
-    width: 110px;
+    width: 60px;
   }
 
   header .navbar .container .navbar-brand h2 {
     font-size: 14px;
+    margin-right: 80px;
+    margin-bottom: 5px;
+  }
+
+  header .navbar .container button {
+    margin-top: -7px;
+    margin-right: -5px;
+  }
+
+  header .navbar .container button i.bi-list {
+    font-size: 28px;
   }
 
   .carousel-inner .carousel-item {
@@ -2802,7 +2862,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .carousel-caption {
-    transform: translateY(-100%);
+    transform: translateY(-200%);
   }
 
   .carousel-caption h5 {
@@ -2812,16 +2872,6 @@ footer .contact-form button.filled-button:hover {
 
   .carousel-caption p {
     font-size: 18px;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: calc(50% - 16px);
-    width: 32px;
-    height: 32px;
-    font-size: 24px;
-    margin-left: 25px;
-    margin-right: 25px;
   }
 
   .request-form .col-md-8 {
@@ -2843,13 +2893,22 @@ footer .contact-form button.filled-button:hover {
     margin: 50px 155px 0 0;
   }
 
+  .more-info {
+    margin-top: 150px;
+  }
+
+  .more-info .col-md-12 {
+    margin-top: 50px;
+  }
+
   .more-info .right-content h2 {
-    font-size: 45px;
+    font-size: 36px;
+    margin-top: -620px;
   }
 
   .more-info .right-content p {
     font-size: 18px;
-    margin-top: -10px;
+    margin-top: 500px;
   }
 
   a.btn {
@@ -2863,15 +2922,22 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 45px;
+    font-size: 36px;
   }
 
   .services .section-heading span {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .services .service-item {
     margin-bottom: 30px;
+  }
+
+  .services .service-item img {
+    margin-left: 5px;
+    width: 505px;
+    object-fit: cover;
+    height: auto;
   }
 
   .services .down-content h4 {
@@ -2888,24 +2954,32 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .team .section-header p {
-    font-size: 18px;
+    font-size: 16px;
+    text-align: justify;
+    margin: auto 25px auto 25px;
+  }
+
+  #team .card-body img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
   }
 
   .testimonials .section-heading h2 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .testimonials .testimonial-item .inner-content p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .vision-mission img {
@@ -2915,47 +2989,48 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 639px) {
+
   header .navbar .container img {
-    width: 120px;
+    width: 60px;
     margin-left: 5px;
   }
 
   header .navbar .container .navbar-brand h2 {
     font-size: 14px;
+    margin-right: 70px;
+  }
+
+  header .navbar .container button {
+    margin-top: -10px;
+    margin-right: 0;
+  }
+
+  header .navbar .container button i.bi-list {
+    font-size: 36px;
   }
 
   .carousel-inner .carousel-item {
-    height: 800px;
+    height: 600px;
   }
 
   .carousel-caption {
-    transform: translateY(-40%);
+    transform: translateY(-100%);
   }
 
   .carousel-caption h5 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 500;
     text-align: center;
     justify-content: center;
   }
 
   .carousel-caption p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 40px;
   }
 
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: calc(50% - 16px);
-    width: 32px;
-    height: 32px;
-    font-size: 24px;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-
   .d-block {
-    height: 800px;
+    height: 100%;
   }
 
   .request-form {
@@ -2976,16 +3051,18 @@ footer .contact-form button.filled-button:hover {
     margin: 30px 180px 0 0;
   }
 
-  .more-info .right-content span {
-    font-size: 18px;
+  .more-info {
+    margin-top: 100px;
   }
 
   .more-info .right-content h2 {
-    font-size: 40px;
+    font-size: 36px;
+    margin-top: -620px;
   }
 
   .more-info .right-content p {
-    font-size: 18px;
+    font-size: 20px;
+    margin-top: 500px;
   }
 
   a.btn {
@@ -2997,7 +3074,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 30px;
   }
 
@@ -3014,7 +3091,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
 
@@ -3022,16 +3099,27 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 150px;
   }
 
+  #team {
+    margin-top: 80px;
+  }
+
   .team .section-header h2 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .team .section-header p {
     font-size: 18px;
+    text-align: justify;
+  }
+
+  #team .card-body img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
   }
 
   .testimonials .section-heading h2 {
-    font-size: 40px;
+    font-size: 36px;
     margin-top: -80px;
   }
 
@@ -3057,28 +3145,28 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 711px) {
+
   header .navbar .container img {
-    width: 110px;
+    width: 60px;
     margin-left: -25px;
   }
 
   header .navbar .container .navbar-brand h2 {
-    font-size: 15px;
-    margin-left: 30px;
+    font-size: 13px;
+    margin-right: 120px;
+  }
+
+  header .navbar .container button {
+    margin-top: -10px;
+    margin-right: 0;
+  }
+
+  header .navbar .container button i.bi-list {
+    font-size: 32px;
   }
 
   .sub-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .sub-header .right-icons {
     display: none;
-  }
-
-  .sub-header .left-info {
-    text-align: center;
   }
 
   .carousel-caption {
@@ -3086,23 +3174,13 @@ footer .contact-form button.filled-button:hover {
   }
 
   .carousel-caption h5 {
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 500;
   }
 
   .carousel-caption p {
-    font-size: 20px;
+    font-size: 13px;
     margin-bottom: 25px;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: calc(50% - 16px);
-    width: 42px;
-    height: 42px;
-    font-size: 24px;
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
   .request-form {
@@ -3122,33 +3200,35 @@ footer .contact-form button.filled-button:hover {
     margin: 30px auto 0;
   }
 
-  .more-info .right-content span {
-    font-size: 18px;
+  .more-info {
+    margin-top: 40px;
   }
 
   .more-info .right-content h2 {
-    font-size: 40px;
+    font-size: 32px;
+    margin-top: -600px;
   }
 
   .more-info .right-content p {
-    font-size: 18px;
+    font-size: 13px;
+    margin-top: 480px;
   }
 
   a.btn {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   a.filled-button {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .services .section-heading h2 {
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 30px;
   }
 
   .services .section-heading span {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .services .service-item {
@@ -3156,11 +3236,11 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content h4 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .services .down-content p {
-    font-size: 18px;
+    font-size: 13px;
     margin-bottom: 15px;
   }
 
@@ -3168,17 +3248,40 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 150px;
   }
 
+  #team {
+    margin-top: 80px;
+  }
+
   .team .section-header h2 {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .team .section-header p {
-    font-size: 18px;
+    font-size: 13px;
+    margin: auto;
+  }
+
+  #team .card-body img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  #team h3.card-title {
+    font-size: 20px;
+  }
+
+  #team p.card-text {
+    font-size: 13px;
   }
 
   .testimonials .section-heading h2 {
-    font-size: 40px;
+    font-size: 32px;
     margin-top: -80px;
+  }
+
+  .testimonials .section-heading span {
+    font-size: 13px;
   }
 
   .testimonials .testimonial-item .inner-content h4,
@@ -3203,72 +3306,62 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 712px) {
+
   header .navbar .container img {
-    width: 120px;
+    width: 60px;
     height: auto;
     margin-left: -50px;
   }
 
   header .navbar .container .navbar-brand h2 {
-    margin-left: -30px;
-    font-size: 16px;
+    margin-right: 120px;
+    font-size: 15px;
+  }
+
+  header .navbar .container button {
+    margin-top: -10px;
+    margin-right: 0;
+  }
+
+  header .navbar .container button i.bi-list {
+    font-size: 32px;
   }
 
   .sub-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .sub-header .right-icons {
     display: none;
-  }
-
-  .sub-header .left-info {
-    text-align: center;
   }
 
   .d-block {
     top: 10%;
     border-radius: 0;
     height: 900px;
-    width: auto;
+    object-fit: cover;
   }
 
   .carousel-inner .carousel-item {
-    height: 900px;
+    height: auto;
   }
 
   .carousel-caption {
-    transform: translateY(-30%);
+    transform: translateY(-60%);
   }
 
   .carousel-caption h5 {
-    font-size: 50px;
+    font-size: 38px;
     font-weight: 500;
     margin-bottom: 30px;
   }
 
   .carousel-caption p {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 30px;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: calc(50% - 16px);
-    width: 62px;
-    height: 42px;
-    font-size: 24px;
-    margin-left: 40px;
-    margin-right: 40px;
   }
 
   .request-form {
     border-radius: 0;
     padding: 20px;
     margin: auto;
-    height: 220px;
+    height: 200px;
   }
 
   .request-form .col-md-8 {
@@ -3283,7 +3376,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info {
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 0;
     width: 100%;
   }
@@ -3302,24 +3395,23 @@ footer .contact-form button.filled-button:hover {
     width: 100%;
   }
 
-  .more-info .right-content span {
-    font-size: 28px;
-  }
-
   .more-info .right-content h2 {
-    font-size: 50px;
+    font-size: 24px;
+    margin-top: -670px;
+    margin-right: -60px;
   }
 
   .more-info .right-content p {
-    font-size: 24px;
+    font-size: 13px;
+    margin-top: 600px;
   }
 
   a.btn {
-    font-size: 22px;
+    font-size: 13px;
   }
 
   a.filled-button {
-    font-size: 22px;
+    font-size: 13px;
   }
 
   .services {
@@ -3331,12 +3423,12 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 65px;
+    font-size: 24px;
     margin-top: 50px;
   }
 
   .services .section-heading span {
-    font-size: 25px;
+    font-size: 13px;
   }
 
   .services .service-item {
@@ -3344,16 +3436,16 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content {
-    margin: auto -15px auto -15px;
+    margin: auto -15px;
   }
 
   .services .down-content h4 {
-    font-size: 40px;
+    font-size: 22px;
     margin-bottom: 25px;
   }
 
   .services .down-content p {
-    font-size: 25px;
+    font-size: 13px;
     margin-bottom: 40px;
   }
 
@@ -3362,28 +3454,34 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 65px;
-  }
-
-  .team .section-header p {
     font-size: 24px;
   }
 
-  .team .card-body h3 {
-    font-size: 34px;
+  .team .section-header p {
+    font-size: 13px;
   }
 
-  .team .card-body p {
+  #team .card-body h3 {
     font-size: 22px;
   }
 
+  #team .card-body p {
+    font-size: 13px;
+  }
+
+  #team .card-body img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+  }
+
   .testimonials .section-heading h2 {
-    font-size: 55px;
+    font-size: 24px;
     margin-top: -60px;
   }
 
   .testimonials .section-heading span {
-    font-size: 25px;
+    font-size: 13px;
   }
 
   .testimonials .testimonial-item .inner-content h4,
@@ -3399,7 +3497,7 @@ footer .contact-form button.filled-button:hover {
   footer .footer-item h4 {
     padding-left: -10px;
     padding-right: -10px;
-    font-size: 30px;
+    font-size: 18px;
     margin-left: -10px;
     margin-right: -10px;
   }
@@ -3408,7 +3506,7 @@ footer .contact-form button.filled-button:hover {
     padding-left: -60px;
     padding-right: -60px;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 13px;
     margin-left: -60px;
     margin-right: -60px;
   }
@@ -3419,11 +3517,11 @@ footer .contact-form button.filled-button:hover {
   }
 
   footer .footer-item ul.menu-list li a {
-    font-size: 22px;
+    font-size: 13px;
   }
 
   .footer-item.last-item li {
-    font-size: 22px;
+    font-size: 13px;
     margin-left: -30px;
     margin-right: -30px;
   }
@@ -3433,7 +3531,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .sub-footer p {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
 
@@ -3456,61 +3554,60 @@ footer .contact-form button.filled-button:hover {
   }
 
   header .navbar .container img {
-    width: 140px;
+    width: 60px;
     height: auto;
     margin-left: 0;
   }
 
   header .navbar .container .navbar-brand h2 {
-    margin-right: 30px;
-    font-size: 22px;
+    margin-right: 300px;
+    font-size: 13px;
+  }
+
+  header .navbar .container button {
+    margin-top: -10px;
+    margin-right: 0;
+  }
+
+  header .navbar .container button i.bi-list {
+    font-size: 32px;
+  }
+
+  .d-block {
+    top: 10%;
+    border-radius: 0;
+    height: 560px;
+    object-fit: cover;
   }
 
   .carousel-inner .carousel-item {
-    height: 700px;
+    height: auto;
   }
 
   .carousel-caption {
     text-align: center;
     top: 50%;
-    transform: translateY(-20%);
+    transform: translateY(-80%);
     width: 100%;
     left: 0;
   }
 
   .carousel-caption h5 {
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
     margin-top: -60px;
   }
 
   .carousel-caption p {
-    font-size: 20px;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: calc(50% - 16px);
-    width: 62px;
-    height: 62px;
-    font-size: 24px;
-    margin-left: 52px;
-    margin-right: 52px;
-  }
-
-  .d-block {
-    top: 10%;
-    border-radius: 0;
-    height: 700px;
-    width: auto;
+    font-size: 13px;
   }
 
   .request-form {
     border-radius: 0;
     padding: 20px;
     margin: auto;
-    height: 150px;
+    height: 130px;
   }
 
   .request-form .col-md-8 {
@@ -3520,13 +3617,21 @@ footer .contact-form button.filled-button:hover {
     margin-bottom: -10px;
   }
 
+  .request-form .col-md-8 h4 {
+    font-size: 20px;
+  }
+
+  .request-form .col-md-8 span {
+    font-size: 13px;
+  }
+
   .request-form .col-md-4 .btn {
-    margin: 30px 40px 0 0;
+    margin: 30px 0;
     width: auto;
   }
 
   .more-info {
-    margin-top: 100px;
+    margin-top: -20px;
     padding: 0;
     width: 100%;
   }
@@ -3546,45 +3651,36 @@ footer .contact-form button.filled-button:hover {
     margin-top: 15px;
     width: 600px;
     height: auto;
+    object-fit: cover;
   }
 
   .more-info .right-content {
     text-align: justify;
   }
 
-  .more-info .right-content span {
-    font-size: 25px;
-    margin-left: -285px;
-    margin-top: 550px;
-    text-align: center;
-  }
-
   .more-info .right-content h2 {
-    font-size: 45px;
-    text-align: center;
+    font-size: 24px;
+    text-align: left;
     margin-left: -320px;
     margin-right: -50px;
+    margin-top: -120px;
   }
 
   .more-info .right-content p {
     text-align: justify;
-    font-size: 25px;
-    margin-top: -10px;
-    margin-left: -320px;
-    margin-right: -30px;
-  }
-
-  .more-info .right-content a.filled-button {
-    margin-left: -105px;
+    font-size: 13px;
+    margin-top: 630px;
+    margin-left: -334px;
+    margin-right: -50px;
   }
 
   a.btn {
-    font-size: 18px;
-    width: 200px;
+    font-size: 13px;
+    width: 160px;
   }
 
   a.filled-button {
-    font-size: 18px;
+    font-size: 13px;
     margin: auto -40px -50px -30px;
   }
 
@@ -3593,17 +3689,17 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 55px;
+    font-size: 24px;
   }
 
   .services .section-heading span {
-    font-size: 22px;
+    font-size: 13px;
     margin: 15px 80px -50px 80px;
     text-align: center;
   }
 
   .services .col-md-4 {
-    margin: auto 120px auto 120px;
+    margin: auto 120px;
   }
 
   .services .service-item {
@@ -3618,20 +3714,20 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content h4 {
-    font-size: 32px;
+    font-size: 20px;
     margin-bottom: 18px;
-    text-align: center;
+    text-align: left;
   }
 
   .services .down-content p {
-    font-size: 24px;
+    font-size: 13px;
     margin-bottom: 28px;
     text-align: justify;
   }
 
   .services .down-content a.filled-button {
     margin: auto auto auto 180px;
-    font-size: 18px;
+    font-size: 13px;
   }
 
   #team {
@@ -3639,14 +3735,14 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 45px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 10px;
   }
 
   .team .section-header p {
-    text-align: center;
-    font-size: 18px;
+    text-align: justify;
+    font-size: 13px;
     line-height: 1.9;
     margin: auto 6px auto 6px;
   }
@@ -3655,12 +3751,27 @@ footer .contact-form button.filled-button:hover {
     margin: -50px auto 60px auto;
   }
 
+  #team .card-body h3 {
+    font-size: 22px;
+    margin-top: -10px;
+  }
+
+  #team .card-body p {
+    font-size: 13px;
+  }
+
+  #team .card-body img {
+    width: auto;
+    height: 550px;
+    object-fit: cover;
+  }
+
   .testimonials {
     margin-top: -120px;
   }
 
   .testimonials .section-heading h2 {
-    font-size: 45px;
+    font-size: 24px;
     margin-top: -80px;
     margin-bottom: 20px;
     text-align: center;
@@ -3669,10 +3780,15 @@ footer .contact-form button.filled-button:hover {
   .testimonials .section-heading span {
     text-align: center;
     margin-bottom: -50px;
+    font-size: 13px;
+  }
+
+  .testimonials .owl-testimonials {
+    margin-top: -60px;
   }
 
   .testimonials .testimonial-item {
-    margin: 10px auto auto auto;
+    margin: 10px auto;
     padding: 0;
   }
 
@@ -3682,18 +3798,12 @@ footer .contact-form button.filled-button:hover {
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .testimonials .testimonial-item .inner-content p {
-    font-size: 20px;
+    font-size: 13px;
     margin-bottom: 8px;
-  }
-
-  .testimonials .testimonial-item img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
   }
 
   footer {
@@ -4041,6 +4151,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 992px) {
+
   .sub-header {
     display: flex;
     flex-direction: column;
@@ -4462,6 +4573,11 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 1024px) {
+
+  .sub-header .left-info {
+    margin-left: 10px;
+  }
+
   .carousel-inner .carousel-item {
     height: 700px;
     margin-bottom: 10px;
@@ -4503,12 +4619,27 @@ footer .contact-form button.filled-button:hover {
     margin: 30px 10px 0 0;
   }
 
-  .more-info .right-content h2 {
-    font-size: 38px;
-    text-align: left;
-    margin: 10px -70px 0 30px;
+  .more-info .col-md-6 {
+    margin-bottom: -100px;
   }
 
+  .more-info .left-image {
+    height: 750px;
+  }
+
+  .more-info .left-image img {
+    width: 510px;
+    height: 640px;
+    object-fit: cover;
+  }
+
+  .more-info .right-content h2 {
+    font-size: 24px;
+    text-align: left;
+    margin: -140px -70px 0 30px;
+  }
+
+  /* Continue from here */
   .services {
     margin-top: 50px;
     margin-left: 18px;
