@@ -1110,6 +1110,67 @@ a.border-button:hover {
   color: #666;
 }
 
+/* about us team section*/
+
+.team {
+  background-color: #f7f7f7;
+  margin-bottom: -140px;
+  padding: 120px 0px;
+}
+
+.team .card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.team .card .card-body {
+  background-color: var(--background);
+}
+
+.team img {
+  width: auto;
+  height: 425.33px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team .right-content h4 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+}
+
+.team .right-content span {
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: block;
+}
+
+.team .col-md-6.right-content p:first-of-type {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.team .right-content li {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.team .right-content .socials {
+  font-size: 1.25rem;
+}
+
+.team .right-content .socials i.bi {
+  transition: font-size 0.3s;
+}
+
+.team .right-content .socials i.bi:hover {
+  font-size: 1.75rem;
+}
+
 /* FAQS  */
 .accordion-item {
   border: none;
@@ -1555,61 +1616,6 @@ footer .contact-form button.filled-button:hover {
   display: block;
 }
 
-/* about us team section*/
-
-.team {
-  background-color: #f7f7f7;
-  margin-bottom: -140px;
-  padding: 120px 0px;
-}
-
-.team .card {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.team img {
-  width: 100%;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.team .right-content h4 {
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: 0.25px;
-}
-
-.team .right-content span {
-  color: var(--text);
-  font-weight: 600;
-  font-size: 0.95rem;
-  display: block;
-}
-
-.team .col-md-6.right-content p:first-of-type {
-  margin-bottom: 0;
-  font-size: 16px;
-  color: #666;
-}
-
-.team .right-content li {
-  margin-bottom: 0;
-  font-size: 16px;
-  color: #666;
-}
-
-.team .right-content .socials {
-  font-size: 1.25rem;
-}
-
-.team .right-content .socials i.bi {
-  transition: font-size 0.3s;
-}
-
-.team .right-content .socials i.bi:hover {
-  font-size: 1.75rem;
-}
-
 /* Single Service */
 
 .single-services {
@@ -1795,7 +1801,6 @@ footer .contact-form button.filled-button:hover {
 /* Responsive Design */
 
 @media only screen and (min-width: 280px) {
-
   header .navbar .container img {
     width: 60px;
     height: auto;
