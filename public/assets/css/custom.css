@@ -5034,7 +5034,38 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
+@media only screen and (min-width: 1366px) {
+  .services {
+    margin-left: 90px;
+  }
+}
+
 @media only screen and (min-width: 1440px) {
+
+  .sub-header .left-info {
+    margin-left: 0;
+  }
+
+  .sub-header .right-icons {
+    margin-right: 0;
+  }
+
+  header .navbar .container img {
+    margin-left: 0;
+  }
+
+  header .navbar .container .navbar-brand h2 {
+    margin-left: 30px;
+    font-size: 14px;
+  }
+
+  header .navbar .container .navbar-collapse ul.navbar-nav {
+    margin-right: 0;
+  }
+
+  header .navbar .container .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+    font-size: 14px;
+  }
 
   .carousel-caption {
     text-align: center;
@@ -5125,14 +5156,18 @@ footer .contact-form button.filled-button:hover {
 
   .more-info .right-content p {
     text-align: justify;
-    font-size: 18px;
-    margin: 20px auto 20px -10px;
+    font-size: 20px;
+    margin: 20px -40px 20px -10px;
   }
 
   .services .section-heading h2 {
     font-size: 38px;
     text-align: center;
     margin: 50px auto auto -170px;
+  }
+
+  .services {
+    margin-left: 50px;
   }
 
   .services .section-heading span {
@@ -5162,16 +5197,20 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 46px;
+    font-size: 38px;
     text-align: center;
     margin-bottom: 10px;
   }
 
   .team .section-header p {
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
     line-height: 1.9;
-    margin: 0;
+    margin: 0 50px;
+  }
+
+  #team .card-body img {
+    height: auto;
   }
 
   #team .card-body h3.card-title {
@@ -5179,8 +5218,8 @@ footer .contact-form button.filled-button:hover {
   }
 
   #team .card-body p.card-text {
-    font-size: 20px;
-    text-align: ;
+    font-size: 24px;
+    text-align: left;
   }
 
   #team .card-body p.socials a {
@@ -5200,7 +5239,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .testimonials .section-heading h2 {
-    font-size: 46px;
+    font-size: 38px;
     margin-top: -50px;
     margin-bottom: 20px;
     text-align: center;
@@ -5209,7 +5248,7 @@ footer .contact-form button.filled-button:hover {
   .testimonials .section-heading span {
     text-align: center;
     margin-bottom: -90px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .testimonials .testimonial-item .inner-content h4,
@@ -5265,25 +5304,82 @@ footer .contact-form button.filled-button:hover {
   }
 }
 
+@media only screen and (min-width: 1600px) {
+  .services {
+    margin-left: 140px;
+  }
+}
+
 @media only screen and (min-width: 1920px) {
+
+  .more-info .container {
+    margin-right: 350px;
+  }
+
+  .more-info .container .more-info-content {
+    margin-left: 50px;
+  }
+
+  .more-info .left-image img {
+    width: 600px;
+  }
+
+  .more-info .right-content h2 {
+    font-size: 38px;
+    text-align: left;
+    margin: -100px -50px 0 -5px;
+  }
+
+  .more-info .right-content p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px -40px 50px -5px;
+  }
+
   .services {
     margin-left: 290px;
   }
 }
 
 @media only screen and (min-width: 2560px) {
+
+  .more-info .container {
+    margin-right: 660px;
+  }
+
   .services {
     margin-left: 610px;
   }
 }
 
 @media only screen and (min-width: 3840px) {
+
+  .more-info .container {
+    margin-right: 1300px;
+  }
+
   .services {
     margin-left: 1250px;
   }
 }
 
+@media only screen and (min-width: 5120px) {
+
+  .more-info .container {
+    margin-right: 1910px;
+  }
+
+  .services {
+    margin-left: 1900px;
+  }
+}
+
 @media only screen and (min-width: 7680px) {
+
+  .more-info .container {
+    margin-right: 3230px;
+  }
+
   .services {
     margin-left: 3160px;
   }
