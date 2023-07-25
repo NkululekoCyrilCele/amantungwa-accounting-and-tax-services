@@ -4219,16 +4219,6 @@ footer .contact-form button.filled-button:hover {
     font-size: 18px;
   }
 
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: calc(50% - 16px);
-    width: 92px;
-    height: 92px;
-    font-size: 94px;
-    margin-left: 65px;
-    margin-right: 65px;
-  }
-
   .request-form {
     border-radius: 0;
     padding: 20px;
@@ -4583,6 +4573,10 @@ footer .contact-form button.filled-button:hover {
     margin-left: 10px;
   }
 
+  header .navbar .container img {
+    width: 60px;
+  }
+
   .carousel-inner .carousel-item {
     height: 700px;
     margin-bottom: 10px;
@@ -4644,14 +4638,100 @@ footer .contact-form button.filled-button:hover {
     margin: -140px -70px 0 30px;
   }
 
-  /* Continue from here */
   .services {
     margin-top: 50px;
     margin-left: 18px;
   }
+
+  .services .section-heading h2 {
+    font-size: 28px;
+  }
+
+  .services .section-heading span {
+    font-size: 12px;
+  }
+
+  .services .container {
+    margin: auto auto auto 110px;
+  }
+
+  .services .container .row .col-md-4 {
+    margin: auto 0 auto -70px;
+  }
+
+  .services .container .row .col-md-4 .down-content {
+    margin: auto -75px auto 65px;
+  }
+
+  .services .service-item {
+    margin: auto 50px auto 0;
+  }
+
+  .services .service-item img {
+    margin: auto auto auto 70px;
+  }
+
+  .services .down-content {
+    height: 400px;
+  }
+
+  .services .down-content h4 {
+    font-size: 14px;
+  }
+
+  .services .down-content p {
+    font-size: 13px;
+  }
+
+  .services .down-content a.down {
+    margin-top: 38px;
+  }
+
+  .team .section-header h2 {
+    font-size: 28px;
+  }
+
+  .team .section-header p {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .testimonials .section-heading h2 {
+    font-size: 28px;
+  }
+
+  .testimonials .section-heading span {
+    font-size: 13px;
+  }
+
+  .testimonials .testimonial-item .inner-content h4,
+  .testimonials .testimonial-item .inner-content span {
+    font-size: 16px;
+  }
+
+  .testimonials .testimonial-item .inner-content p {
+    font-size: 13px;
+  }
+
+  footer .footer-item h4 {
+    font-size: 24px;
+  }
+
+  footer .footer-item p {
+    font-size: 15px;
+  }
+
+  footer .footer-item ul.menu-list li a {
+    font-size: 15px;
+  }
+
+  footer .footer-item ul.list-unstyled li {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
+
   .sub-header {
     display: flex;
     flex-direction: column;
@@ -4659,7 +4739,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .sub-header .left-info {
-    margin-left: -7px;
+    margin-left: -35px;
     display: flex;
     margin-top: -3px;
   }
@@ -4679,7 +4759,7 @@ footer .contact-form button.filled-button:hover {
 
   .sub-header .right-icons {
     display: flex;
-    margin-right: 5px;
+    margin-right: -30px;
     margin-top: -3px;
   }
 
@@ -4692,9 +4772,9 @@ footer .contact-form button.filled-button:hover {
   }
 
   header .navbar .container img {
-    width: 80px;
+    width: 60px;
     height: auto;
-    margin-left: 0;
+    margin-left: -35px;
   }
 
   header .navbar .container .navbar-brand h2 {
@@ -4703,7 +4783,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   header .navbar .container .navbar-collapse ul.navbar-nav {
-    margin-right: 5px;
+    margin-right: -30px;
   }
 
   header .navbar .container .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
@@ -4724,15 +4804,17 @@ footer .contact-form button.filled-button:hover {
     width: 100vw;
     margin-bottom: 20px;
     margin-top: 10px;
+    object-fit: cover;
   }
 
   .d-block {
     top: 10%;
     border-radius: 0;
-    height: auto;
+    height: 700px;
     width: 100vw;
     width: max-content;
     margin-bottom: -20px;
+    object-fit: cover;
   }
 
   .carousel-caption h5 {
@@ -4765,33 +4847,32 @@ footer .contact-form button.filled-button:hover {
   }
 
   .request-form .col-md-4 .btn {
-    margin: 30px -100px 0 0;
+    margin: 20px -120px 0 0;
   }
 
   .more-info .left-image {
     text-align: left;
     margin-bottom: 10px;
-    height: auto;
-    width: 100%;
+    height: 700px;
+    width: auto;
   }
 
-  .more-info .right-content span {
-    font-size: 15px;
-    margin: -70px 0 0 -10px;
-    text-align: left;
+  .more-info .left-image img {
+    object-fit: cover;
+    height: 580px;
   }
 
   .more-info .right-content h2 {
     font-size: 32px;
     text-align: left;
-    margin: 10px -50px 0 -10px;
+    margin: -150px -50px 0 -50px;
   }
 
   .more-info .right-content p {
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 20px;
-    margin-left: -10px;
+    margin-left: -50px;
     margin-bottom: 20px;
   }
 
@@ -4850,7 +4931,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header p {
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
     line-height: 1.9;
     margin: 0;
@@ -4862,7 +4943,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   #team .card-body p.card-text {
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
   }
 
@@ -4880,6 +4961,11 @@ footer .contact-form button.filled-button:hover {
 
   .team .col-md-6 p.socials i.bi:hover {
     font-size: 1.75rem;
+  }
+
+  .testimonials .owl-testimonials {
+    margin-top: 10px;
+    margin-bottom: -10px;
   }
 
   .testimonials .section-heading h2 {
@@ -4949,6 +5035,42 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 1440px) {
+
+  .carousel-caption {
+    text-align: center;
+    top: 50%;
+    transform: translateY(-30%);
+    width: 100%;
+    left: 0;
+    margin-bottom: 0;
+  }
+
+  .carousel-inner .carousel-item {
+    height: auto;
+    width: 100vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    object-fit: cover;
+  }
+
+  .d-block {
+    top: 10%;
+    border-radius: 0;
+    height: 700px;
+    width: 100vw;
+    width: max-content;
+    margin-bottom: -20px;
+    object-fit: cover;
+  }
+
+  .carousel-caption h5 {
+    font-size: 32px;
+  }
+
+  .carousel-caption p {
+    font-size: 18px;
+  }
+
   .request-form {
     height: 120px;
   }
@@ -4962,7 +5084,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .request-form .col-md-4 .btn {
-    margin: 30px -220px 0 0;
+    margin: 20px -240px 0 0;
   }
 
   a.btn {
@@ -4975,24 +5097,36 @@ footer .contact-form button.filled-button:hover {
     margin: auto -40px -50px -30px;
   }
 
-  .more-info .right-content span {
-    font-size: 18px;
-    margin: -70px 0 0 -10px;
+  .more-info {
+    margin-left: 20px;
+  }
+
+  .more-info .left-image {
     text-align: left;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 700px;
+    width: auto;
+    object-fit: cover;
+  }
+
+  .more-info .left-image img {
+    object-fit: cover;
+    height: 580px;
+    width: 650px;
   }
 
   .more-info .right-content h2 {
     font-size: 46px;
     text-align: left;
-    margin: 10px -50px 0 -10px;
+    margin: -140px -50px 0 -10px;
   }
 
   .more-info .right-content p {
     text-align: justify;
-    font-size: 22px;
-    margin-top: 20px;
-    margin-left: -10px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin: 20px auto 20px -10px;
   }
 
   .more-info .right-content a.filled-button {
