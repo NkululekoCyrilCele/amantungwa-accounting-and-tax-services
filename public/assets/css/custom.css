@@ -1801,6 +1801,7 @@ footer .contact-form button.filled-button:hover {
 /* Responsive Design */
 
 @media only screen and (min-width: 280px) {
+
   header .navbar .container img {
     width: 60px;
     height: auto;
@@ -3541,6 +3542,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 768px) {
+
   html {
     overflow-y: auto;
   }
@@ -3864,54 +3866,66 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 923px) {
+
   .sub-header {
     display: flex;
     flex-direction: column;
   }
 
   .sub-header .left-info {
-    margin-left: -150px;
+    margin-left: 0;
   }
 
   .sub-header .right-icons {
     display: block;
-    margin-right: -50px;
+    margin-right: 0;
   }
 
   header .navbar .container img {
-    width: 120px;
+    width: 60px;
     height: auto;
-    margin-left: -30px;
+    margin-left: 0;
   }
 
   header .navbar .container .navbar-brand h2 {
-    margin-right: -10px;
-    font-size: 25px;
+    margin-right: 290px;
+    font-size: 13px;
+  }
+
+  header .navbar .container button {
+    margin-top: -10px;
+    margin-right: 70px;
+  }
+
+  header .navbar .container button i.bi-list {
+    font-size: 32px;
   }
 
   .carousel-inner .carousel-item {
-    height: 700px;
+    height: 500px;
     margin-bottom: 20px;
     margin-top: 10px;
+    object-fit: cover;
   }
 
   .d-block {
     top: 10%;
     border-radius: 0;
-    height: 700px;
+    height: 600px;
     width: auto;
+    object-fit: cover;
   }
 
   .carousel-caption {
     text-align: center;
     top: 50%;
-    transform: translateY(-20%);
+    transform: translateY(-200%);
     width: 100%;
     left: 0;
   }
 
   .carousel-caption h5 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 20px;
     margin-top: -60px;
@@ -3919,16 +3933,6 @@ footer .contact-form button.filled-button:hover {
 
   .carousel-caption p {
     font-size: 18px;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: calc(50% - 16px);
-    width: 92px;
-    height: 129px;
-    font-size: 94px;
-    margin-left: 65px;
-    margin-right: 65px;
   }
 
   .request-form {
@@ -3971,6 +3975,7 @@ footer .contact-form button.filled-button:hover {
 
   .more-info .right-content {
     text-align: justify;
+    margin-top: -50px;
   }
 
   .more-info .right-content span {
@@ -3980,21 +3985,23 @@ footer .contact-form button.filled-button:hover {
 
   .more-info .right-content h2 {
     font-size: 45px;
-    text-align: center;
+    text-align: left;
+    margin-top: -200px;
   }
 
   .more-info .right-content p {
     text-align: justify;
     font-size: 18px;
-    margin-top: 650px;
+    margin-top: 690px;
   }
 
   a.btn {
-    font-size: 18px;
+    font-size: 13px;
+    width: 170px;
   }
 
   a.filled-button {
-    font-size: 18px;
+    font-size: 13px;
     margin: auto -40px -50px -30px;
   }
 
@@ -4007,7 +4014,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading span {
-    font-size: 18px;
+    font-size: 16px;
     margin: 15px 30px -50px 30px;
     text-align: center;
   }
@@ -4029,20 +4036,20 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content h4 {
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
   }
 
   .services .down-content p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
   }
 
   .services .down-content a.filled-button {
     margin: 10px auto -10px 30px;
-    font-size: 16px;
+    font-size: 13px;
   }
 
   #team {
@@ -4056,14 +4063,28 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header p {
-    text-align: center;
+    text-align: justify;
     font-size: 16px;
     line-height: 1.9;
     margin: auto 6px auto 6px;
   }
 
   #team .card {
-    margin: -50px 90px 60px 90px;
+    margin: -50px 0 60px 0;
+  }
+
+  #team .card-body img {
+    width: auto;
+    height: 540px;
+    object-fit: cover;
+  }
+
+  #team h3.card-title {
+    font-size: 20px;
+  }
+
+  #team .card-text {
+    text-align: justify;
   }
 
   .testimonials {
@@ -4163,17 +4184,13 @@ footer .contact-form button.filled-button:hover {
     height: 40px;
   }
 
-  .sub-header .left-info {
-    margin-left: -250px;
-  }
-
   .sub-header .right-icons {
     display: block;
     margin-right: 10px;
   }
 
   header .navbar .container img {
-    width: 80px;
+    width: 60px;
     height: auto;
     margin-left: 5px;
   }
@@ -4183,8 +4200,13 @@ footer .contact-form button.filled-button:hover {
   }
 
   header .navbar .container .navbar-brand h2 {
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 14px;
+    width: 0;
+  }
+
+  header .navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link {
+    margin-right: 10px;
   }
 
   .carousel-inner .carousel-item {
@@ -4203,13 +4225,13 @@ footer .contact-form button.filled-button:hover {
   .carousel-caption {
     text-align: center;
     top: 50%;
-    transform: translateY(-20%);
+    transform: translateY(-80%);
     width: 100%;
     left: 0;
   }
 
   .carousel-caption h5 {
-    font-size: 45px;
+    font-size: 38px;
     font-weight: 500;
     margin-bottom: 20px;
     margin-top: -60px;
@@ -4262,6 +4284,8 @@ footer .contact-form button.filled-button:hover {
 
   .more-info .left-image img {
     width: 100%;
+    height: 650px;
+    object-fit: cover;
     overflow: hidden;
   }
 
@@ -4312,7 +4336,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 44px;
+    font-size: 38px;
     text-align: center;
     margin: 50px auto auto -170px;
   }
@@ -4348,15 +4372,23 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content h4 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
   }
 
   .services .down-content p {
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
+  }
+
+  .services .down-content {
+    height: 450px;
+  }
+
+  .services .service-item .down-content a.down {
+    margin-top: 38px;
   }
 
   .services .down-content a.filled-button {
@@ -4369,13 +4401,13 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 45px;
+    font-size: 38px;
     text-align: center;
     margin-bottom: 10px;
   }
 
   .team .section-header p {
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     line-height: 1.9;
     margin: auto 6px auto 6px;
@@ -4386,6 +4418,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   #team .card-body img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
     box-shadow: 5px 4px 4px rgba(46, 6, 6, 0.1);
@@ -4395,12 +4428,20 @@ footer .contact-form button.filled-button:hover {
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
   }
 
+  #team h3.card-title {
+    font-size: 24px;
+  }
+
+  #team p.card-text {
+    font-size: 18px;
+  }
+
   .testimonials {
     margin-top: -120px;
   }
 
   .testimonials .section-heading h2 {
-    font-size: 45px;
+    font-size: 38px;
     margin-top: -100px;
     margin-bottom: 20px;
     text-align: center;
@@ -4409,7 +4450,7 @@ footer .contact-form button.filled-button:hover {
   .testimonials .section-heading span {
     text-align: center;
     margin-bottom: -50px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .testimonials .testimonial-item {
@@ -4419,7 +4460,7 @@ footer .contact-form button.filled-button:hover {
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .testimonials .testimonial-item .inner-content p {
@@ -4441,7 +4482,7 @@ footer .contact-form button.filled-button:hover {
 
   footer .footer-item h4 {
     color: #fff;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     letter-spacing: 0.25px;
     margin-bottom: 25px;
@@ -4449,7 +4490,7 @@ footer .contact-form button.filled-button:hover {
 
   footer .footer-item p {
     color: #fff;
-    font-size: 18px;
+    font-size: 13px;
   }
 
   footer .footer-item ul.menu-list li a {
@@ -4635,7 +4676,7 @@ footer .contact-form button.filled-button:hover {
   .more-info .right-content h2 {
     font-size: 24px;
     text-align: left;
-    margin: -140px -70px 0 30px;
+    margin: -90px -70px 0 30px;
   }
 
   .services {
@@ -4865,7 +4906,7 @@ footer .contact-form button.filled-button:hover {
   .more-info .right-content h2 {
     font-size: 32px;
     text-align: left;
-    margin: -150px -50px 0 -50px;
+    margin: -100px -50px 0 -50px;
   }
 
   .more-info .right-content p {
@@ -4907,16 +4948,24 @@ footer .contact-form button.filled-button:hover {
     text-align: center;
   }
 
+  .services .down-content {
+    height: 420px;
+  }
+
   .services .down-content h4 {
     font-size: 24px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
   }
 
   .services .down-content p {
     font-size: 16px;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
+  }
+
+  .services .service-item .down-content a.down {
+    margin-top: 10px;
   }
 
   .services .down-content a.filled-button {
@@ -5151,7 +5200,7 @@ footer .contact-form button.filled-button:hover {
   .more-info .right-content h2 {
     font-size: 38px;
     text-align: left;
-    margin: -130px -50px 0 -10px;
+    margin: -80px -50px 0 -10px;
   }
 
   .more-info .right-content p {
@@ -5179,17 +5228,17 @@ footer .contact-form button.filled-button:hover {
   .services .down-content h4 {
     font-size: 24px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
   }
 
   .services .down-content p {
     font-size: 18px;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
   }
 
-  .services .down-content a.one {
-    margin-top: 40px;
+  .services .service-item .down-content a.one {
+    margin-top: 35px;
   }
 
   .services .down-content a.filled-button {
@@ -5327,7 +5376,7 @@ footer .contact-form button.filled-button:hover {
   .more-info .right-content h2 {
     font-size: 38px;
     text-align: left;
-    margin: -100px -50px 0 -5px;
+    margin: -50px -50px 0 -5px;
   }
 
   .more-info .right-content p {
