@@ -5114,13 +5114,13 @@ footer .contact-form button.filled-button:hover {
   .more-info .left-image img {
     object-fit: cover;
     height: 580px;
-    width: 650px;
+    width: 620px;
   }
 
   .more-info .right-content h2 {
-    font-size: 46px;
+    font-size: 38px;
     text-align: left;
-    margin: -140px -50px 0 -10px;
+    margin: -130px -50px 0 -10px;
   }
 
   .more-info .right-content p {
@@ -5129,33 +5129,32 @@ footer .contact-form button.filled-button:hover {
     margin: 20px auto 20px -10px;
   }
 
-  .more-info .right-content a.filled-button {
-    margin-left: 0;
-    margin-top: 10px;
-  }
-
   .services .section-heading h2 {
-    font-size: 46px;
+    font-size: 38px;
     text-align: center;
     margin: 50px auto auto -170px;
   }
 
   .services .section-heading span {
-    font-size: 18px;
+    font-size: 15px;
     margin: 15px 30px -50px -135px;
     text-align: center;
   }
 
   .services .down-content h4 {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
   }
 
   .services .down-content p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 8px;
     text-align: center;
+  }
+
+  .services .down-content a.one {
+    margin-top: 40px;
   }
 
   .services .down-content a.filled-button {
@@ -5181,6 +5180,7 @@ footer .contact-form button.filled-button:hover {
 
   #team .card-body p.card-text {
     font-size: 20px;
+    text-align: ;
   }
 
   #team .card-body p.socials a {
