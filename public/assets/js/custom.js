@@ -60,6 +60,11 @@ jQuery( document ).ready(function( $ ) {
         });
     }
 
+    // Show truncated words
+    $('.truncate-container').hover(function() {
+        $(this).toggleClass('expanded');
+    });
+
     // Operating hours display
 
     // Get the current date

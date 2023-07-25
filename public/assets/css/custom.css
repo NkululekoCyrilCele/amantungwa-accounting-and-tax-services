@@ -859,6 +859,10 @@ a.border-button:hover {
   padding: 140px 0;
 }
 
+.testimonial-item {
+  width: 500px;
+}
+
 .testimonial-item .inner-content {
   text-align: center;
   background-color: var(--secondary-button);
@@ -882,12 +886,29 @@ a.border-button:hover {
   color: #4e4d4d;
 }
 
+.testimonial-item p.truncate-container {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.testimonial-item p.truncate-container.expanded {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+
 .testimonial-item h4 {
   font-size: 19px;
   font-weight: 700;
   color: #1e1e1e;
   letter-spacing: 0.5px;
   margin-bottom: 0;
+}
+
+.testimonial-item h4 em {
+  font-size: 10px;
 }
 
 .testimonial-item span {
@@ -4907,6 +4928,7 @@ footer .contact-form button.filled-button:hover {
   .more-info .left-image img {
     object-fit: cover;
     height: 400px;
+    margin-left: 20px;
   }
 
   .more-info .right-content h2 {
@@ -5020,9 +5042,12 @@ footer .contact-form button.filled-button:hover {
     font-size: 20px;
   }
 
+  #team .col-md-6 p.socials-home {
+    margin-left: -200px;
+  }
+
   .team .col-md-6 p.socials-home {
     font-size: 1.25rem;
-    margin-left: -200px;
   }
 
   .team .col-md-6 p.socials i.bi {
