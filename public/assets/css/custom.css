@@ -3769,8 +3769,12 @@ footer .contact-form button.filled-button:hover {
 
   #team .card-body img {
     width: auto;
-    height: 550px;
+    height: 580px;
     object-fit: cover;
+  }
+
+  #team .card-body p.socials-home {
+    margin-left: -50px;
   }
 
   .testimonials {
@@ -3805,7 +3809,7 @@ footer .contact-form button.filled-button:hover {
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .testimonials .testimonial-item .inner-content p {
@@ -3919,20 +3923,20 @@ footer .contact-form button.filled-button:hover {
   .carousel-caption {
     text-align: center;
     top: 50%;
-    transform: translateY(-200%);
+    transform: translateY(-100%);
     width: 100%;
     left: 0;
   }
 
   .carousel-caption h5 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
     margin-top: -60px;
   }
 
   .carousel-caption p {
-    font-size: 18px;
+    font-size: 13px;
   }
 
   .request-form {
@@ -3953,7 +3957,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info {
-    margin-top: 300px;
+    margin-top: 200px;
     padding: 0;
     width: 100%;
   }
@@ -3978,21 +3982,16 @@ footer .contact-form button.filled-button:hover {
     margin-top: -50px;
   }
 
-  .more-info .right-content span {
-    font-size: 20px;
-    margin-top: -250px;
-  }
-
   .more-info .right-content h2 {
-    font-size: 45px;
-    text-align: left;
-    margin-top: -200px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -100px;
   }
 
   .more-info .right-content p {
     text-align: justify;
-    font-size: 18px;
-    margin-top: 690px;
+    font-size: 13px;
+    margin-top: 660px;
   }
 
   a.btn {
@@ -4010,11 +4009,11 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 45px;
+    font-size: 24px;
   }
 
   .services .section-heading span {
-    font-size: 16px;
+    font-size: 13px;
     margin: 15px 30px -50px 30px;
     text-align: center;
   }
@@ -4042,9 +4041,17 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content p {
-    font-size: 18px;
+    font-size: 13px;
     margin-bottom: 8px;
     text-align: left;
+  }
+
+  .services .service-item .down-content {
+    height: 450px;
+  }
+
+  .services .service-item .down-content a.one {
+    margin-top: 40px;
   }
 
   .services .down-content a.filled-button {
@@ -4057,14 +4064,14 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 45px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 10px;
   }
 
   .team .section-header p {
     text-align: justify;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 1.9;
     margin: auto 6px auto 6px;
   }
@@ -4092,7 +4099,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .testimonials .section-heading h2 {
-    font-size: 45px;
+    font-size: 24px;
     margin-top: -100px;
     margin-bottom: 20px;
     text-align: center;
@@ -4101,7 +4108,7 @@ footer .contact-form button.filled-button:hover {
   .testimonials .section-heading span {
     text-align: center;
     margin-bottom: -50px;
-    font-size: 20px;
+    font-size: 13px;
   }
 
   .testimonials .testimonial-item {
@@ -4111,11 +4118,11 @@ footer .contact-form button.filled-button:hover {
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .testimonials .testimonial-item .inner-content p {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 8px;
   }
 
@@ -4279,14 +4286,13 @@ footer .contact-form button.filled-button:hover {
     text-align: left;
     margin-bottom: 10px;
     height: auto;
-    width: 500px;
+    width: auto;
   }
 
   .more-info .left-image img {
-    width: 100%;
-    height: 650px;
+    width: 450px;
+    height: 550px;
     object-fit: cover;
-    overflow: hidden;
   }
 
   .more-info .more-info-content {
@@ -4297,23 +4303,18 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
-  .more-info .right-content span {
-    font-size: 16px;
-    margin: -30px 0 0 30px;
-    text-align: left;
-  }
-
   .more-info .right-content h2 {
-    font-size: 34px;
+    font-size: 24px;
     text-align: left;
-    margin: 10px -70px 0 30px;
+    margin: 20px -20px 0 0;
   }
 
   .more-info .right-content p {
     text-align: justify;
-    font-size: 16px;
+    font-size: 13px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 0;
+    margin-right: -20px;
   }
 
   .more-info .right-content a.filled-button {
@@ -4336,7 +4337,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 38px;
+    font-size: 24px;
     text-align: center;
     margin: 50px auto auto -170px;
   }
@@ -4401,16 +4402,16 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 38px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 10px;
   }
 
   .team .section-header p {
     text-align: left;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 1.9;
-    margin: auto 6px auto 6px;
+    margin: auto 90px;
   }
 
   #team .card {
@@ -4433,7 +4434,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   #team p.card-text {
-    font-size: 18px;
+    font-size: 13px;
   }
 
   .testimonials {
@@ -4441,7 +4442,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .testimonials .section-heading h2 {
-    font-size: 38px;
+    font-size: 24px;
     margin-top: -100px;
     margin-bottom: 20px;
     text-align: center;
@@ -4450,7 +4451,7 @@ footer .contact-form button.filled-button:hover {
   .testimonials .section-heading span {
     text-align: center;
     margin-bottom: -50px;
-    font-size: 18px;
+    font-size: 13px;
   }
 
   .testimonials .testimonial-item {
@@ -4482,7 +4483,7 @@ footer .contact-form button.filled-button:hover {
 
   footer .footer-item h4 {
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 0.25px;
     margin-bottom: 25px;
@@ -4494,11 +4495,11 @@ footer .contact-form button.filled-button:hover {
   }
 
   footer .footer-item ul.menu-list li a {
-    font-size: 18px;
+    font-size: 13px;
   }
 
   footer .footer-item ul.list-unstyled li {
-    font-size: 18px;
+    font-size: 13px;
     text-align: center;
     margin-left: 10px;
     margin-right: 1px;
@@ -4664,19 +4665,20 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info .left-image {
-    height: 750px;
+    height: 650px;
   }
 
   .more-info .left-image img {
-    width: 510px;
-    height: 640px;
+    width: 450px;
+    height: 540px;
+    margin-left: 10px;
     object-fit: cover;
   }
 
   .more-info .right-content h2 {
     font-size: 24px;
     text-align: left;
-    margin: -90px -70px 0 30px;
+    margin: -90px -70px 0 0;
   }
 
   .services {
@@ -4685,11 +4687,11 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .services .section-heading span {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .services .container {
@@ -4712,12 +4714,12 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 70px;
   }
 
-  .services .down-content {
+  .services .service-item .down-content {
     height: 400px;
   }
 
   .services .down-content h4 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .services .down-content p {
@@ -4729,7 +4731,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .team .section-header p {
@@ -4738,7 +4740,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .testimonials .section-heading h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .testimonials .section-heading span {
@@ -4898,22 +4900,26 @@ footer .contact-form button.filled-button:hover {
     width: auto;
   }
 
+  .more-info .more-info-content {
+    height: 430px;
+  }
+
   .more-info .left-image img {
     object-fit: cover;
-    height: 580px;
+    height: 400px;
   }
 
   .more-info .right-content h2 {
-    font-size: 32px;
+    font-size: 24px;
     text-align: left;
-    margin: -100px -50px 0 -50px;
+    margin: -270px -50px 0 -80px;
   }
 
   .more-info .right-content p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 13px;
     margin-top: 20px;
-    margin-left: -50px;
+    margin-left: -80px;
     margin-bottom: 20px;
   }
 
@@ -4937,31 +4943,35 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading h2 {
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
     margin: 50px auto auto -170px;
   }
 
   .services .section-heading span {
-    font-size: 14px;
+    font-size: 13px;
     margin: 15px 30px -50px -135px;
     text-align: center;
   }
 
-  .services .down-content {
-    height: 420px;
+  .services .service-item .down-content {
+    height: 360px;
   }
 
   .services .down-content h4 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
     text-align: left;
   }
 
   .services .down-content p {
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 8px;
     text-align: left;
+  }
+
+  .services .container .service-item .down-content a.one {
+    margin-top: 40px;
   }
 
   .services .service-item .down-content a.down {
@@ -4974,34 +4984,45 @@ footer .contact-form button.filled-button:hover {
   }
 
   .team .section-header h2 {
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 10px;
   }
 
   .team .section-header p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 1.9;
-    margin: 0;
+    margin: 0 30px;
+  }
+
+  #team .card-body img {
+    height: 380px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 0;
   }
 
   #team .card-body h3.card-title {
     font-size: 24px;
     text-align: left;
+    margin-left: -120px;
   }
 
   #team .card-body p.card-text {
-    font-size: 18px;
+    font-size: 13px;
     text-align: justify;
+    margin-left: -120px;
+    margin-right: 10px;
   }
 
   #team .card-body p.socials a {
     font-size: 20px;
   }
 
-  .team .col-md-6 p.socials {
+  .team .col-md-6 p.socials-home {
     font-size: 1.25rem;
+    margin-left: -200px;
   }
 
   .team .col-md-6 p.socials i.bi {
@@ -5018,7 +5039,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .testimonials .section-heading h2 {
-    font-size: 36px;
+    font-size: 24px;
     margin-top: -50px;
     margin-bottom: 20px;
     text-align: center;
@@ -5027,16 +5048,16 @@ footer .contact-form button.filled-button:hover {
   .testimonials .section-heading span {
     text-align: center;
     margin-bottom: -90px;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .testimonials .testimonial-item .inner-content p {
-    font-size: 18px;
+    font-size: 13px;
     margin-bottom: 8px;
   }
 
@@ -5084,6 +5105,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 1366px) {
+
   .services {
     margin-left: 90px;
   }
@@ -5168,12 +5190,12 @@ footer .contact-form button.filled-button:hover {
   }
 
   a.btn {
-    font-size: 15px;
-    width: 180px;
+    font-size: 13px;
+    width: 160px;
   }
 
   a.filled-button {
-    font-size: 15px;
+    font-size: 13px;
     margin: auto -40px -50px -30px;
   }
 
@@ -5181,36 +5203,37 @@ footer .contact-form button.filled-button:hover {
     margin-left: 20px;
   }
 
+  .more-info .more-info-content {
+    height: 400px;
+  }
+
   .more-info .left-image {
     text-align: left;
     margin-bottom: 10px;
     margin-left: 30px;
     margin-top: 30px;
-    height: 700px;
-    width: auto;
-    object-fit: cover;
   }
 
   .more-info .left-image img {
+    height: 340px;
+    width: 550px;
     object-fit: cover;
-    height: 580px;
-    width: 620px;
   }
 
   .more-info .right-content h2 {
-    font-size: 38px;
+    font-size: 24px;
     text-align: left;
-    margin: -80px -50px 0 -10px;
+    margin: -320px 0 0 -50px;
   }
 
   .more-info .right-content p {
     text-align: justify;
-    font-size: 20px;
-    margin: 20px -40px 20px -10px;
+    font-size: 13px;
+    margin: 20px 0 20px -50px;
   }
 
   .services .section-heading h2 {
-    font-size: 38px;
+    font-size: 24px;
     text-align: center;
     margin: 50px auto auto -170px;
   }
@@ -5220,7 +5243,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .section-heading span {
-    font-size: 15px;
+    font-size: 13px;
     margin: 15px 30px -50px -135px;
     text-align: center;
   }
@@ -5232,7 +5255,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content p {
-    font-size: 18px;
+    font-size: 13px;
     margin-bottom: 8px;
     text-align: left;
   }
@@ -5242,40 +5265,47 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content a.filled-button {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .team .section-header h2 {
-    font-size: 38px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 10px;
   }
 
   .team .section-header p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 13px;
     line-height: 1.9;
-    margin: 0 50px;
+    margin: 0 90px;
   }
 
   #team .card-body img {
-    height: auto;
+    width: 390px;
+    height: 340px;
+    object-fit: cover;
+    object-position: top;
   }
 
   #team .card-body h3.card-title {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   #team .card-body p.card-text {
-    font-size: 24px;
-    text-align: left;
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  #team .card-body p.socials-home {
+    margin-left: -150px;
   }
 
   #team .card-body p.socials a {
-    font-size: 25px;
+    font-size: 24px;
   }
 
-  .team .col-md-6 p.socials {
+  .team .col-md-6 p.socials-home {
     font-size: 1.56rem;
   }
 
@@ -5288,7 +5318,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .testimonials .section-heading h2 {
-    font-size: 38px;
+    font-size: 24px;
     margin-top: -50px;
     margin-bottom: 20px;
     text-align: center;
@@ -5297,16 +5327,16 @@ footer .contact-form button.filled-button:hover {
   .testimonials .section-heading span {
     text-align: center;
     margin-bottom: -90px;
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .testimonials .testimonial-item .inner-content h4,
   .testimonials .testimonial-item .inner-content span {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .testimonials .testimonial-item .inner-content p {
-    font-size: 22px;
+    font-size: 13px;
     margin-bottom: 8px;
   }
 
@@ -5365,23 +5395,29 @@ footer .contact-form button.filled-button:hover {
     margin-right: 350px;
   }
 
+  .more-info .more-info-content {
+    height: 620px;
+  }
+
   .more-info .container .more-info-content {
     margin-left: 50px;
   }
 
   .more-info .left-image img {
     width: 600px;
+    height: auto;
+    object-fit: cover;
   }
 
   .more-info .right-content h2 {
-    font-size: 38px;
+    font-size: 30px;
     text-align: left;
-    margin: -50px -50px 0 -5px;
+    margin: -70px -50px 0 -5px;
   }
 
   .more-info .right-content p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     margin: 20px -40px 50px -5px;
   }
 
