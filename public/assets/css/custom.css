@@ -2065,6 +2065,74 @@ footer .contact-form button.filled-button:hover {
   .sub-footer {
     margin-top: -100px;
   }
+
+  /* Terms of use */
+
+  .terms {
+    height: 1200px;
+    display: flex;
+  }
+
+  .terms h2.text-center {
+    padding-top: 100px;
+  }
+
+  .terms p.text-justify {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .terms .accordion-body {
+    font-size: 13px;
+    position: relative;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1250px;
+    display: flex;
+  }
+
+  .privacy h2.text-center {
+    padding-top: 100px;
+  }
+
+  .privacy p.text-justify {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .privacy .accordion-body {
+    font-size: 13px;
+    position: relative;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 3550px;
+    display: flex;
+  }
+
+  #faqs-body h2.text-center {
+    padding-top: -30px;
+    font-size: 24px;
+  }
+
+  #faqs-body span.text-center {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  #faqs-body h2.accordion-header {
+    font-size: 26px;
+  }
+
+  #faqs-body .accordion-body {
+    font-size: 13px;
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 281px) and (max-width: 352px) {
@@ -2198,6 +2266,19 @@ footer .contact-form button.filled-button:hover {
     width: 80px;
     height: 80px;
   }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1200px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 3350px;
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 353px) and (max-width: 359px) {
@@ -2326,6 +2407,18 @@ footer .contact-form button.filled-button:hover {
     width: 80px;
     height: 80px;
   }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1150px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 3250px;
+  }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 374px) {
@@ -2441,6 +2534,18 @@ footer .contact-form button.filled-button:hover {
   .vision-mission img {
     width: 80px;
     height: 80px;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1150px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 3200px;
   }
 }
 
@@ -2564,6 +2669,18 @@ footer .contact-form button.filled-button:hover {
   .vision-mission img {
     width: 80px;
     height: 80px;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1150px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 3100px;
   }
 }
 
@@ -2702,6 +2819,18 @@ footer .contact-form button.filled-button:hover {
   .vision-mission img {
     width: 80px;
     height: 80px;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1150px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 3000px;
   }
 }
 
@@ -2845,6 +2974,24 @@ footer .contact-form button.filled-button:hover {
   .vision-mission img {
     width: 80px;
     height: 80px;
+  }
+
+  /* Terms of use */
+
+  .terms {
+    height: 1150px;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1150px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 2950px;
   }
 }
 
@@ -3007,6 +3154,24 @@ footer .contact-form button.filled-button:hover {
   .vision-mission img {
     width: 80px;
     height: 80px;
+  }
+
+  /* Terms of use */
+
+  .terms {
+    height: 1150px;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1100px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 2900px;
   }
 }
 
@@ -3173,6 +3338,24 @@ footer .contact-form button.filled-button:hover {
   .vision-mission img {
     width: 80px;
     height: 80px;
+  }
+
+  /* Terms of use */
+
+  .terms {
+    height: 1150px;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1100px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 2900px;
   }
 }
 
@@ -3341,6 +3524,29 @@ footer .contact-form button.filled-button:hover {
   .vision-mission img {
     width: 80px;
     height: 80px;
+  }
+
+  /* Terms of use */
+
+  .terms h2.text-center {
+    padding-top: 120px;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1150px;
+  }
+
+  .privacy h2.text-center {
+    padding-top: 120px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 2900px;
+    display: flex;
   }
 }
 
@@ -3583,6 +3789,28 @@ footer .contact-form button.filled-button:hover {
 
   .sub-footer p {
     font-size: 13px;
+  }
+
+  /* Terms of use */
+
+  .terms h2.text-center {
+    padding-top: 140px;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1200px;
+  }
+
+  .privacy h2.text-center {
+    padding-top: 140px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 2900px;
   }
 }
 
@@ -3910,6 +4138,12 @@ footer .contact-form button.filled-button:hover {
   .sub-footer {
     margin-top: -100px;
     margin-bottom: -1px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 2700px;
   }
 }
 
@@ -4653,6 +4887,18 @@ footer .contact-form button.filled-button:hover {
   .sub-footer a {
     color: #fff;
   }
+
+  /* Terms of use */
+
+  .terms {
+    height: 1150px;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1150px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -5162,6 +5408,28 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto -30px auto;
     height: 110px;
   }
+
+  /* Terms of use */
+
+  .terms {
+    height: 1100px;
+  }
+
+  /* Privacy Policy */
+
+  .privacy {
+    height: 1050px;
+  }
+
+  /* FAQs */
+
+  .faqs#faqs-body {
+    height: 2650px;
+  }
+
+  #faqs-body h2.accordion-header {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (min-width: 1366px) {
@@ -5444,6 +5712,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media only screen and (min-width: 1600px) {
+
   .services {
     margin-left: 140px;
   }
