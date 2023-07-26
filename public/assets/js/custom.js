@@ -28,8 +28,8 @@ jQuery( document ).ready(function( $ ) {
       }
     });
 
-	if ($('.owl-testimonials').length) {
-        $('.owl-testimonials').owlCarousel({
+	if ($(".owl-testimonials").length) {
+        $(".owl-testimonials").owlCarousel({
             loop: true,
             nav: false,
             dots: true,
@@ -61,8 +61,8 @@ jQuery( document ).ready(function( $ ) {
     }
 
     // Show truncated words
-    $('.truncate-container').hover(function() {
-        $(this).toggleClass('expanded');
+    $(".truncate-container").hover(function() {
+        $(this).toggleClass("expanded");
     });
 
     // Operating hours display
@@ -223,7 +223,7 @@ jQuery( document ).ready(function( $ ) {
     function startCarouselAutoSlide() {
         const intervalTime = 10000;
         setInterval(() => {
-            $('#carouselExampleIndicators').carousel('next');
+            $("#carouselExampleIndicators").carousel("next");
         }, intervalTime);
     }
 
