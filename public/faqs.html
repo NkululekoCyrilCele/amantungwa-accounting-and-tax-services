@@ -114,7 +114,6 @@
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Home
-                                        <!--<span class="sr-only">(current)</span>-->
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -137,7 +136,7 @@
         </section>
 
         <main>
-            <section class="faqs">
+            <section class="faqs" id="faqs-body">
                 <div class="container">
                     <h2 class="text-center">Frequently asked <em>questions</em></h2>
                     <span class="text-center">Answers to some question you might
@@ -147,16 +146,17 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button"
+                                <button class="accordion-button collapsed"
+                                    type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne"
-                                    aria-expanded="true"
+                                    aria-expanded="false"
                                     aria-controls="collapseOne">
                                     Q: What accounting services do you offer?
                                 </button>
                             </h2>
                             <div id="collapseOne"
-                                class="accordion-collapse collapse show"
+                                class="accordion-collapse collapse"
                                 aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
