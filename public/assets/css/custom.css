@@ -24,7 +24,7 @@
 /* Styling Explicit Tags */
 
 body {
-  background-color: #f8fafc;
+  background-color: #fafafa;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
@@ -724,7 +724,7 @@ a.border-button:hover {
   margin-bottom: -100px;
   margin-right: 80px;
   margin-left: 80px;
-  background-color: var(--secondary-button);
+  background-color: #fafafa;
 }
 
 .section-header {
@@ -855,7 +855,7 @@ a.border-button:hover {
 }
 
 .testimonials {
-  background-color: #fff;
+  background-color: #fafafa;
   padding: 140px 0;
 }
 
@@ -1196,13 +1196,18 @@ a.border-button:hover {
 .accordion-item {
   border: none;
   margin-bottom: 24px;
+  box-shadow: 1px 0px 10px var(--text), 1px 0px 10px var(--text), 1px 0px 10px var(--text);
+}
+
+.accordion-item:hover {
+  box-shadow: 2px 4px 6px var(--text), 2px 4px 6px var(--text), 2px 4px 60px var(--text);
 }
 
 .faqs {
   margin-top: 140px;
   margin-bottom: 120px;
   padding: 120px 0;
-  background-color: var(--background);
+  background-color: #fafafa;
 }
 
 .faqs h2 {
