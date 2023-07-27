@@ -666,6 +666,7 @@ a.border-button:hover {
   font-size: 14px;
   color: #7a7a7a;
   margin-bottom: 0px;
+  text-align: justify;
 }
 
 #tabs .tabs-content article ul li {
@@ -868,7 +869,7 @@ a.border-button:hover {
 /* Testimonials section */
 
 .about-testimonials {
-  margin-top: 0 !important;
+  margin-top: -200px !important;
 }
 
 .testimonials {
@@ -1109,6 +1110,10 @@ a.border-button:hover {
   margin: -30px auto 65px;
 }
 
+.about-more-info .right-content h2.values {
+  margin-top: -80px;
+}
+
 .about-more-info .right-content .col-md-12 h2 {
   font-size: 24px;
 }
@@ -1126,6 +1131,15 @@ a.border-button:hover {
 }
 
 /* about us team section*/
+
+#about-team h2 {
+  margin: -40px;
+}
+
+#about-team .section-heading span {
+  margin-top: 60px;
+  margin-bottom: -40px;
+}
 
 .team {
   background-color: #f7f7f7;
@@ -1210,6 +1224,10 @@ a.border-button:hover {
   color: #1e1e1e;
 }
 
+.faqs h2.about {
+  margin-top: -80px;
+}
+
 .faqs em {
   font-style: normal;
   color: var(--text);
@@ -1225,8 +1243,16 @@ a.border-button:hover {
   margin-bottom: 80px;
 }
 
+.faqs span.about-faqs {
+  margin-bottom: 40px;
+}
+
 .accordion-item .accordion-button {
   border-radius: calc(4px - 1px);
+}
+
+.accordion-item .about-button {
+  margin-top: 40px;
 }
 
 .accordion-button {
