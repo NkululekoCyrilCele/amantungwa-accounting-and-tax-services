@@ -718,6 +718,10 @@ a.border-button:hover {
   color: #666;
 }
 
+#services-footer {
+  margin-top: 80px;
+}
+
 /* Team section */
 
 #team {
@@ -1038,6 +1042,16 @@ a.border-button:hover {
 
 .about-more-info {
   margin-top: 140px;
+}
+
+.about-more-info p.margin-fix {
+  margin-top: -100px;
+  color: #1e1e1e !important;
+  font-weight: 600;
+}
+
+.about-more-info p.margin-fix a:hover {
+  color: var(--primary-button);
 }
 
 .about-more-info .left-image img {
