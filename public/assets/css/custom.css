@@ -668,6 +668,19 @@ a.border-button:hover {
   margin-bottom: 0px;
 }
 
+#tabs .tabs-content article ul li {
+  background-color: #fafafa;
+  color: #1e1e1e !important;
+}
+
+#tabs .tabs-content details summary strong {
+  color: var(--text);
+}
+
+#tabs .tabs-content details summary strong:active {
+  color: var(--accent);
+}
+
 .services {
   margin-top: 6.25rem;
   margin-bottom: 0.625rem;
