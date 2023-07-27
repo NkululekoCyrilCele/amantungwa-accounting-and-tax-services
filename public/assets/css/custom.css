@@ -1055,7 +1055,15 @@ a.border-button:hover {
 /* More Info section in about us */
 
 .about-more-info {
-  margin-top: 140px;
+  margin: 140px;
+}
+
+.about-more-info #introduction h2 {
+  margin-left: -90px;
+}
+
+.about-more-info p {
+  margin: 0 -120px 0 -90px;
 }
 
 .about-more-info p.margin-fix {
@@ -1805,6 +1813,14 @@ footer .contact-form button.filled-button:hover {
 
 @media only screen and (min-width: 280px) {
 
+  html {
+    overflow-y: auto;
+  }
+
+  body {
+    overflow-y: hidden;
+  }
+
   header .navbar .container img {
     width: 60px;
     height: auto;
@@ -2162,6 +2178,56 @@ footer .contact-form button.filled-button:hover {
   #faqs-body .accordion-body {
     font-size: 13px;
     position: relative;
+  }
+
+  /* About section */
+  .about-more-info {
+    margin: auto;
+  }
+
+  .about-more-info.about-info .right-content .h2-1 {
+    margin: 50px -20px 50px 20px;
+    text-align: left !important;
+  }
+
+  .about-more-info #introduction h2 {
+    margin: auto -30px 20px 0;
+  }
+
+  .about-more-info #introduction p {
+    margin: auto -30px 20px 0;
+    text-align: left;
+  }
+
+  .about-more-info .vision-mission p {
+    margin: auto -30px 20px 0;
+    text-align: left;
+  }
+
+  .about-more-info .right-content h2.values {
+    margin: 20px -30px 40px 20px !important;
+  }
+
+  #about-team {
+    margin-top: -50px;
+  }
+
+  #about-team .section-heading h2 {
+    text-align: left;
+    margin: -50px -20px -40px 20px;
+  }
+
+  #about-team .section-heading span {
+    text-align: left;
+    margin: 50px -20px -40px 20px;
+  }
+
+  #about-team .card-body img {
+    object-fit: cover;
+  }
+
+  .faqs {
+    margin-top: 60px;
   }
 }
 
@@ -2862,6 +2928,16 @@ footer .contact-form button.filled-button:hover {
   .faqs#faqs-body {
     height: 3000px;
   }
+
+  /* About section */
+
+  .about-more-info #introduction p {
+    text-align: justify;
+  }
+
+  .about-more-info .vision-mission p {
+    text-align: justify;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 539px) {
@@ -3022,6 +3098,16 @@ footer .contact-form button.filled-button:hover {
 
   .faqs#faqs-body {
     height: 2950px;
+  }
+
+  /* About section */
+
+  .about-more-info #introduction p {
+    text-align: justify;
+  }
+
+  .about-more-info .vision-mission p {
+    text-align: justify;
   }
 }
 
@@ -3202,6 +3288,16 @@ footer .contact-form button.filled-button:hover {
 
   .faqs#faqs-body {
     height: 2900px;
+  }
+
+  /* About section */
+
+  .about-more-info #introduction p {
+    text-align: justify;
+  }
+
+  .about-more-info .vision-mission p {
+    text-align: justify;
   }
 }
 
@@ -3386,6 +3482,16 @@ footer .contact-form button.filled-button:hover {
 
   .faqs#faqs-body {
     height: 2900px;
+  }
+
+  /* About section */
+
+  .about-more-info #introduction p {
+    text-align: justify;
+  }
+
+  .about-more-info .vision-mission p {
+    text-align: justify;
   }
 }
 
@@ -3577,6 +3683,16 @@ footer .contact-form button.filled-button:hover {
   .faqs#faqs-body {
     height: 2900px;
     display: flex;
+  }
+
+  /* About section */
+
+  .about-more-info #introduction p {
+    text-align: justify;
+  }
+
+  .about-more-info .vision-mission p {
+    text-align: justify;
   }
 }
 
@@ -3841,6 +3957,28 @@ footer .contact-form button.filled-button:hover {
 
   .faqs#faqs-body {
     height: 2900px;
+  }
+
+  /* About section */
+
+  .about-more-info.about-info .right-content .h2-1 {
+    text-align: center !important;
+  }
+
+  .about-more-info #introduction p {
+    text-align: justify;
+  }
+
+  .about-more-info .vision-mission p {
+    text-align: justify;
+  }
+
+  #about-team .section-heading h2 {
+    text-align: center;
+  }
+
+  #about-team .section-heading span {
+    text-align: center;
   }
 }
 
