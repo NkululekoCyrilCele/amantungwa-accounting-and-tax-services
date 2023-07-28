@@ -617,10 +617,14 @@ a.border-button:hover {
   padding: 0;
 }
 
+.single-services-mobile #tabs #tabs-6 p.last-child {
+  margin-bottom: -30px;
+}
+
 #tabs ul li {
   margin-bottom: 10px;
   display: inline-block;
-  width: 100%;
+  width: 250px;
   background-color: var(--text);
 }
 
@@ -632,7 +636,7 @@ a.border-button:hover {
 }
 
 #tabs ul li:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .single-services-mobile ul li:last-child {
@@ -646,7 +650,7 @@ a.border-button:hover {
   display: inline-block;
   background-color: var(--text);
   font-size: 20px;
-  color: var(--text);
+  color: #121212;
   letter-spacing: 0.5px;
   font-weight: 700;
   transition: all 0.3s;
@@ -673,6 +677,7 @@ a.border-button:hover {
 .single-services-mobile label i {
   float: right;
   margin-top: 0;
+  margin-left: 5px;
   transform: rotate(0deg);
   transition: transform 0.3s;
 }
@@ -710,6 +715,13 @@ a.border-button:hover {
 .tabs-content img {
   max-width: 100%;
   overflow: hidden;
+  object-fit: cover;
+  width: auto;
+  height: auto;
+}
+
+.single-services-mobile .tabs-content img {
+  margin-top: 10px;
 }
 
 .tabs-content h4 {
@@ -724,7 +736,7 @@ a.border-button:hover {
   font-size: 14px;
   color: #7a7a7a;
   margin-bottom: 0px;
-  text-align: justify;
+  text-align: left;
 }
 
 #tabs .tabs-content article ul li {
@@ -1267,6 +1279,7 @@ a.border-button:hover {
 }
 
 /* About section FAQs  */
+
 .accordion-item {
   border: none;
   margin-bottom: 24px;
@@ -1730,88 +1743,6 @@ footer .contact-form button.filled-button:hover {
   letter-spacing: 1px;
   color: #fff;
   display: block;
-}
-
-/* Single Service */
-
-.single-services {
-  margin-top: 10px;
-  margin-bottom: 140px;
-}
-
-#tabs ul {
-  margin: 0;
-  padding: 0;
-}
-
-#tabs ul li {
-  margin-bottom: 10px;
-  display: inline-block;
-  width: 100%;
-  background-color: var(--text);
-}
-
-#tabs ul li:last-child {
-  margin-bottom: 0;
-}
-
-#tabs ul li a {
-  text-transform: capitalize;
-  width: 100%;
-  padding: 30px 30px;
-  display: inline-block;
-  background-color: var(--text);
-  font-size: 20px;
-  color: #121212;
-  letter-spacing: 0.5px;
-  font-weight: 700;
-  transition: all 0.3s;
-}
-
-#tabs ul li a i {
-  float: right;
-  margin-top: 5px;
-}
-
-#tabs ul .ui-tabs-active span {
-  background: #faf5b2;
-  border: #faf5b2;
-  line-height: 90px;
-  border-bottom: none;
-}
-
-#tabs ul .ui-tabs-active a {
-  color: #fff;
-}
-
-#tabs ul .ui-tabs-active span {
-  color: #1e1e1e;
-}
-
-.tabs-content {
-  margin-left: 30px;
-  text-align: left;
-  display: inline-block;
-  transition: all 0.3s;
-}
-
-.tabs-content img {
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.tabs-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 15px;
-  margin-top: 30px;
-}
-
-.tabs-content p {
-  font-size: 14px;
-  color: #7a7a7a;
-  margin-bottom: 0;
 }
 
 /* Terms of Use section */
@@ -2450,6 +2381,12 @@ footer .contact-form button.filled-button:hover {
   .faqs#faqs-body {
     height: 3350px;
     display: flex;
+  }
+
+  /* Services Page */
+
+  .tabs-content p {
+    text-align: justify;
   }
 }
 
@@ -3560,7 +3497,7 @@ footer .contact-form button.filled-button:hover {
     height: 2900px;
   }
 
-  /* About section */
+  /* About page */
 
   .about-more-info #introduction p {
     text-align: justify;
@@ -3568,6 +3505,20 @@ footer .contact-form button.filled-button:hover {
 
   .about-more-info .vision-mission p {
     text-align: justify;
+  }
+
+  /* Service page */
+
+  .single-services-mobile #tabs .tabs-content article p {
+    margin-bottom: 10px;
+  }
+
+  .single-services-mobile .tabs-content article img,
+  .single-services-mobile .tabs-content article h4,
+  .single-services-mobile .tabs-content article p,
+  .single-services-mobile .tabs-content article summary,
+  .single-services-mobile .tabs-content article ul {
+    margin-left: -15px;
   }
 }
 
@@ -3761,7 +3712,7 @@ footer .contact-form button.filled-button:hover {
     display: flex;
   }
 
-  /* About section */
+  /* About Us Page */
 
   .about-more-info #introduction p {
     text-align: justify;
@@ -3769,6 +3720,16 @@ footer .contact-form button.filled-button:hover {
 
   .about-more-info .vision-mission p {
     text-align: justify;
+  }
+
+  /* Services Page */
+
+  .single-services-mobile .tabs-content article img,
+  .single-services-mobile .tabs-content article h4,
+  .single-services-mobile .tabs-content article p,
+  .single-services-mobile .tabs-content article summary,
+  .single-services-mobile .tabs-content article ul {
+    margin-left: -15px;
   }
 }
 
@@ -4055,6 +4016,16 @@ footer .contact-form button.filled-button:hover {
 
   #about-team .section-heading span {
     text-align: center;
+  }
+
+  /* Services Page */
+
+  .single-services-mobile .tabs-content article img,
+  .single-services-mobile .tabs-content article h4,
+  .single-services-mobile .tabs-content article p,
+  .single-services-mobile .tabs-content article summary,
+  .single-services-mobile .tabs-content article ul {
+    margin-left: -15px;
   }
 }
 
@@ -4389,6 +4360,36 @@ footer .contact-form button.filled-button:hover {
   .faqs#faqs-body {
     height: 2700px;
   }
+
+  /* Services Page */
+
+  .about-more-info #introduction p.p-services {
+    margin-left: -22px;
+    margin-right: -52px;
+  }
+
+  .about-more-info #introduction p.margin-fix {
+    margin: 40px -52px -50px -22px;
+  }
+
+  .single-services {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .single-services-mobile {
+    display: none;
+  }
+
+  .tabs-content {
+    display: block;
+  }
+
+  #toggle-content:checked~.tabs-content {
+    display: none;
+  }
+
+
 }
 
 @media only screen and (min-width: 923px) {
@@ -5143,6 +5144,13 @@ footer .contact-form button.filled-button:hover {
   .privacy {
     height: 1150px;
   }
+
+  /* Service Page */
+
+  #tabs ul li {
+    width: 320px;
+    ;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -5676,6 +5684,12 @@ footer .contact-form button.filled-button:hover {
   #faqs-body h2.accordion-header {
     font-size: 30px;
   }
+
+  /* Service Page */
+
+  #tabs ul li {
+    width: 380px;
+  }
 }
 
 @media only screen and (min-width: 1366px) {
@@ -5933,6 +5947,20 @@ footer .contact-form button.filled-button:hover {
     padding: 0;
     margin: auto auto -30px auto;
     height: 110px;
+  }
+
+  /* Service page */
+
+  .single-services #tabs .tabs-content article p {
+    margin-bottom: 50px;
+  }
+
+  .single-services .tabs-content article img,
+  .single-services .tabs-content article h4,
+  .single-services .tabs-content article p,
+  .single-services .tabs-content article summary,
+  .single-services .tabs-content article ul {
+    margin-left: -55px;
   }
 }
 
