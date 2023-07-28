@@ -1035,24 +1035,35 @@ a.border-button:hover {
 /* Contact us section */
 
 .contact-section {
-  background-color: #7f1d1d;
+  background-color: var(--background);
 }
 
 .contact-section h4 {
   font-size: 36px;
+  color: white;
 }
 
 .contact-section p {
   font-size: 24px;
+  color: white;
 }
 
 #contact-us .card {
   border-radius: 20px;
   padding: 32px;
+  background-color: var(--text);
+  box-shadow: 0 1px 4px var(--text), 0 1px 4px var(--text), 0 1px 4px var(--text), 2px 3px 0 var(--text);
+}
+
+.card form .mb-3 input:focus,
+.card form .mb-3 textarea:focus {
+  border: 0.5px ridge var(--accent)
 }
 
 .contact-section .card-img-top {
   border-radius: 20px;
+  object-fit: cover;
+  width: fit-content;
 }
 
 .contact-section .form-control {
@@ -1093,19 +1104,19 @@ a.border-button:hover {
 
 .contact-information .contact-item i {
   font-size: 30px;
-  color: white;
+  color: var(--accent);
 }
 
 .contact-information .contact-item h4 {
   font-size: 20px;
-  color: white;
+  color: var(--accent);
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .contact-information .contact-item p {
   font-size: 16px;
-  color: white;
+  color: var(--accent);
 }
 
 .contact-information .contact-item a {
