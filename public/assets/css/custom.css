@@ -1230,6 +1230,12 @@ a.border-button:hover {
   margin-bottom: -40px;
 }
 
+#about-team .card-body img.about-img {
+  height: 780px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
 .team {
   background-color: #f7f7f7;
   margin-bottom: -140px;
@@ -1265,10 +1271,18 @@ a.border-button:hover {
   display: block;
 }
 
-.team .col-md-6.right-content p:first-of-type {
+.team .col-md-6.right-content p {
   margin-bottom: 0;
   font-size: 16px;
   color: #666;
+}
+
+.team .col-md-6.right-content p:first-of-type {
+  margin-bottom: 20px;
+}
+
+.team .col-md-6.right-content p.middle-p {
+  margin-top: 20px;
 }
 
 .team .right-content li {
@@ -2213,17 +2227,21 @@ footer .contact-form button.filled-button:hover {
   }
 
   #about-team .section-heading h2 {
-    text-align: left;
-    margin: -50px -20px -40px 20px;
+    text-align: center;
+    margin: -50px 20px -40px 20px;
   }
 
   #about-team .section-heading span {
-    text-align: left;
-    margin: 50px -20px -40px 20px;
+    text-align: center;
+    font-size: 13px;
+    margin: 50px 10px -40px 10px;
   }
 
-  #about-team .card-body img {
+  #about-team .card-body img.about-img {
+    height: auto;
+    width: 340px;
     object-fit: cover;
+    margin-left: 0;
   }
 
   .faqs {
@@ -2392,6 +2410,15 @@ footer .contact-form button.filled-button:hover {
   .faqs#faqs-body {
     height: 3350px;
     display: flex;
+  }
+
+  /* About Page */
+
+  #about-team .card-body img.about-img {
+    height: auto;
+    width: 340px;
+    object-fit: cover;
+    margin-left: 0;
   }
 
   /* Services Page */
@@ -3124,13 +3151,19 @@ footer .contact-form button.filled-button:hover {
     height: 2950px;
   }
 
-  /* About section */
+  /* About Page */
 
   .about-more-info #introduction p {
     text-align: justify;
   }
 
   .about-more-info .vision-mission p {
+    text-align: justify;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
     text-align: justify;
   }
 }
@@ -3321,6 +3354,19 @@ footer .contact-form button.filled-button:hover {
   }
 
   .about-more-info .vision-mission p {
+    text-align: justify;
+  }
+
+  #about-team .card-body img.about-img {
+    height: auto;
+    width: 480px;
+    object-fit: cover;
+    margin-left: 0;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
     text-align: justify;
   }
 }
@@ -3515,6 +3561,19 @@ footer .contact-form button.filled-button:hover {
   }
 
   .about-more-info .vision-mission p {
+    text-align: justify;
+  }
+
+  #about-team .card-body img.about-img {
+    height: auto;
+    width: 480px;
+    object-fit: cover;
+    margin-left: 0;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
     text-align: justify;
   }
 
@@ -3730,6 +3789,19 @@ footer .contact-form button.filled-button:hover {
   }
 
   .about-more-info .vision-mission p {
+    text-align: justify;
+  }
+
+  #about-team .card-body img.about-img {
+    height: auto;
+    width: 480px;
+    object-fit: cover;
+    margin-left: 0;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
     text-align: justify;
   }
 
@@ -4027,6 +4099,19 @@ footer .contact-form button.filled-button:hover {
 
   #about-team .section-heading span {
     text-align: center;
+  }
+
+  #about-team .card-body img.about-img {
+    height: auto;
+    width: 480px;
+    object-fit: cover;
+    margin-left: 0;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
+    text-align: justify;
   }
 
   /* Services Page */
@@ -4370,6 +4455,37 @@ footer .contact-form button.filled-button:hover {
 
   .faqs#faqs-body {
     height: 2700px;
+  }
+
+  /* About Page */
+
+  #about-team .card-body img.about-img {
+    height: 460px;
+    width: 480px;
+    object-fit: cover;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  #about-team .card-body .right-content h4,
+  #about-team .card-body .right-content span {
+    margin-left: -240px;
+    margin-right: 100px;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p {
+    margin-left: -340px;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
+    text-align: justify;
+  }
+
+  #about-team .card-body .right-content p.socials {
+    margin-left: -300px;
   }
 
   /* Services Page */
@@ -5156,6 +5272,37 @@ footer .contact-form button.filled-button:hover {
     height: 1150px;
   }
 
+  /* About Page */
+
+  #about-team .card-body img.about-img {
+    height: 780px;
+    width: 480px;
+    object-fit: cover;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  #about-team .card-body .right-content h4,
+  #about-team .card-body .right-content span {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p {
+    margin-left: 0;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
+    text-align: justify;
+  }
+
+  #about-team .card-body .right-content p.socials {
+    margin-left: 0;
+  }
+
   /* Service Page */
 
   #tabs ul li {
@@ -5696,6 +5843,41 @@ footer .contact-form button.filled-button:hover {
     font-size: 30px;
   }
 
+  /* About Page */
+
+  #about-team .card-body img.about-img {
+    height: 710px;
+    width: 480px;
+    object-fit: cover;
+    margin: 20px 0 0;
+  }
+
+  #about-team .card-body .right-content h4,
+  #about-team .card-body .right-content span {
+    margin-left: -1080px;
+    margin-right: 0;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p {
+    margin-left: -20px;
+    margin-right: 20px;
+  }
+
+  #about-team .card-body .right-content ul {
+    margin-right: 20px;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
+    text-align: justify;
+  }
+
+  #about-team .card-body .right-content p.socials {
+    margin-left: -1080px;
+  }
+
   /* Service Page */
 
   #tabs ul li {
@@ -5958,6 +6140,42 @@ footer .contact-form button.filled-button:hover {
     padding: 0;
     margin: auto auto -30px auto;
     height: 110px;
+  }
+
+  /* About Page */
+
+  #about-team .card-body img.about-img {
+    height: auto;
+    width: 480px;
+    object-fit: cover;
+    margin: 20px 0 0 -80px;
+  }
+
+  #about-team .card-body .right-content h4,
+  #about-team .card-body .right-content span {
+    margin-left: -160px;
+    margin-right: 0;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p {
+    margin-left: -90px;
+    margin-right: 40px;
+  }
+
+  #about-team .card-body .right-content ul {
+    margin-right: 40px;
+    margin-left: -70px;
+  }
+
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
+    text-align: justify;
+  }
+
+  #about-team .card-body .right-content p.socials {
+    margin-left: -160px;
   }
 
   /* Service page */
