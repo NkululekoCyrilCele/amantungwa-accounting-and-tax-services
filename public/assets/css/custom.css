@@ -1044,15 +1044,32 @@ a.border-button:hover {
 }
 
 .contact-section p {
-  font-size: 24px;
+  font-size: 20px;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #contact-us .card {
   border-radius: 20px;
   padding: 32px;
+  margin: 0;
   background-color: var(--text);
   box-shadow: 0 1px 4px var(--text), 0 1px 4px var(--text), 0 1px 4px var(--text), 2px 3px 0 var(--text);
+}
+
+#contact-us .card.adjust {
+  margin: 0 200px 0 0;
+}
+
+#contact-us .card.p-4 {
+  margin: -1040px -660px 0 450px;
+}
+
+#contact-us .contact-information {
+  margin-left: 190px;
+  margin-right: -280px;
+  padding-top: 180px;
 }
 
 .card form .mb-3 input:focus,
@@ -1063,7 +1080,8 @@ a.border-button:hover {
 .contact-section .card-img-top {
   border-radius: 20px;
   object-fit: cover;
-  width: fit-content;
+  width: 380px;
+  height: auto;
 }
 
 .contact-section .form-control {
@@ -1104,19 +1122,19 @@ a.border-button:hover {
 
 .contact-information .contact-item i {
   font-size: 30px;
-  color: var(--accent);
+  color: #000;
 }
 
 .contact-information .contact-item h4 {
   font-size: 20px;
-  color: var(--accent);
+  color: #000;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .contact-information .contact-item p {
   font-size: 16px;
-  color: var(--accent);
+  color: #000;
 }
 
 .contact-information .contact-item a {
