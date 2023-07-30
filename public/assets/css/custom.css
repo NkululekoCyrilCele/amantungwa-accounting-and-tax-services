@@ -1,5 +1,4 @@
 /* Defining Colors */
-
 :root {
   --text: #425b8d;
   --background: #f3edf7;
@@ -9,7 +8,6 @@
 }
 
 /* Styling Universal Selector */
-
 *,
 *:before,
 *:after {
@@ -22,7 +20,6 @@
 }
 
 /* Styling Explicit Tags */
-
 body {
   background-color: #fff;
   font-family: "Poppins", sans-serif;
@@ -71,42 +68,39 @@ header {
 }
 
 /* Styling Preloader */
-
 #preloader {
-  overflow: hidden;
-  background: var(--background);
+  position: fixed;
+  z-index: 9999999;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  position: fixed;
-  z-index: 9999999;
+  overflow: hidden;
+  background: var(--background);
   color: var(--accent);
 }
 
 #preloader .jumper {
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
   position: absolute;
-  margin: auto;
+  display: block;
   width: 50px;
   height: 50px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 #preloader .jumper>div {
-  background-color: var(--accent);
+  position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 100%;
+  background-color: var(--accent);
+  opacity: 0;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  position: absolute;
-  opacity: 0;
-  width: 50px;
-  height: 50px;
   -webkit-animation: jumper 1s 0s linear infinite;
   animation: jumper 1s 0s linear infinite;
 }
@@ -158,7 +152,6 @@ header {
 /* Styling Header */
 
 /* Sub Header Style */
-
 .sub-header {
   background-color: var(--accent);
   height: 46px;
@@ -224,6 +217,7 @@ header {
 
 /* Styling the navbar */
 
+/* General Navbar Styles */
 header .navbar {
   padding: 5px 0;
 }
@@ -236,9 +230,6 @@ header .navbar .container img {
 
 .background-header .navbar {
   padding: 10px 0;
-}
-
-.background-header {
   top: 0;
   position: fixed;
   background-color: var(--background) !important;
@@ -262,6 +253,7 @@ header .navbar .container img {
   color: var(--accent) !important;
 }
 
+/* Navbar Brand Styles */
 .navbar .navbar-brand {
   float: left;
   margin-top: 12px;
@@ -279,6 +271,7 @@ header .navbar .container img {
   transition: all 0.3s ease 0s;
 }
 
+/* Navbar Links Styles */
 #navbarSupportedContent {
   z-index: 999;
 }
@@ -310,6 +303,7 @@ header .navbar .container img {
   border-bottom: 2px solid var(--accent);
 }
 
+/* Navbar Toggler Styles */
 .navbar .navbar-toggler .bi-list {
   color: var(--accent);
   font-size: 18px;
@@ -370,17 +364,22 @@ header .navbar .container img {
 
 /* Styling buttons */
 
-a.btn {
-  background-color: var(--text);
-  color: var(--background);
+a.btn,
+a.filled-button,
+a.border-button {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 700;
   padding: 12px 30px;
-  border: 2px solid var(--text);
-  border-radius: 30px;
   display: inline-block;
   transition: all 0.3s;
+}
+
+a.btn {
+  background-color: var(--text);
+  color: var(--background);
+  border: 2px solid var(--text);
+  border-radius: 30px;
 }
 
 a.btn:hover {
@@ -392,18 +391,7 @@ a.btn:hover {
 a.filled-button {
   background-color: var(--text);
   color: var(--background);
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 12px 30px;
   border-radius: 30px;
-  display: inline-block;
-  transition: all 0.3s;
-}
-
-a.filled-button:hover {
-  background-color: var(--background);
-  color: var(--primary-button);
 }
 
 a.border-button {
@@ -411,7 +399,12 @@ a.border-button {
   color: var(--background);
   border: 2px solid var(--background);
   padding: 10px 28px;
-  transition: all 0.3s;
+}
+
+a.btn:hover,
+a.filled-button:hover {
+  background-color: var(--background);
+  color: var(--primary-button);
 }
 
 a.border-button:hover {
@@ -580,7 +573,8 @@ a.border-button:hover {
   margin: -10px 0 10px 20px;
 }
 
-#tabs ul {
+#tabs ul,
+.single-services-mobile ul {
   margin: 0;
   padding: 0;
 }
@@ -594,50 +588,19 @@ a.border-button:hover {
   margin-right: 30px;
 }
 
-.single-services-mobile ul {
-  margin: 0;
-  padding: 0;
-}
-
-.single-services-mobile #tabs #tabs-6 p.last-child {
-  margin-bottom: -30px;
-}
-
-#tabs ul li {
-  margin-bottom: 10px;
-  display: inline-block;
-  width: 250px;
-  background-color: #fff !important;
-}
-
+#tabs ul li,
 .single-services-mobile ul li {
   margin-bottom: 10px;
   display: inline-block;
-  width: 100%;
-  background-color: var(--text);
+  width: 250px;
 }
 
-#tabs ul li:last-child {
-  margin-bottom: 0;
-}
-
+#tabs ul li:last-child,
 .single-services-mobile ul li:last-child {
   margin-bottom: 0;
 }
 
-#tabs ul li a {
-  text-transform: capitalize;
-  width: 100%;
-  padding: 30px 30px;
-  display: inline-block;
-  background-color: var(--text);
-  font-size: 20px;
-  color: #121212;
-  letter-spacing: 0.5px;
-  font-weight: 700;
-  transition: all 0.3s;
-}
-
+#tabs ul li a,
 .single-services-mobile ul li a {
   text-transform: capitalize;
   width: 100%;
@@ -651,27 +614,18 @@ a.border-button:hover {
   transition: all 0.3s;
 }
 
-#tabs ul li a i {
+#tabs ul li a i,
+.single-services-mobile label i {
   float: right;
   margin-top: 5px;
 }
 
-.single-services-mobile label i {
-  float: right;
-  margin-top: 0;
-  margin-left: 5px;
-  transform: rotate(0deg);
-  transition: transform 0.3s;
-}
-
-#tabs ul .ui-tabs-active span {
+#tabs ul .ui-tabs-active span,
+#tabs ul .ui-tabs-active a {
   background: #fff;
   border: #fff;
   line-height: 90px;
   border-bottom: none;
-}
-
-#tabs ul .ui-tabs-active a {
   color: #fff;
 }
 
@@ -712,16 +666,13 @@ a.border-button:hover {
   height: auto;
 }
 
-.single-services-mobile .tabs-content img {
-  margin-top: 10px;
-}
-
 .tabs-content h4 {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.25px;
   margin-bottom: 15px;
   margin-top: 30px;
+  color: #1e1e1e;
 }
 
 .tabs-content p {
@@ -1615,7 +1566,6 @@ footer {
   background-color: #232323;
   padding: 80px 0;
   color: #fff;
-  /* margin: 100px; */
 }
 
 footer h4 {
@@ -1895,6 +1845,7 @@ footer .contact-form button.filled-button:hover {
 
 /* Responsive Design */
 
+/* Mobile View */
 @media only screen and (min-width: 280px) {
 
   html {
@@ -1905,6 +1856,7 @@ footer .contact-form button.filled-button:hover {
     overflow-y: hidden;
   }
 
+  /* Header */
   header .navbar .container img {
     width: 60px;
     height: auto;
@@ -1944,6 +1896,7 @@ footer .contact-form button.filled-button:hover {
       0 0.5px 0.5px var(--text);
   }
 
+  /* Carousel */
   .carousel-inner .carousel-item {
     height: 500px;
   }
@@ -1974,6 +1927,7 @@ footer .contact-form button.filled-button:hover {
     width: auto;
   }
 
+  /* Request Form */
   .request-form {
     border-radius: 0;
     padding: 20px;
@@ -1992,6 +1946,7 @@ footer .contact-form button.filled-button:hover {
     margin: 30px 40px 0 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 50px;
     padding: 0;
@@ -2038,6 +1993,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto -40px -50px -30px;
   }
 
+  /* Services Section */
   .services {
     margin-top: 80px;
   }
@@ -2077,6 +2033,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 30px;
   }
 
+  /* Team Section */
   #team {
     margin: auto;
   }
@@ -2107,6 +2064,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
+  /* Testimonials Section */
   .testimonials {
     margin-top: -120px;
   }
@@ -2146,6 +2104,7 @@ footer .contact-form button.filled-button:hover {
     border-radius: 50%;
   }
 
+  /* Footer Section */
   footer {
     margin-top: -150px;
     margin-left: -40px;
@@ -2192,11 +2151,7 @@ footer .contact-form button.filled-button:hover {
     padding-right: 10px;
   }
 
-  .sub-footer {
-    margin-top: -100px;
-  }
-
-  /* Terms of use */
+  /* Terms of Use Page */
 
   .terms {
     height: 1200px;
@@ -2217,7 +2172,7 @@ footer .contact-form button.filled-button:hover {
     position: relative;
   }
 
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1250px;
@@ -2238,7 +2193,7 @@ footer .contact-form button.filled-button:hover {
     position: relative;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 3550px;
@@ -2314,12 +2269,14 @@ footer .contact-form button.filled-button:hover {
     margin-left: 0;
   }
 
+  /* FAQs Section */
   .faqs {
     margin-top: 60px;
   }
 
   /* Services Page */
 
+  /* Hide elements on desktop and show on mobile */
   .single-services {
     display: none;
   }
@@ -2332,6 +2289,7 @@ footer .contact-form button.filled-button:hover {
     display: none;
   }
 
+  /* Show the appropriate tab content based on the selected input */
   #toggle-content:checked~.tabs-content,
   #taxation:checked~.tabs-content,
   #secretarial:checked~.tabs-content,
@@ -2341,6 +2299,7 @@ footer .contact-form button.filled-button:hover {
     display: block;
   }
 
+  /* Tab Navigation */
   #tabs ul li {
     margin-left: -30px;
     font-size: 11px;
@@ -2382,6 +2341,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 25px;
   }
 
+  /* Carousel Caption */
   .carousel-caption {
     transform: translateY(-200%);
   }
@@ -2395,10 +2355,12 @@ footer .contact-form button.filled-button:hover {
     margin-bottom: 20px;
   }
 
+  /* Request Form */
   .request-form .col-md-4 .btn {
     margin: 30px 60px 0 0;
   }
 
+  /* More Info Section */
   .more-info .right-content h2 {
     font-size: 24px;
     margin-top: -410px;
@@ -2414,6 +2376,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto -40px -50px -30px;
   }
 
+  /* Services Section */
   .services {
     margin-top: 80px;
   }
@@ -2438,6 +2401,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 50px;
   }
 
+  /* Team Section */
   #team {
     margin: auto;
   }
@@ -2452,6 +2416,7 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
+  /* Testimonials Section */
   .testimonials {
     margin-top: -120px;
   }
@@ -2481,6 +2446,7 @@ footer .contact-form button.filled-button:hover {
     margin-bottom: 30px;
   }
 
+  /* Footer Section */
   footer {
     margin-top: -130px;
   }
@@ -2490,18 +2456,13 @@ footer .contact-form button.filled-button:hover {
     padding-right: 15px;
   }
 
-  .vision-mission img {
-    width: 80px;
-    height: 80px;
-  }
-
   /* Privacy Policy */
 
   .privacy {
     height: 1200px;
   }
 
-  /* FAQs */
+  /* FAQs Section */
 
   .faqs#faqs-body {
     height: 3350px;
@@ -2544,6 +2505,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 28px;
   }
 
+  /* Carousel Caption */
   .carousel-caption {
     transform: translateY(-170%);
   }
@@ -2557,6 +2519,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 16px;
   }
 
+  /* Request Form */
   .request-form {
     height: 200px;
   }
@@ -2565,6 +2528,7 @@ footer .contact-form button.filled-button:hover {
     margin: 30px 75px 0 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 100px;
   }
@@ -2580,6 +2544,7 @@ footer .contact-form button.filled-button:hover {
     margin-top: 320px;
   }
 
+  /* Services Section */
   .services .section-heading h2 {
     font-size: 24px;
   }
@@ -2604,6 +2569,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 70px;
   }
 
+  /* Team Section */
   #team {
     margin: auto;
   }
@@ -2619,6 +2585,7 @@ footer .contact-form button.filled-button:hover {
     margin-right: 10px;
   }
 
+  /* Testimonials Section */
   .testimonials .section-heading h2 {
     font-size: 24px;
   }
@@ -2641,23 +2608,19 @@ footer .contact-form button.filled-button:hover {
     margin-top: 8px;
   }
 
+  /* Footer Section */
   footer .footer-item h4 {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  .vision-mission img {
-    width: 80px;
-    height: 80px;
-  }
-
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1150px;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 3250px;
@@ -2684,6 +2647,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 28px;
   }
 
+  /* Carousel Caption */
   .carousel-caption {
     transform: translateY(-100%);
   }
@@ -2698,6 +2662,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 14px;
   }
 
+  /* Request Form */
   .request-form {
     height: 220px;
   }
@@ -2706,6 +2671,7 @@ footer .contact-form button.filled-button:hover {
     margin: 30px 80px 0 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 0;
   }
@@ -2721,6 +2687,7 @@ footer .contact-form button.filled-button:hover {
     margin-top: 290px;
   }
 
+  /* Services Section */
   .services .section-heading h2 {
     font-size: 24px;
   }
@@ -2742,6 +2709,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 70px;
   }
 
+  /* Team Section */
   .team .section-header h2 {
     font-size: 24px;
   }
@@ -2752,6 +2720,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto 20px;
   }
 
+  /* Testimonials Section */
   .testimonials .section-heading h2 {
     font-size: 24px;
   }
@@ -2769,23 +2738,19 @@ footer .contact-form button.filled-button:hover {
     font-size: 15px;
   }
 
+  /* Footer Section */
   footer .footer-item h4 {
     padding-left: 13px;
     padding-right: 15px;
   }
 
-  .vision-mission img {
-    width: 80px;
-    height: 80px;
-  }
-
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1150px;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 3200px;
@@ -2812,10 +2777,12 @@ footer .contact-form button.filled-button:hover {
     font-size: 28px;
   }
 
+  /* Carousel Caption */
   .carousel-caption {
     transform: translateY(-80%);
   }
 
+  /* Request Form */
   .request-form {
     height: 210px;
   }
@@ -2828,6 +2795,7 @@ footer .contact-form button.filled-button:hover {
     margin: 30px 90px 0 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 0;
   }
@@ -2843,6 +2811,7 @@ footer .contact-form button.filled-button:hover {
     margin-top: 350px;
   }
 
+  /* Services Section */
   .services .section-heading h2 {
     font-size: 24px;
   }
@@ -2864,6 +2833,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 80px;
   }
 
+  /* Team Section */
   #team {
     margin-top: 50px;
   }
@@ -2878,6 +2848,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto 20px;
   }
 
+  /* Testimonials Section */
   .testimonials .section-heading h2 {
     font-size: 24px;
     margin-top: -50px;
@@ -2904,23 +2875,19 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
+  /* Footer Section */
   footer .footer-item h4 {
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  .vision-mission img {
-    width: 80px;
-    height: 80px;
-  }
-
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1150px;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 3100px;
@@ -2947,6 +2914,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 28px;
   }
 
+  /* Carousel Caption */
   .carousel-caption {
     transform: translateY(-150%);
   }
@@ -2961,6 +2929,7 @@ footer .contact-form button.filled-button:hover {
     margin-top: 20px;
   }
 
+  /* Request Form */
   .request-form {
     height: 200px;
   }
@@ -2973,6 +2942,7 @@ footer .contact-form button.filled-button:hover {
     margin: 0 100px 0 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 10px;
   }
@@ -2988,6 +2958,7 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
+  /* Links and Buttons */
   a.btn {
     font-size: 13px;
   }
@@ -2996,6 +2967,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
+  /* Services Section */
   .services .section-heading h2 {
     font-size: 24px;
   }
@@ -3013,6 +2985,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 90px;
   }
 
+  /* Team Section */
   .team .section-header h2 {
     font-size: 24px;
   }
@@ -3023,6 +2996,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto 20px;
   }
 
+  /* Testimonials Section */
   .testimonials .section-heading h2 {
     font-size: 24px;
     margin-top: -50px;
@@ -3049,6 +3023,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
+  /* Footer Section */
   footer .float {
     margin-left: 0;
     text-align: center;
@@ -3059,29 +3034,21 @@ footer .contact-form button.filled-button:hover {
     text-align: center;
   }
 
-  .vision-mission img {
-    width: 80px;
-    height: 80px;
-  }
-
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1150px;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 3000px;
   }
 
-  /* About section */
+  /* About Page */
 
-  .about-more-info #introduction p {
-    text-align: justify;
-  }
-
+  .about-more-info #introduction p,
   .about-more-info .vision-mission p {
     text-align: justify;
   }
@@ -3108,10 +3075,12 @@ footer .contact-form button.filled-button:hover {
     font-size: 28px;
   }
 
+  /* Carousel Inner */
   .carousel-inner .carousel-item {
     height: 100%;
   }
 
+  /* Carousel Caption */
   .carousel-caption {
     transform: translateY(-200%);
   }
@@ -3125,6 +3094,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 18px;
   }
 
+  /* Request Form */
   .request-form {
     border-radius: 0;
     padding: 20px;
@@ -3139,6 +3109,7 @@ footer .contact-form button.filled-button:hover {
     margin: 20px 145px 0 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 0;
   }
@@ -3153,6 +3124,7 @@ footer .contact-form button.filled-button:hover {
     margin-top: 430px;
   }
 
+  /* Services Section */
   .services .section-heading h2 {
     font-size: 24px;
   }
@@ -3175,6 +3147,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 120px;
   }
 
+  /* Team Section */
   #team {
     margin-top: 80px;
   }
@@ -3199,6 +3172,7 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
+  /* Testimonials Section */
   .testimonials .section-heading h2 {
     font-size: 24px;
     margin-top: -30px;
@@ -3224,24 +3198,19 @@ footer .contact-form button.filled-button:hover {
     border-radius: 50%;
   }
 
-  .vision-mission img {
-    width: 80px;
-    height: 80px;
-  }
-
-  /* Terms of use */
+  /* Terms of Use Page */
 
   .terms {
     height: 1150px;
   }
 
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1150px;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 2950px;
@@ -3249,15 +3218,8 @@ footer .contact-form button.filled-button:hover {
 
   /* About Page */
 
-  .about-more-info #introduction p {
-    text-align: justify;
-  }
-
-  .about-more-info .vision-mission p {
-    text-align: justify;
-  }
-
-  #about-team .card-body .right-content p.first-p,
+  .about-more-info #introduction p,
+  .about-more-info .vision-mission p #about-team .card-body .right-content p.first-p,
   #about-team .card-body .right-content p.middle-p,
   #about-team .card-body .right-content ul {
     text-align: justify;
@@ -3268,6 +3230,7 @@ footer .contact-form button.filled-button:hover {
 
   header .navbar .container img {
     width: 60px;
+    margin-left: 20px;
   }
 
   header .navbar .container .navbar-brand h2 {
@@ -3285,6 +3248,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 28px;
   }
 
+  /* Carousel Section */
   .carousel-inner .carousel-item {
     height: 100%;
   }
@@ -3302,6 +3266,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 18px;
   }
 
+  /* Request Form */
   .request-form .col-md-8 {
     text-align: center;
     justify-content: center;
@@ -3321,6 +3286,7 @@ footer .contact-form button.filled-button:hover {
     margin: 50px 155px 0 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 100px;
   }
@@ -3340,6 +3306,7 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
+  /* Buttons */
   a.btn {
     font-size: 13px;
     font-weight: 600;
@@ -3350,6 +3317,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 600;
   }
 
+  /* Services Section */
   .services .section-heading h2 {
     font-size: 24px;
   }
@@ -3383,6 +3351,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 150px;
   }
 
+  /* Team Section */
   .team .section-header h2 {
     font-size: 24px;
   }
@@ -3390,7 +3359,7 @@ footer .contact-form button.filled-button:hover {
   .team .section-header p {
     font-size: 13px;
     text-align: justify;
-    margin: auto 25px auto 25px;
+    margin: auto 25px;
   }
 
   #team .card-body img {
@@ -3403,6 +3372,7 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
+  /* Testimonials Section */
   .testimonials .section-heading h2 {
     font-size: 24px;
   }
@@ -3420,36 +3390,31 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
-  .vision-mission img {
-    width: 80px;
-    height: 80px;
-  }
-
-  /* Terms of use */
+  /* Terms of Use Page */
 
   .terms {
     height: 1150px;
   }
 
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1100px;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 2900px;
   }
 
-  /* About section */
+  /* About Page */
 
-  .about-more-info #introduction p {
-    text-align: justify;
-  }
-
-  .about-more-info .vision-mission p {
+  .about-more-info #introduction p,
+  .about-more-info .vision-mission p,
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
     text-align: justify;
   }
 
@@ -3458,12 +3423,6 @@ footer .contact-form button.filled-button:hover {
     width: 480px;
     object-fit: cover;
     margin-left: 0;
-  }
-
-  #about-team .card-body .right-content p.first-p,
-  #about-team .card-body .right-content p.middle-p,
-  #about-team .card-body .right-content ul {
-    text-align: justify;
   }
 
   /* Services Page */
@@ -3496,6 +3455,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 36px;
   }
 
+  /* Carousel */
   .carousel-inner .carousel-item {
     height: 600px;
   }
@@ -3520,6 +3480,7 @@ footer .contact-form button.filled-button:hover {
     height: 100%;
   }
 
+  /* Request Form */
   .request-form {
     border-radius: 0;
     padding: 20px;
@@ -3530,14 +3491,14 @@ footer .contact-form button.filled-button:hover {
   .request-form .col-md-8 {
     text-align: center;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: -10px;
+    margin: 10px auto -10px;
   }
 
   .request-form .col-md-4 .btn {
     margin: 30px 180px 0 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 0;
   }
@@ -3553,14 +3514,13 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
-  a.btn {
-    font-size: 13px;
-  }
-
+  /* Buttons */
+  a.btn,
   a.filled-button {
     font-size: 13px;
   }
 
+  /* Services Section */
   .services .section-heading h2 {
     font-size: 24px;
     margin-top: 30px;
@@ -3588,6 +3548,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 150px;
   }
 
+  /* Team Section */
   #team {
     margin-top: 80px;
   }
@@ -3611,6 +3572,7 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
+  /* Testimonials Section */
   .testimonials .section-heading h2 {
     font-size: 24px;
     margin-top: -80px;
@@ -3630,41 +3592,37 @@ footer .contact-form button.filled-button:hover {
     margin-bottom: 8px;
   }
 
+  /* Footer */
   footer .footer-item h4 {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .vision-mission img {
-    width: 80px;
-    height: 80px;
-  }
-
-  /* Terms of use */
+  /* Terms of Use Page */
 
   .terms {
     height: 1150px;
   }
 
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1100px;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 2900px;
   }
 
-  /* About page */
+  /* About Page */
 
-  .about-more-info #introduction p {
-    text-align: justify;
-  }
-
-  .about-more-info .vision-mission p {
+  .about-more-info #introduction p,
+  .about-more-info .vision-mission p,
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
     text-align: justify;
   }
 
@@ -3675,13 +3633,7 @@ footer .contact-form button.filled-button:hover {
     margin-left: 0;
   }
 
-  #about-team .card-body .right-content p.first-p,
-  #about-team .card-body .right-content p.middle-p,
-  #about-team .card-body .right-content ul {
-    text-align: justify;
-  }
-
-  /* Service page */
+  /* Service Page */
 
   .single-services-mobile #tabs .tabs-content article p {
     margin-bottom: 10px;
@@ -3723,10 +3675,12 @@ footer .contact-form button.filled-button:hover {
     font-size: 32px;
   }
 
+  /* Sub Header */
   .sub-header {
     display: none;
   }
 
+  /* Carousel */
   .carousel-caption {
     transform: translateY(-100%);
   }
@@ -3741,6 +3695,7 @@ footer .contact-form button.filled-button:hover {
     margin-bottom: 25px;
   }
 
+  /* Request Form */
   .request-form {
     border-radius: 0;
     padding: 20px;
@@ -3758,6 +3713,7 @@ footer .contact-form button.filled-button:hover {
     margin: 30px auto 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 0;
   }
@@ -3773,14 +3729,13 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
-  a.btn {
-    font-size: 13px;
-  }
-
+  /* Buttons */
+  a.btn,
   a.filled-button {
     font-size: 13px;
   }
 
+  /* Services Section */
   .services .section-heading h2 {
     font-size: 24px;
     margin-top: 30px;
@@ -3808,6 +3763,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 150px;
   }
 
+  /* Team Section */
   #team {
     margin-top: 80px;
   }
@@ -3836,6 +3792,7 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
+  /* Testimonials Section */
   .testimonials .section-heading h2 {
     font-size: 24px;
     margin-top: -80px;
@@ -3859,23 +3816,18 @@ footer .contact-form button.filled-button:hover {
     margin-bottom: 8px;
   }
 
+  /* Footer */
   footer .footer-item h4 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
   }
 
-  .vision-mission img {
-    width: 80px;
-    height: 80px;
-  }
-
-  /* Terms of use */
+  /* Terms of Use Page */
 
   .terms h2.text-center {
     padding-top: 120px;
   }
 
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1150px;
@@ -3885,7 +3837,7 @@ footer .contact-form button.filled-button:hover {
     padding-top: 120px;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 2900px;
@@ -3894,11 +3846,11 @@ footer .contact-form button.filled-button:hover {
 
   /* About Us Page */
 
-  .about-more-info #introduction p {
-    text-align: justify;
-  }
-
-  .about-more-info .vision-mission p {
+  .about-more-info #introduction p,
+  .about-more-info .vision-mission p,
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
     text-align: justify;
   }
 
@@ -3907,12 +3859,6 @@ footer .contact-form button.filled-button:hover {
     width: 480px;
     object-fit: cover;
     margin-left: 0;
-  }
-
-  #about-team .card-body .right-content p.first-p,
-  #about-team .card-body .right-content p.middle-p,
-  #about-team .card-body .right-content ul {
-    text-align: justify;
   }
 
   /* Services Page */
@@ -3954,10 +3900,12 @@ footer .contact-form button.filled-button:hover {
     font-size: 32px;
   }
 
+  /* Sub Header */
   .sub-header {
     display: none;
   }
 
+  /* Carousel */
   .d-block {
     top: 10%;
     border-radius: 0;
@@ -3984,6 +3932,7 @@ footer .contact-form button.filled-button:hover {
     margin-bottom: 30px;
   }
 
+  /* Request Form */
   .request-form {
     border-radius: 0;
     padding: 20px;
@@ -4002,6 +3951,7 @@ footer .contact-form button.filled-button:hover {
     margin: 30px 0 0 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 10px;
     padding: 0;
@@ -4034,14 +3984,13 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
-  a.btn {
-    font-size: 13px;
-  }
-
+  /* Buttons */
+  a.btn,
   a.filled-button {
     font-size: 13px;
   }
 
+  /* Services Section */
   .services {
     width: 100%;
     margin-top: 40px;
@@ -4083,6 +4032,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto auto auto 200px;
   }
 
+  /* Team Section */
   .team .section-header h2 {
     font-size: 24px;
   }
@@ -4110,6 +4060,7 @@ footer .contact-form button.filled-button:hover {
     margin-left: 150px;
   }
 
+  /* Testimonials Section */
   .testimonials .section-heading h2 {
     font-size: 24px;
     margin-top: -60px;
@@ -4133,6 +4084,7 @@ footer .contact-form button.filled-button:hover {
     margin-top: 10px;
   }
 
+  /* Footer */
   footer .footer-item h4 {
     padding-left: -10px;
     padding-right: -10px;
@@ -4173,13 +4125,13 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
-  /* Terms of use */
+  /* Terms of Use Page */
 
   .terms h2.text-center {
     padding-top: 140px;
   }
 
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1200px;
@@ -4189,30 +4141,27 @@ footer .contact-form button.filled-button:hover {
     padding-top: 140px;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 2900px;
   }
 
-  /* About section */
+  /* About Us Page */
 
   .about-more-info.about-info .right-content .h2-1 {
     text-align: center !important;
   }
 
-  .about-more-info #introduction p {
+  .about-more-info #introduction p,
+  .about-more-info .vision-mission p,
+  #about-team .card-body .right-content p.first-p,
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content ul {
     text-align: justify;
   }
 
-  .about-more-info .vision-mission p {
-    text-align: justify;
-  }
-
-  #about-team .section-heading h2 {
-    text-align: center;
-  }
-
+  #about-team .section-heading h2,
   #about-team .section-heading span {
     text-align: center;
   }
@@ -4222,12 +4171,6 @@ footer .contact-form button.filled-button:hover {
     width: 480px;
     object-fit: cover;
     margin-left: 0;
-  }
-
-  #about-team .card-body .right-content p.first-p,
-  #about-team .card-body .right-content p.middle-p,
-  #about-team .card-body .right-content ul {
-    text-align: justify;
   }
 
   /* Services Page */
@@ -4257,6 +4200,7 @@ footer .contact-form button.filled-button:hover {
     overflow-y: hidden;
   }
 
+  /* Sub Header */
   .sub-header {
     display: flex;
     flex-direction: column;
@@ -4266,6 +4210,7 @@ footer .contact-form button.filled-button:hover {
     display: block;
   }
 
+  /* Header */
   header .navbar .container img {
     width: 60px;
     height: auto;
@@ -4286,6 +4231,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 32px;
   }
 
+  /* Carousel */
   .d-block {
     top: 10%;
     border-radius: 0;
@@ -4316,6 +4262,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
+  /* Request Form */
   .request-form {
     border-radius: 0;
     padding: 20px;
@@ -4343,6 +4290,7 @@ footer .contact-form button.filled-button:hover {
     width: auto;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: -20px;
     padding: 0;
@@ -4387,16 +4335,21 @@ footer .contact-form button.filled-button:hover {
     margin-right: -50px;
   }
 
-  a.btn {
+  /* Buttons */
+  a.btn,
+  a.filled-button {
     font-size: 13px;
+  }
+
+  a.btn {
     width: 160px;
   }
 
   a.filled-button {
-    font-size: 13px;
     margin: auto -40px -50px -30px;
   }
 
+  /* Services Section */
   .services {
     margin-top: 50px;
   }
@@ -4405,8 +4358,14 @@ footer .contact-form button.filled-button:hover {
     font-size: 24px;
   }
 
-  .services .section-heading span {
+  .services .down-content p,
+  .services .section-heading span,
+  .services .down-content a.filled-button {
     font-size: 13px;
+  }
+
+
+  .services .section-heading span {
     margin: 15px 80px -50px 80px;
     text-align: center;
   }
@@ -4433,16 +4392,15 @@ footer .contact-form button.filled-button:hover {
   }
 
   .services .down-content p {
-    font-size: 13px;
     margin-bottom: 28px;
     text-align: justify;
   }
 
   .services .down-content a.filled-button {
     margin: auto auto auto 180px;
-    font-size: 13px;
   }
 
+  /* Team Section */
   #team {
     margin: auto;
   }
@@ -4457,7 +4415,7 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
     font-size: 13px;
     line-height: 1.9;
-    margin: auto 6px auto 6px;
+    margin: auto 6px;
   }
 
   #team .card {
@@ -4483,19 +4441,23 @@ footer .contact-form button.filled-button:hover {
     margin-left: 0;
   }
 
+  /* Testimonials Section */
   .testimonials {
     margin-top: -120px;
+  }
+
+  .testimonials .section-heading h2,
+  .testimonials .section-heading span {
+    text-align: center;
   }
 
   .testimonials .section-heading h2 {
     font-size: 24px;
     margin-top: -80px;
     margin-bottom: 20px;
-    text-align: center;
   }
 
   .testimonials .section-heading span {
-    text-align: center;
     margin-bottom: -50px;
     font-size: 13px;
   }
@@ -4522,18 +4484,19 @@ footer .contact-form button.filled-button:hover {
     margin-bottom: 8px;
   }
 
+  /* Footer */
   footer {
     margin-top: -150px;
     margin-left: -40px;
   }
 
-  footer .container {
+  footer .container,
+  footer .row {
     text-align: center;
   }
 
   footer .row {
     flex-wrap: wrap;
-    justify-content: center;
     margin-left: 30px;
   }
 
@@ -4547,11 +4510,7 @@ footer .contact-form button.filled-button:hover {
     padding-right: 10px;
   }
 
-  footer .float {
-    margin-left: 0;
-    text-align: center;
-  }
-
+  footer .float,
   footer ul.menu-list.float {
     margin-left: 0;
     text-align: center;
@@ -4573,7 +4532,7 @@ footer .contact-form button.filled-button:hover {
     margin-bottom: -1px;
   }
 
-  /* FAQs */
+  /* FAQs Page */
 
   .faqs#faqs-body {
     height: 2700px;
@@ -4612,28 +4571,27 @@ footer .contact-form button.filled-button:hover {
 
   /* Services Page */
 
-  .about-more-info #introduction p.p-services {
+  .about-more-info #introduction p.p-services,
+  .about-more-info #introduction p.margin-fix {
     margin-left: -22px;
     margin-right: -52px;
   }
 
   .about-more-info #introduction p.margin-fix {
-    margin: 40px -52px -50px -22px;
+    margin-top: 40px;
+    margin-bottom: -50px;
   }
 
   .single-services {
-    display: block;
     margin-top: 10px;
   }
 
-  .single-services-mobile {
-    display: none;
-  }
-
+  .single-services,
   .tabs-content {
     display: block;
   }
 
+  .single-services-mobile,
   #toggle-content:checked~.tabs-content {
     display: none;
   }
@@ -4658,12 +4616,14 @@ footer .contact-form button.filled-button:hover {
 
 @media only screen and (min-width: 923px) {
 
+  /* Sub Header */
   .sub-header {
     display: flex;
     flex-direction: column;
   }
 
-  .sub-header .left-info {
+  .sub-header .left-info,
+  header .navbar .container img {
     margin-left: 0;
   }
 
@@ -4672,10 +4632,10 @@ footer .contact-form button.filled-button:hover {
     margin-right: 0;
   }
 
+  /* Header */
   header .navbar .container img {
     width: 60px;
     height: auto;
-    margin-left: 0;
   }
 
   header .navbar .container .navbar-brand h2 {
@@ -4692,11 +4652,16 @@ footer .contact-form button.filled-button:hover {
     font-size: 32px;
   }
 
+  /* Carousel */
+  .d-block,
+  .carousel-inner .carousel-item {
+    object-fit: cover;
+  }
+
   .carousel-inner .carousel-item {
     height: 500px;
     margin-bottom: 20px;
     margin-top: 10px;
-    object-fit: cover;
   }
 
   .d-block {
@@ -4704,7 +4669,6 @@ footer .contact-form button.filled-button:hover {
     border-radius: 0;
     height: 600px;
     width: auto;
-    object-fit: cover;
   }
 
   .carousel-caption {
@@ -4726,6 +4690,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
+  /* Request Form */
   .request-form {
     border-radius: 0;
     padding: 20px;
@@ -4743,6 +4708,7 @@ footer .contact-form button.filled-button:hover {
     margin: 30px 20px 0 0;
   }
 
+  /* More Info Section */
   .more-info {
     margin-top: 200px;
     padding: 0;
@@ -4781,6 +4747,7 @@ footer .contact-form button.filled-button:hover {
     margin-top: 660px;
   }
 
+  /* Buttons */
   a.btn {
     font-size: 13px;
     width: 170px;
@@ -4791,6 +4758,7 @@ footer .contact-form button.filled-button:hover {
     margin: auto -40px -50px -30px;
   }
 
+  /* Services Section */
   .services {
     margin-top: 50px;
   }
@@ -4846,6 +4814,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
+  /* Team Section */
   #team {
     margin: auto;
   }
@@ -4881,6 +4850,7 @@ footer .contact-form button.filled-button:hover {
     text-align: justify;
   }
 
+  /* Testimonials Section */
   .testimonials {
     margin-top: -120px;
   }
@@ -4919,12 +4889,15 @@ footer .contact-form button.filled-button:hover {
     border-radius: 50%;
   }
 
+  /* Footer */
   footer {
     margin-top: -110px;
     margin-left: -40px;
   }
 
-  footer .container {
+  footer .float,
+  footer .container,
+  footer ul.menu-list.float {
     text-align: center;
   }
 
@@ -4944,14 +4917,9 @@ footer .contact-form button.filled-button:hover {
     padding-right: 10px;
   }
 
-  footer .float {
-    margin-left: 0;
-    text-align: center;
-  }
-
+  footer .float,
   footer ul.menu-list.float {
     margin-left: 0;
-    text-align: center;
   }
 
   footer p {
@@ -4972,6 +4940,7 @@ footer .contact-form button.filled-button:hover {
 
 @media only screen and (min-width: 992px) {
 
+  /* Sub Header */
   .sub-header {
     display: flex;
     flex-direction: column;
@@ -4983,6 +4952,7 @@ footer .contact-form button.filled-button:hover {
     margin-right: 10px;
   }
 
+  /* Header */
   header .navbar .container img {
     width: 60px;
     height: auto;
@@ -5003,6 +4973,7 @@ footer .contact-form button.filled-button:hover {
     margin-right: 10px;
   }
 
+  /* Carousel */
   .carousel-inner .carousel-item {
     height: 700px;
     margin-bottom: 20px;
@@ -5035,6 +5006,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
+  /* Request Form */
   .request-form {
     border-radius: 0;
     padding: 20px;
@@ -5054,15 +5026,20 @@ footer .contact-form button.filled-button:hover {
     margin: 20px 10px 0 0;
   }
 
+  /* More Info Section */
+  .more-info,
+  .more-info .more-info-content,
+  .more-info .container .row .col-md-12 {
+    padding: 0;
+  }
+
   .more-info {
     margin-top: 100px;
-    padding: 0;
     width: 100%;
   }
 
   .more-info .container .row .col-md-12 {
     margin: auto;
-    padding: 0;
   }
 
   .more-info .row {
@@ -5083,11 +5060,8 @@ footer .contact-form button.filled-button:hover {
     margin-left: 5px;
   }
 
-  .more-info .more-info-content {
-    padding: 0;
-  }
-
-  .more-info .right-content {
+  .more-info .right-content,
+  .more-info .right-content p {
     text-align: justify;
   }
 
@@ -5098,7 +5072,6 @@ footer .contact-form button.filled-button:hover {
   }
 
   .more-info .right-content p {
-    text-align: justify;
     font-size: 13px;
     margin-top: 20px;
     margin-left: -20px;
@@ -5110,30 +5083,38 @@ footer .contact-form button.filled-button:hover {
     margin-top: 10px;
   }
 
-  a.btn {
+  /* Buttons */
+  a.btn,
+  a.filled-button {
     font-size: 13px;
+  }
+
+  a.btn {
     width: 160px;
   }
 
   a.filled-button {
-    font-size: 13px;
     margin: auto -40px -50px -30px;
   }
 
+  /* Services Section */
   .services {
     margin-top: 50px;
   }
 
+  .services .section-heading h2,
+  .services .section-heading span {
+    text-align: center;
+  }
+
   .services .section-heading h2 {
     font-size: 24px;
-    text-align: center;
     margin: 50px auto auto -170px;
   }
 
   .services .section-heading span {
     font-size: 13px;
     margin: 15px 30px -50px -135px;
-    text-align: center;
   }
 
   .services .container {
@@ -5160,16 +5141,18 @@ footer .contact-form button.filled-button:hover {
     margin: auto -4px auto -5px;
   }
 
+  .services .down-content h4,
+  .services .down-content p {
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
   .services .down-content h4 {
     font-size: 20px;
-    margin-bottom: 8px;
-    text-align: left;
   }
 
   .services .down-content p {
     font-size: 13px;
-    margin-bottom: 8px;
-    text-align: left;
   }
 
   .services .service-item .down-content {
@@ -5185,6 +5168,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
+  /* Team Section */
   #team {
     margin: auto;
   }
@@ -5225,6 +5209,7 @@ footer .contact-form button.filled-button:hover {
     font-size: 13px;
   }
 
+  /* Testimonials Section */
   .testimonials {
     margin-top: -120px;
   }
@@ -5264,6 +5249,7 @@ footer .contact-form button.filled-button:hover {
     border-radius: 50%;
   }
 
+  /* Footer Section */
   footer {
     background-color: #232323;
     padding: 60px 70px 100px 40px;
@@ -5386,6 +5372,7 @@ footer .contact-form button.filled-button:hover {
     height: 150px;
   }
 
+  /* Sub Footer Section */
   .sub-footer p {
     color: #fff;
     font-weight: 300;
@@ -5397,13 +5384,13 @@ footer .contact-form button.filled-button:hover {
     color: #fff;
   }
 
-  /* Terms of use */
+  /* Terms of Use Page */
 
   .terms {
     height: 1150px;
   }
 
-  /* Privacy Policy */
+  /* Privacy Policy Page */
 
   .privacy {
     height: 1150px;
@@ -5421,12 +5408,14 @@ footer .contact-form button.filled-button:hover {
 
   #about-team .card-body .right-content h4,
   #about-team .card-body .right-content span {
-    margin-left: 0;
     margin-right: 0;
   }
 
+  #about-team .card-body .right-content h4,
+  #about-team .card-body .right-content span,
   #about-team .card-body .right-content p.first-p,
-  #about-team .card-body .right-content p.middle-p {
+  #about-team .card-body .right-content p.middle-p,
+  #about-team .card-body .right-content p.socials {
     margin-left: 0;
   }
 
@@ -5434,10 +5423,6 @@ footer .contact-form button.filled-button:hover {
   #about-team .card-body .right-content p.middle-p,
   #about-team .card-body .right-content ul {
     text-align: justify;
-  }
-
-  #about-team .card-body .right-content p.socials {
-    margin-left: 0;
   }
 
   /* Service Page */
