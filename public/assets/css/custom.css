@@ -24,7 +24,7 @@
 /* Styling Explicit Tags */
 
 body {
-  background-color: #fafafa;
+  background-color: #fff;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
@@ -1035,17 +1035,30 @@ a.border-button:hover {
 /* Contact us section */
 
 .contact-section {
-  background-color: var(--background);
+  background-color: #fff;
+}
+
+#contact-us h4.text-center,
+#contact-us p.text-center {
+  color: #0c0a09;
+}
+
+#contact-us p.text-center.top {
+  font-weight: 400;
+}
+
+#contact-us h4.text-center {
+  font-weight: 600;
 }
 
 .contact-section h4 {
   font-size: 36px;
-  color: white;
+  color: #fff;
 }
 
 .contact-section p {
-  font-size: 20px;
-  color: white;
+  font-size: 16px;
+  color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -1058,16 +1071,16 @@ a.border-button:hover {
   box-shadow: 0 1px 4px var(--text), 0 1px 4px var(--text), 0 1px 4px var(--text), 2px 3px 0 var(--text);
 }
 
-#contact-us .card.adjust {
-  margin: 0 200px 0 0;
+#contact-us .card.p-4 {
+  margin: 0px -460px 0 200px;
 }
 
-#contact-us .card.p-4 {
-  margin: -1040px -660px 0 450px;
+#contact-us .card label {
+  color: #fff;
 }
 
 #contact-us .contact-information {
-  margin-left: 190px;
+  margin-left: 175px;
   margin-right: -280px;
   padding-top: 180px;
 }
@@ -1077,17 +1090,10 @@ a.border-button:hover {
   border: 0.5px ridge var(--accent)
 }
 
-.contact-section .card-img-top {
-  border-radius: 20px;
-  object-fit: cover;
-  width: 380px;
-  height: auto;
-}
-
 .contact-section .form-control {
   height: 55px;
   border-radius: 7px;
-  color: #111111;
+  color: #0c0a09;
   background-color: #e5e5e5;
   border: none;
   box-shadow: none;
@@ -1106,8 +1112,8 @@ a.border-button:hover {
   width: 100%;
   padding: 12px 20px;
   font-size: 16px;
-  font-weight: bold;
-  color: white;
+  font-weight: 400;
+  color: #fff;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
 }
@@ -1118,37 +1124,81 @@ a.border-button:hover {
 
 .contact-information .contact-item {
   text-align: center;
+  margin-top: -40px;
+  margin-left: 15px;
+  margin-right: -20px;
+  background-color: var(--secondary-button);
+  border-radius: 20px;
+  box-shadow: 0 10px 50px var(--accent);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-information .contact-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .contact-information .contact-item i {
   font-size: 30px;
-  color: #000;
+  color: var(--accent);
 }
 
 .contact-information .contact-item h4 {
   font-size: 20px;
-  color: #000;
+  color: #0c0a09;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-.contact-information .contact-item p {
-  font-size: 16px;
-  color: #000;
+.contact-information p.text-center {
+  margin-top: -150px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  color: #0c0a09;
+  font-weight: 600;
 }
 
-.contact-information .contact-item a {
-  font-size: 16px;
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.contact-information p.text-center {
+  animation: blink 4s linear infinite;
+}
+
+.contact-information .contact-item p {
+  font-size: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: var(--text);
+}
+
+/*.contact-information .contact-item a {
+  font-size: 15px;
   color: var(--text);
   text-decoration: none;
-}
+}*/
 
 .contact-information .contact-item a:hover {
-  text-decoration: underline;
+  color: var(--primary-button);
 }
 
 .contact-section .btn-primary:hover {
   background-color: var(--primary-button);
+}
+
+#map {
+  margin-bottom: -30px;
 }
 
 /* More Info section in about us */
@@ -2282,6 +2332,22 @@ footer .contact-form button.filled-button:hover {
 
   #toggle-content:checked~.tabs-content {
     display: block;
+  }
+
+  /* Contact Us Page */
+
+  #contact-us .card.p-4 {
+    margin: 0;
+  }
+
+  .contact-information p.text-center {
+    margin-left: -250px;
+    padding-left: 60px;
+  }
+
+  .contact-information .contact-item {
+    margin-left: -195px;
+    margin-right: 260px;
   }
 }
 
@@ -4534,7 +4600,22 @@ footer .contact-form button.filled-button:hover {
     display: none;
   }
 
+  /* Contact Us Page */
 
+  #contact-us .card.p-4 {
+    margin: 0px -410px 0 0px;
+  }
+
+  .contact-information p.text-center {
+    margin-bottom: 50px;
+    margin-left: -60px;
+    padding-left: 0;
+  }
+
+  .contact-information .contact-item {
+    margin-left: -150px;
+    margin-right: 0px;
+  }
 }
 
 @media only screen and (min-width: 923px) {
@@ -5325,7 +5406,23 @@ footer .contact-form button.filled-button:hover {
 
   #tabs ul li {
     width: 320px;
-    ;
+  }
+
+  /* Contact Us Page */
+
+  #contact-us .card.p-4 {
+    margin: 0px -460px 0 90px;
+  }
+
+  .contact-information p.text-center {
+    margin-top: -150px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+  }
+
+  .contact-information .contact-item {
+    margin-left: -60px;
+    margin-right: 0px;
   }
 }
 
@@ -5901,400 +5998,438 @@ footer .contact-form button.filled-button:hover {
   #tabs ul li {
     width: 380px;
   }
-}
 
-@media only screen and (min-width: 1366px) {
+  /* Contact Us Page */
 
-  .services {
-    margin-left: 90px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-
-  .sub-header .left-info {
-    margin-left: 0;
+  #contact-us .card.p-4 {
+    margin: 0px -460px 0 200px;
   }
 
-  .sub-header .right-icons {
-    margin-right: 0;
-  }
-
-  header .navbar .container img {
-    margin-left: 0;
-  }
-
-  header .navbar .container .navbar-brand h2 {
-    margin-left: 30px;
-    font-size: 14px;
-  }
-
-  header .navbar .container .navbar-collapse ul.navbar-nav {
-    margin-right: 0;
-  }
-
-  header .navbar .container .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
-    font-size: 14px;
-  }
-
-  .carousel-caption {
-    text-align: center;
-    top: 50%;
-    transform: translateY(-30%);
-    width: 100%;
-    left: 0;
-    margin-bottom: 0;
-  }
-
-  .carousel-inner .carousel-item {
-    height: auto;
-    width: 100vw;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    object-fit: cover;
-  }
-
-  .d-block {
-    top: 10%;
-    border-radius: 0;
-    height: 700px;
-    width: 100vw;
-    width: max-content;
-    margin-bottom: -20px;
-    object-fit: cover;
-  }
-
-  .carousel-caption h5 {
-    font-size: 32px;
-  }
-
-  .carousel-caption p {
-    font-size: 18px;
-  }
-
-  .request-form {
-    height: 120px;
-  }
-
-  .request-form .col-md-8 h4 {
-    font-size: 24px;
-  }
-
-  .request-form .col-md-8 span {
-    font-size: 18px;
-  }
-
-  .request-form .col-md-4 .btn {
-    margin: 20px -240px 0 0;
-  }
-
-  a.btn {
-    font-size: 13px;
-    width: 160px;
-  }
-
-  a.filled-button {
-    font-size: 13px;
-    margin: auto -40px -50px -30px;
-  }
-
-  .more-info {
-    margin-left: 20px;
-  }
-
-  .more-info .more-info-content {
-    height: 500px;
-  }
-
-  .more-info .left-image {
-    text-align: left;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    margin-top: 30px;
-  }
-
-  .more-info .left-image img {
-    height: 440px;
-    width: 550px;
-    object-fit: cover;
-    margin-top: 5px;
-  }
-
-  .more-info .right-content h2 {
-    text-align: left;
-    margin: -220px -20px 0 -50px;
-  }
-
-  .more-info .right-content p {
-    text-align: justify;
-    margin: 20px -20px 20px -50px;
-  }
-
-  .services .section-heading h2 {
-    text-align: center;
-    margin: 50px auto auto -170px;
-  }
-
-  .services {
-    margin-left: 50px;
-  }
-
-  .services .section-heading span {
-    margin: 15px 30px -50px -135px;
-    text-align: center;
-  }
-
-  .services .down-content h4 {
-    margin-bottom: 10px;
-    text-align: left;
-  }
-
-  .services .down-content p {
-    margin-bottom: 8px;
-    text-align: left;
-  }
-
-  .services .service-item .down-content {
-    height: 360px;
-  }
-
-  .services .service-item .down-content a.another {
-    margin-top: 40px;
-  }
-
-  .services .service-item .down-content a.one {
-    margin-top: 35px;
-  }
-
-  .services .down-content a.filled-button {
-    font-size: 13px;
-  }
-
-  .team .section-header h2 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  .team .section-header p {
-    text-align: justify;
-    line-height: 1.9;
-    margin: 0 90px;
-  }
-
-  #team .card-body img {
-    width: 390px;
-    height: 340px;
-    object-fit: cover;
-    object-position: top;
-  }
-
-  #team .card-body p.socials-home {
-    margin-left: 0;
-  }
-
-  #team .card-body p.socials a {
-    font-size: 24px;
-  }
-
-  .team .col-md-6 p.socials-home {
-    font-size: 1.56rem;
-  }
-
-  .team .col-md-6 p.socials i.bi {
-    transition: font-size 0.3s;
-  }
-
-  .team .col-md-6 p.socials i.bi:hover {
-    font-size: 2rem;
-  }
-
-  .testimonials .section-heading h2 {
-    margin-top: -50px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .testimonials .section-heading span {
-    text-align: center;
-    margin-bottom: -90px;
-  }
-
-  footer {
-    background-color: #232323;
-    padding: 50px 0 0 0;
-    color: #fff;
-  }
-
-  footer .footer-item h4 {
-    font-size: 22px;
-  }
-
-  footer .footer-item p {
-    font-size: 18px;
-  }
-
-  footer .footer-item h4.text-white {
-    margin-left: 32px;
-  }
-
-  footer .footer-item ul.menu-list {
-    font-size: 18px;
-  }
-
-  footer .footer-item ul.menu-list li a {
-    font-size: 18px;
-  }
-
-  footer .footer-item ul.list-unstyled li {
-    font-size: 18px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: -70px;
-  }
-
-  .sub-footer {
-    background-color: #343434;
-    text-align: center;
-    padding: 0;
-    margin: auto auto -30px auto;
-    height: 110px;
-  }
-
-  /* About Page */
-
-  #about-team .card-body img.about-img {
-    height: auto;
-    width: 480px;
-    object-fit: cover;
-    margin: 20px 0 0 -80px;
-  }
-
-  #about-team .card-body .right-content h4,
-  #about-team .card-body .right-content span {
-    margin-left: -160px;
-    margin-right: 0;
-  }
-
-  #about-team .card-body .right-content p.first-p,
-  #about-team .card-body .right-content p.middle-p {
-    margin-left: -90px;
-    margin-right: 40px;
-  }
-
-  #about-team .card-body .right-content ul {
-    margin-right: 40px;
-    margin-left: -70px;
-  }
-
-  #about-team .card-body .right-content p.first-p,
-  #about-team .card-body .right-content p.middle-p,
-  #about-team .card-body .right-content ul {
-    text-align: justify;
-  }
-
-  #about-team .card-body .right-content p.socials {
-    margin-left: -160px;
-  }
-
-  /* Service page */
-
-  .single-services #tabs .tabs-content article p {
+  .contact-information p.text-center {
+    margin-top: -150px;
     margin-bottom: 50px;
-  }
-
-  .single-services .tabs-content article img,
-  .single-services .tabs-content article h4,
-  .single-services .tabs-content article p,
-  .single-services .tabs-content article summary,
-  .single-services .tabs-content article ul {
-    margin-left: -55px;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-
-  .services {
-    margin-left: 140px;
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-
-  .more-info .container {
-    margin-right: 350px;
-  }
-
-  .more-info .more-info-content {
-    height: 620px;
-  }
-
-  .more-info .container .more-info-content {
-    margin-left: 50px;
-  }
-
-  .more-info .left-image img {
-    width: 600px;
-    height: auto;
-    object-fit: cover;
+    padding-left: 30px;
+    padding-right: 0;
     margin-left: 0;
   }
 
-  .more-info .right-content h2 {
-    text-align: left;
-    margin: -70px 0 0 -5px;
+  .contact-information .contact-item {
+    margin-top: -40px;
+    margin-left: 15px;
+    margin-right: -20px;
   }
 
-  .more-info .right-content p {
-    text-align: justify;
-    font-size: 18px;
-    margin: 20px -40px 50px -5px;
+  @media only screen and (min-width: 1366px) {
+
+    .services {
+      margin-left: 90px;
+    }
   }
 
-  .services {
-    margin-left: 290px;
+  @media only screen and (min-width: 1440px) {
+
+    .sub-header .left-info {
+      margin-left: 0;
+    }
+
+    .sub-header .right-icons {
+      margin-right: 0;
+    }
+
+    header .navbar .container img {
+      margin-left: 0;
+    }
+
+    header .navbar .container .navbar-brand h2 {
+      margin-left: 30px;
+      font-size: 14px;
+    }
+
+    header .navbar .container .navbar-collapse ul.navbar-nav {
+      margin-right: 0;
+    }
+
+    header .navbar .container .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+      font-size: 14px;
+    }
+
+    .carousel-caption {
+      text-align: center;
+      top: 50%;
+      transform: translateY(-30%);
+      width: 100%;
+      left: 0;
+      margin-bottom: 0;
+    }
+
+    .carousel-inner .carousel-item {
+      height: auto;
+      width: 100vw;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      object-fit: cover;
+    }
+
+    .d-block {
+      top: 10%;
+      border-radius: 0;
+      height: 700px;
+      width: 100vw;
+      width: max-content;
+      margin-bottom: -20px;
+      object-fit: cover;
+    }
+
+    .carousel-caption h5 {
+      font-size: 32px;
+    }
+
+    .carousel-caption p {
+      font-size: 18px;
+    }
+
+    .request-form {
+      height: 120px;
+    }
+
+    .request-form .col-md-8 h4 {
+      font-size: 24px;
+    }
+
+    .request-form .col-md-8 span {
+      font-size: 18px;
+    }
+
+    .request-form .col-md-4 .btn {
+      margin: 20px -240px 0 0;
+    }
+
+    a.btn {
+      font-size: 13px;
+      width: 160px;
+    }
+
+    a.filled-button {
+      font-size: 13px;
+      margin: auto -40px -50px -30px;
+    }
+
+    .more-info {
+      margin-left: 20px;
+    }
+
+    .more-info .more-info-content {
+      height: 500px;
+    }
+
+    .more-info .left-image {
+      text-align: left;
+      margin-bottom: 10px;
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+
+    .more-info .left-image img {
+      height: 440px;
+      width: 550px;
+      object-fit: cover;
+      margin-top: 5px;
+    }
+
+    .more-info .right-content h2 {
+      text-align: left;
+      margin: -220px -20px 0 -50px;
+    }
+
+    .more-info .right-content p {
+      text-align: justify;
+      margin: 20px -20px 20px -50px;
+    }
+
+    .services .section-heading h2 {
+      text-align: center;
+      margin: 50px auto auto -170px;
+    }
+
+    .services {
+      margin-left: 50px;
+    }
+
+    .services .section-heading span {
+      margin: 15px 30px -50px -135px;
+      text-align: center;
+    }
+
+    .services .down-content h4 {
+      margin-bottom: 10px;
+      text-align: left;
+    }
+
+    .services .down-content p {
+      margin-bottom: 8px;
+      text-align: left;
+    }
+
+    .services .service-item .down-content {
+      height: 360px;
+    }
+
+    .services .service-item .down-content a.another {
+      margin-top: 40px;
+    }
+
+    .services .service-item .down-content a.one {
+      margin-top: 35px;
+    }
+
+    .services .down-content a.filled-button {
+      font-size: 13px;
+    }
+
+    .team .section-header h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .team .section-header p {
+      text-align: justify;
+      line-height: 1.9;
+      margin: 0 90px;
+    }
+
+    #team .card-body img {
+      width: 390px;
+      height: 340px;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    #team .card-body p.socials-home {
+      margin-left: 0;
+    }
+
+    #team .card-body p.socials a {
+      font-size: 24px;
+    }
+
+    .team .col-md-6 p.socials-home {
+      font-size: 1.56rem;
+    }
+
+    .team .col-md-6 p.socials i.bi {
+      transition: font-size 0.3s;
+    }
+
+    .team .col-md-6 p.socials i.bi:hover {
+      font-size: 2rem;
+    }
+
+    .testimonials .section-heading h2 {
+      margin-top: -50px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .testimonials .section-heading span {
+      text-align: center;
+      margin-bottom: -90px;
+    }
+
+    footer {
+      background-color: #232323;
+      padding: 50px 0 0 0;
+      color: #fff;
+    }
+
+    footer .footer-item h4 {
+      font-size: 22px;
+    }
+
+    footer .footer-item p {
+      font-size: 18px;
+    }
+
+    footer .footer-item h4.text-white {
+      margin-left: 32px;
+    }
+
+    footer .footer-item ul.menu-list {
+      font-size: 18px;
+    }
+
+    footer .footer-item ul.menu-list li a {
+      font-size: 18px;
+    }
+
+    footer .footer-item ul.list-unstyled li {
+      font-size: 18px;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: -70px;
+    }
+
+    .sub-footer {
+      background-color: #343434;
+      text-align: center;
+      padding: 0;
+      margin: auto auto -30px auto;
+      height: 110px;
+    }
+
+    /* About Page */
+
+    #about-team .card-body img.about-img {
+      height: auto;
+      width: 480px;
+      object-fit: cover;
+      margin: 20px 0 0 -80px;
+    }
+
+    #about-team .card-body .right-content h4,
+    #about-team .card-body .right-content span {
+      margin-left: -160px;
+      margin-right: 0;
+    }
+
+    #about-team .card-body .right-content p.first-p,
+    #about-team .card-body .right-content p.middle-p {
+      margin-left: -90px;
+      margin-right: 40px;
+    }
+
+    #about-team .card-body .right-content ul {
+      margin-right: 40px;
+      margin-left: -70px;
+    }
+
+    #about-team .card-body .right-content p.first-p,
+    #about-team .card-body .right-content p.middle-p,
+    #about-team .card-body .right-content ul {
+      text-align: justify;
+    }
+
+    #about-team .card-body .right-content p.socials {
+      margin-left: -160px;
+    }
+
+    /* Service page */
+
+    .single-services #tabs .tabs-content article p {
+      margin-bottom: 50px;
+    }
+
+    .single-services .tabs-content article img,
+    .single-services .tabs-content article h4,
+    .single-services .tabs-content article p,
+    .single-services .tabs-content article summary,
+    .single-services .tabs-content article ul {
+      margin-left: -55px;
+    }
+
+    /* Contact Us Page */
+
+    #contact-us .card.p-4 {
+      margin: 0px -460px 0 300px;
+    }
+
+    .contact-information p.text-center {
+      margin-top: -150px;
+      margin-bottom: 50px;
+      padding-left: 50px;
+      margin-left: 20px;
+    }
+
+    .contact-information .contact-item {
+      margin-top: -40px;
+      margin-left: 50px;
+      margin-right: -40px;
+    }
   }
-}
 
-@media only screen and (min-width: 2560px) {
+  @media only screen and (min-width: 1600px) {
 
-  .more-info .container {
-    margin-right: 660px;
+    .services {
+      margin-left: 140px;
+    }
   }
 
-  .services {
-    margin-left: 610px;
+  @media only screen and (min-width: 1920px) {
+
+    .more-info .container {
+      margin-right: 350px;
+    }
+
+    .more-info .more-info-content {
+      height: 620px;
+    }
+
+    .more-info .container .more-info-content {
+      margin-left: 50px;
+    }
+
+    .more-info .left-image img {
+      width: 600px;
+      height: auto;
+      object-fit: cover;
+      margin-left: 0;
+    }
+
+    .more-info .right-content h2 {
+      text-align: left;
+      margin: -70px 0 0 -5px;
+    }
+
+    .more-info .right-content p {
+      text-align: justify;
+      font-size: 18px;
+      margin: 20px -40px 50px -5px;
+    }
+
+    .services {
+      margin-left: 290px;
+    }
   }
-}
 
-@media only screen and (min-width: 3840px) {
+  @media only screen and (min-width: 2560px) {
 
-  .more-info .container {
-    margin-right: 1300px;
+    .more-info .container {
+      margin-right: 660px;
+    }
+
+    .services {
+      margin-left: 610px;
+    }
   }
 
-  .services {
-    margin-left: 1250px;
-  }
-}
+  @media only screen and (min-width: 3840px) {
 
-@media only screen and (min-width: 5120px) {
+    .more-info .container {
+      margin-right: 1300px;
+    }
 
-  .more-info .container {
-    margin-right: 1910px;
-  }
-
-  .services {
-    margin-left: 1900px;
-  }
-}
-
-@media only screen and (min-width: 7680px) {
-
-  .more-info .container {
-    margin-right: 3230px;
+    .services {
+      margin-left: 1250px;
+    }
   }
 
-  .services {
-    margin-left: 3160px;
+  @media only screen and (min-width: 5120px) {
+
+    .more-info .container {
+      margin-right: 1910px;
+    }
+
+    .services {
+      margin-left: 1900px;
+    }
   }
-}
+
+  @media only screen and (min-width: 7680px) {
+
+    .more-info .container {
+      margin-right: 3230px;
+    }
+
+    .services {
+      margin-left: 3160px;
+    }
+  }
